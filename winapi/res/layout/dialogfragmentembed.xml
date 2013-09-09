@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="대화상자 프래그먼트를 액티비티에 내장하였습니다." />
+<fragment
+	android:name="andexam.ver4_1.c20_fragment.DialogFragmentEmbed$NameGenderFragment"
+	android:id="@+id/namegenderfragment"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	/>
+</LinearLayout>

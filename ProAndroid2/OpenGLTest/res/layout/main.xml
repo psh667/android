@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- 이 그룹에는 디폴트 카테고리가 사용된다. -->
+	<group  android:id="@+id/menuGroup_Main">
+		<item  android:id="@+id/mid_OpenGL15_SimpleTriangle" android:title="간단한 삼각형" />
+		<item  android:id="@+id/mid_OpenGL15_AnimatedTriangle15" android:title="애니메이션 삼각형" />
+		<item  android:id="@+id/mid_rectangle" android:title="사각형"  />
+		<item  android:id="@+id/mid_square_polygon" android:title="직각 다각형"  />
+		<item  android:id="@+id/mid_polygon" android:title="다각형" />
+		<item  android:id="@+id/mid_textured_square" android:title="텍스처 정사각형"  />
+		<item  android:id="@+id/mid_textured_polygon" android:title="텍스처 다각형"  />
+		<item  android:id="@+id/MenuId_OpenGL15_Current" android:title="현재"  />
+		<item  android:id="@+id/menu_clear" android:title="초기화"  />
+	</group>
+</menu>

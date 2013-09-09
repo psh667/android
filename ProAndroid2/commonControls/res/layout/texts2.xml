@@ -1,0 +1,21 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"  android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<!-- 텍스트뷰, 에디트텍스트 -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"  android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+		<TextView android:id="@+id/cctv1ValueText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<EditText android:id="@+id/ccet1ValueText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		
+		<EditText android:id="@+id/ccet2ValueText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<EditText android:id="@+id/ccet3ValueText" android:layout_width="fill_parent" android:layout_height="wrap_content" singleLine="true" />
+		<EditText android:id="@+id/ccet4ValueText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<EditText android:id="@+id/ccet5ValueText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+		<TextView android:id="@+id/cctv2ValueText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<AutoCompleteTextView android:id="@+id/ccactv1ValueText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+		<MultiAutoCompleteTextView android:id="@+id/ccmactv1ValueText" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+	</LinearLayout>
+
+</LinearLayout>

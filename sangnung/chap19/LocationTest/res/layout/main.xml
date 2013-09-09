@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<TextView android:layout_height="wrap_content" android:id="@+id/status"
+		android:layout_width="match_parent" android:textSize="25sp"
+		android:includeFontPadding="true" android:singleLine="false"
+		android:textStyle="italic" android:typeface="serif" android:text="아직 수신되지 않았음">
+		</TextView>
+</LinearLayout>

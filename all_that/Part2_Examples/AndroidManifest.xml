@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appstudio.android.sample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="16" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.WRITE_USER_DICTIONARY"/>
+    <uses-permission android:name="android.permission.READ_USER_DICTIONARY"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+    <uses-permission android:name="android.permission.WRITE_CALENDAR"/>
+	<uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light"
+         >
+        <activity
+            android:name=".Part02ListActivity"
+            android:label="@string/app_name"
+            android:uiOptions="splitActionBarWhenNarrow" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+		<!-- start add activity -->
+        <activity android:name=".ch_4.TextViewActivity" android:label="TextViewActivity" ></activity>
+        <activity android:name=".ch_4.ImageViewActivity" android:label="ImageViewActivity" ></activity>
+        <activity android:name=".ch_4.ScrollViewActivity" android:label="ScrollViewActivity" ></activity>
+        <activity android:name=".ch_4.BasicWidgetActivity" android:label="BasicWidgetActivity" ></activity>
+        <activity android:name=".ch_5.LinearLayoutActivity" android:label="LinearLayoutActivity" ></activity>
+        <activity android:name=".ch_5.RelativeLayoutActivity" android:label="RelativeLayoutActivity" ></activity>
+        <activity android:name=".ch_5.TableLayoutActivity" android:label="TableLayoutActivity" ></activity>
+        <activity android:name=".ch_5.FrameLayoutActivity" android:label="FrameLayoutActivity" ></activity>
+        <activity android:name=".ch_5.LayoutInflationActivity" android:label="LayoutInflationActivity" ></activity>
+        <activity android:name=".ch_5.LayoutParamsActivity" android:label="LayoutParamsActivity" ></activity>
+		<activity android:name=".ch_6.OnClickActivity" android:label="OnClickActivity" ></activity>
+        <activity android:name=".ch_6.OnClickInXMLActivity" android:label="OnClickInXMLActivity" ></activity>
+        <activity android:name=".ch_6.OnKeyActivity" android:label="OnKeyActivity" ></activity>
+        <activity android:name=".ch_6.OnTouchActivity" android:label="OnTouchActivity" ></activity>
+        <activity android:name=".ch_6.OnLongClickActivity" android:label="OnLongClickActivity" ></activity>
+        <activity android:name=".ch_6.OnFocusChangedActivity" android:label="OnFocusChangedActivity" ></activity>
+		<activity android:name=".ch_7.AlertDialogActivity" android:label="AlertDialogActivity" ></activity>
+        <activity android:name=".ch_7.ChoiceDialogActivity" android:label="ChoiceDialogActivity" ></activity>
+        <activity android:name=".ch_7.CustomDialogActivity" android:label="CustomDialogActivity" ></activity>
+        <activity android:name=".ch_16.ProgressDialogActivity" android:label="ProgressDialogActivity" ></activity>
+        <activity android:name=".ch_7.DialogFragmentActivity" android:label="DialogFragmentActivity" ></activity>
+        <activity android:name=".ch_7.AlertDialogFragmentActivity" android:label="AlertDialogFragmentActivity" ></activity>
+        <activity android:name=".ch_8.CustomNotificationActivity" android:label="CustomNotificationActivity" ></activity>
+        <activity android:name=".ch_8.StatusNotificationActivity" android:label="StatusNotificationActivity" ></activity>
+        <activity android:name=".ch_8.ToastNotificationActivity" android:label="ToastNotificationActivity" ></activity>
+        <activity android:name=".ch_8.RichNotiActivity" android:label="RichNotiActivity" ></activity>
+        <activity android:name=".ch_9.ContextMenuActivity" android:label="ContextMenuActivity" ></activity>
+        <activity android:name=".ch_9.OptionMenuActivity" android:label="OptionMenuActivity" ></activity>
+        <activity android:name=".ch_9.SubMenuActivity" android:label="SubMenuActivity" ></activity>
+        <activity android:name=".ch_10.MapViewActivity" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <uses-library android:name="com.google.android.maps" android:required="true"/>
+        <activity android:name=".ch_10.WebViewActivity" android:label="@string/app_name" android:theme="@android:style/Theme.NoTitleBar"></activity>
+        <activity android:name=".ch_10.DatePickerActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ch_10.TimePickerActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ch_10.TabViewActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ch_10.AlbumsActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ch_10.ArtistsActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ch_10.SongsActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ch_10.BarActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ch_11.ActionBarActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ch_11.NavigationTabActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ch_11.DropDownTabActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ch_12.DragAndDropActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ch_14.GridViewActivity" android:label="GridViewActivity" ></activity>
+        <activity android:name=".ch_14.AutoCompleteActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ch_14.GalleryActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ch_14.ListViewActivity" android:label="@string/app_name"></activity>
+        <activity android:name=".ch_14.SpinnerActivity" android:label="@string/app_name"></activity>        
+        <activity android:name=".ch_15.LocalizationActivity" android:label="@string/app_name" ></activity>
+        <activity android:name=".ch_17.GraphActivity" android:label="@string/app_name" ></activity>
+        <activity android:name=".ch_17.SurfaceViewActivity" android:label="@string/app_name" ></activity>
+        <activity android:name=".ch_17.TransitionDrawableActivity" android:label="@string/app_name" ></activity>
+        <activity android:name=".ch_17.ShapeDrawableActivity" android:label="@string/app_name" ></activity>
+        <activity android:name=".ch_19.ActivityA"></activity>
+        <activity android:name=".ch_19.ActivityB"></activity>
+        <activity android:name=".ch_19.ActivityC"></activity>
+        <activity android:name=".ch_19.SaveInstanceActivity"></activity>
+        <activity android:name=".ch_19.FragmentActivity"></activity>
+        <activity android:name=".ch_19.FragmentActivity$DetailsActivity"/>
+        <activity android:name=".ch_20.UserDictionaryActivity"></activity>
+        <activity android:name=".ch_20.CalendarTableActivity"></activity>
+        <activity android:name=".ch_20.CalendarEventsActivity"></activity>
+        <activity android:name=".ch_20.CalendarAttendeesActivity"></activity>
+        <activity android:name=".ch_20.CalendarRemindersActivity"></activity>
+        <activity android:name=".ch_20.CalendarInstanceActivity"></activity>
+        <activity android:name=".ch_20.DBProviderActivity"></activity>
+        <provider android:name="com.appstudio.android.sample.ch_20.MyContentProvider" android:authorities="com.appstudio.android.sample.ch_20"/>
+        <activity android:name=".ch_21.Mp3Activity"></activity>
+        <service android:name=".ch_21.Mp3Service"></service>
+        <activity android:name=".ch_22.BroadcastActivity"></activity>
+        <receiver android:name=".ch_22.SampleBroadcastReceiver">
+			<intent-filter>
+  				<action android:name="android.provider.Telephony.SMS_RECEIVED" /> 
+  				<category android:name="android.intent.category.DEFAULT" /> 
+  			</intent-filter>
+  		</receiver>
+		<!-- end add activity -->
+
+        
+    </application>
+
+</manifest>

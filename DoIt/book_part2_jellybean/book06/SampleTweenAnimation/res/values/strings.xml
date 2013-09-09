@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">트윈 애니메이션</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">트윈 애니메이션</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<EditText android:layout_height="wrap_content" android:id="@+id/edit" android:layout_width="match_parent"></EditText>
+<Button android:onClick="onClickDial" android:text="ACTION_DIAL" android:layout_height="wrap_content" android:id="@+id/dial" android:layout_width="match_parent"></Button>
+<Button android:text="ACTION_CALL" android:id="@+id/call" android:layout_height="wrap_content"  android:onClick="onClickCall" android:layout_width="match_parent"></Button>
+</LinearLayout>

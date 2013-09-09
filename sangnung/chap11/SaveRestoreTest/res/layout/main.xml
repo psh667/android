@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<RadioGroup android:isScrollContainer="true" android:id="@+id/radioGroup1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="left">
+</RadioGroup>
+<TextView android:textAppearance="?android:attr/textAppearanceMedium" android:text="주문" android:id="@+id/textView1" android:layout_height="wrap_content" android:layout_width="match_parent" android:gravity="center" android:layout_gravity="left"></TextView>
+<CheckBox android:text="피자" android:layout_width="wrap_content" android:id="@+id/checkBox1" android:layout_height="wrap_content" android:layout_gravity="left"></CheckBox>
+<CheckBox android:text="스파게티" android:layout_width="wrap_content" android:id="@+id/checkBox2" android:layout_height="wrap_content" android:layout_gravity="left"></CheckBox>
+<TextView android:textAppearance="?android:attr/textAppearanceMedium" android:text="현재 개수=0" android:layout_width="wrap_content" android:layout_gravity="center" android:layout_height="wrap_content" android:id="@+id/text"></TextView>
+<LinearLayout android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_gravity="center" android:gravity="center" android:layout_width="wrap_content">
+    <Button android:layout_gravity="center" android:text="증가" android:layout_height="match_parent" android:id="@+id/button1" android:layout_width="match_parent" android:layout_weight="1"></Button>
+    <Button android:layout_height="wrap_content" android:text="감소" android:layout_width="wrap_content" android:id="@+id/button2" android:layout_weight="1"></Button>
+</LinearLayout>
+</LinearLayout>

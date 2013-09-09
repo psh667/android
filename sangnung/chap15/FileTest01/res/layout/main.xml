@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"><LinearLayout android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:layout_weight="1" android:layout_height="fill_parent"><EditText android:id="@+id/EditText01" android:singleLine="false" android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout03" android:layout_width="wrap_content" android:layout_height="wrap_content">
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/read" android:text="읽기"/>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="쓰기" android:id="@+id/write"/>
+</LinearLayout>
+
+</LinearLayout>

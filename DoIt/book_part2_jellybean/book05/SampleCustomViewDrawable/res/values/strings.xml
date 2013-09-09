@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">그리기 객체로 그리기</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">그리기 객체로 그리기</string>
+
+</resources>

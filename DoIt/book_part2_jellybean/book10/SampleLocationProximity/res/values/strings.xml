@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">근접경보</string>
+    <string name="hello_world">근접경보</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">근접경보</string>
+
+</resources>

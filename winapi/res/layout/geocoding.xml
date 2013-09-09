@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="5pt"
+	android:text="위치를 주소로 변환"
+	/>
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+<EditText
+	android:id="@+id/lat"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="1" 
+	android:inputType="number"
+	android:text="37.8813"
+	/>
+<EditText
+	android:id="@+id/lon"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_weight="1" 
+	android:inputType="number"
+	android:text="127.7299"
+	/>
+<Button
+	android:id="@+id/convert"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_weight="1" 
+	android:text="Convert"
+	/>
+</LinearLayout>
+<TextView
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_marginTop="5pt"
+	android:text="주소를 위치로 변환"
+	/>
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+<EditText
+	android:id="@+id/address"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_weight="2" 
+	android:text="Opera House"
+	/>
+<Button
+	android:id="@+id/convert2"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_weight="1" 
+	android:text="Convert"
+	/>
+</LinearLayout>
+<TextView
+	android:id="@+id/result"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="16sp"
+	android:text="변환 결과"
+	/>
+</LinearLayout>

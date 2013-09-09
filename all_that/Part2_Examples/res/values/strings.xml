@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">파트02예제소스입니다.</string>
+    <string name="app_name">파트02예제소스</string>
+	<string-array name="activities_array">
+        <item>텍스트 뷰-ch_4.TextViewActivity</item>
+        <item>이미지 뷰-ch_4.ImageViewActivity</item>
+        <item>스크롤 뷰-ch_4.ScrollViewActivity</item>
+        <item>베이직위젯-ch_4.BasicWidgetActivity</item>
+        
+        <item>리니어 레이아웃-ch_5.LinearLayoutActivity</item>
+        <item>렐러티브 레이아웃-ch_5.RelativeLayoutActivity</item>
+        <item>테이블 레이아웃-ch_5.TableLayoutActivity</item>
+        <item>프레임 레이아웃-ch_5.FrameLayoutActivity</item>
+        <item>레이아웃 인플레이션-ch_5.LayoutInflationActivity</item>
+        <item>레이아웃 파라미터-ch_5.LayoutParamsActivity</item>
+        
+        <item>OnClick 이벤트-ch_6.OnClickActivity</item>
+        <item>XML에서 OnClick 이벤트 처리-ch_6.OnClickInXMLActivity</item>
+        <item>OnKey 이벤트-ch_6.OnKeyActivity</item>
+        <item>OnTouch 이벤트-ch_6.OnTouchActivity</item>
+        <item>OnLongClick 이벤트-ch_6.OnLongClickActivity</item>
+        <item>OnFocusChanged 이벤트-ch_6.OnFocusChangedActivity</item>
+        <item>기타 이벤트-ch_6.EtcEventActivity</item>
+        
+        <item>얼럿 다이얼로그-ch_7.AlertDialogActivity</item>
+        <item>선택형 다이얼로그-ch_7.ChoiceDialogActivity</item>
+        <item>프레그먼트 다이얼로그-ch_7.DialogFragmentActivity</item>
+        <item>얼럿 프레그먼트 다이얼로그-ch_7.AlertDialogFragmentActivity</item>
+
+        <item>토스트 노티피케이션-ch_8.ToastNotificationActivity</item>
+        <item>상태바 노티피케이션-ch_8.StatusNotificationActivity</item>
+        <item>커스텀 노티피케이션-ch_8.CustomNotificationActivity</item>
+		<item>리치 노티피케이션-ch_8.RichNotiActivity</item>
+		
+        <item>옵션 메뉴-ch_9.OptionMenuActivity</item>
+        <item>컨텍스트 메뉴-ch_9.ContextMenuActivity</item>
+        <item>서브 메뉴-ch_9.SubMenuActivity</item>
+
+        <item>데이트 피커-ch_10.DatePickerActivity</item>
+        <item>타임 피커-ch_10.TimePickerActivity</item>
+        <item>프로그레스/시크/레이팅 바-ch_10.BarActivity</item>
+        <item>탭 뷰-ch_10.TabViewActivity</item>
+        <item>맵 뷰-ch_10.MapViewActivity</item>
+        <item>웹 뷰-ch_10.WebViewActivity</item>
+        
+        <item>액션바-ch_11.ActionBarActivity</item>
+        <item>네비게이션바-ch_11.NavigationTabActivity</item>
+        <item>드롭다운탭바-ch_11.DropDownTabActivity</item>
+
+		<item>드래그앤드롭-ch_12.DragAndDropActivity</item>
+        
+        <item>리스트뷰-ch_14.ListViewActivity</item>
+        <item>스피너-ch_14.SpinnerActivity</item>
+        <item>자동완성-ch_14.AutoCompleteActivity</item>
+        <item>갤러리-ch_14.GalleryActivity</item>
+		<item>그리드 뷰-ch_14.GridViewActivity</item>
+
+		<item>지역화-ch_15.LocalizationActivity</item>
+		
+		<item>프로그래스 다이얼로그-ch_16.ProgressDialogActivity</item>
+		
+		<item>뷰를 사용해 그리기-ch_17.GraphActivity</item>
+		<item>서페이스 뷰를 사용해 그리기-ch_17.SurfaceViewActivity</item>
+		<item>이미지 변경해서 그리기-ch_17.TransitionDrawableActivity</item>
+		<item>코드를 사용해서 도형그리기-ch_17.ShapeDrawableActivity</item>
+		
+		<item>액티비티 생명주기-ch_19.ActivityA</item>
+		<item>액티비티 상태정보-ch_19.SaveInstanceActivity</item>
+		<item>프레그먼트-ch_19.FragmentActivity</item>
+		
+		<item>콘텐츠 프로바이더 기본사용법(UserDictionaryProvider)-ch_20.UserDictionaryActivity</item>
+		<item>캘린더 프로바이더 (Calendar Table)-ch_20.CalendarTableActivity</item>
+		<item>캘린더 프로바이더 (Event Table)-ch_20.CalendarEventsActivity</item>
+		<item>캘린더 프로바이더 (Attendee Table)-ch_20.CalendarAttendeesActivity</item>
+		<item>캘린더 프로바이더 (Reminders Table)-ch_20.CalendarRemindersActivity</item>
+		<item>캘린더 프로바이더 (Instance Table)-ch_20.CalendarInstanceActivity</item>
+		<item>데이터베이스 프로바이더-ch_20.DBProviderActivity</item>
+		
+		<item>서비스 실습예제(Mp3)-ch_21.Mp3Activity</item>
+		
+		<item>브로드캐스트-ch_22.BroadcastActivity</item>
+    </string-array>
+    
+    
+    
+	<string name="text_view_string1">Hello</string>
+    <string name="text_view_string2">안녕하세요</string>
+    <string name="text_view_string3">반갑습니다.</string>
+    
+    <string name="text_view_string4">1절 \n
+         동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리나라 만세. 
+	무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세.\n\n</string>
+    <string name="text_view_string5">2절 \n
+        남산 위에 저 소나무, 철갑을 두른 듯바람서리 불변함은 우리 기상일세. 
+	무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세.\n\n</string>
+    <string name="text_view_string6">3절 \n
+         가을 하늘 공활한데 높고 구름 없이밝은 달은 우리 가슴 일편단심일세. 
+무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세.\n\n</string>
+    <string name="text_view_string7">4절 \n 
+        이 기상과 이 맘으로 충성을 다하여괴로우나 즐거우나 나라 사랑하세. 
+무궁화 삼천리 화려강산 대한 사람, 대한으로 길이 보전하세.\n\n</string>
+    
+    <string name="basic_widget_title">기본위젯연습</string>
+    
+    <string name="edit_text_title">OnKey Event Example</string>
+        
+    <string name="alertdialogtitle">얼럿 다이얼로그 샘플</string>
+	<string name="choicedialogtitle">선택형 다이얼로그 샘플</string>
+	<string name="customdialogtitle">커스텀 다이얼로그 샘플</string>
+	<string name="progressdialogtitle">프로그래스 다이얼로그 샘플</string>
+	
+	<string name="show">보여주기</string>
+	
+	<string name="alert_dialog_two_buttons_title">
+        역시 마찬가지로, 단순히 고통이라는 이유 때문에 고통 그 자체를 사랑하거나 추구하거나 소유하려는 자는 없다. 
+        다만 노역과 고통이 아주 큰 즐거움을 선사하는 상황이 때로는 발생하기 때문에 고통을 찾는 사람이 있는 것이다. 
+        간단한 예를 들자면, 모종의 이익을 얻을 수도 없는데 힘든 육체적 노력을 기꺼이 할 사람이 우리들 중에 과연 있겠는가? 
+        하지만 귀찮은 일이 뒤따르지 않는 즐거움을 누리는 것을 선택한 사람, 혹은 아무런 즐거움도 생기지 않는 고통을 회피하는 
+        사람을 누가 탓할 수 있겠는가?
+    </string> 
+    <string name="alert_dialog_ok">확인</string>
+    <string name="alert_dialog_cancel">취소</string>     
+    
+    <string name="str_toastnotification">토스트 노티피케이션 예제</string>
+    <string name="str_statusnotification">상태바 노티피케이션 예제</string>
+    <string name="str_customnotification">커스텀 노티피케이션 예제</string>
+    
+    <string name="context_menu_title">컨텍스트 메뉴 예제</string>
+    <string name="option_menu_title">옵션 메뉴 예제</string>
+    <string name="submenu_title">서브 메뉴 예제</string>
+
+    <string name="add_string">추가</string>
+	<string name="call_string">전화</string>
+	<string name="camera_string">카메라</string>
+	<string name="edit_string">편집</string>
+	<string name="exit_string">종료</string>
+	<string name="trash_string">휴지통</string>
+          
+    <string name="main_title">프로그레스/시크/레이팅 바</string>
+    
+    <string name="action_bar_search">Search</string>
+    <string name="action_bar_add">Add</string>
+    <string name="action_bar_edit">Edit</string>
+    <string name="action_bar_share">Share</string>
+    <string name="action_bar_sort">Sort</string>
+    <string name="action_bar_sort_alpha">Alphabetically</string>
+    <string name="action_bar_sort_size">By size</string>
+    <string name="action_bar_share_with">Share with...</string>
+    <string name="action_bar_settings">Settings</string>
+    <string name="hello_first">First Tab</string>
+    <string name="hello_second">Second Tab</string>
+    <string name="hello_third">Third Tab</string>
+    
+    <string name="planet_prompt">Choose a planet</string>
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    
+    <string-array name="countries_array">
+        <item>Bahrain</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+    </string-array>
+    
+    <string name="text_a">안녕하세요. 첫번째 텍스트입니다.</string>
+    <string name="text_b">안녕하세요 두번째 텍스트 입니다..</string>
+    <string name="dialog_title">지역화 안하기</string>
+    <string name="dialog_text">이 다이얼로그의 내용은 지역화되지 않았습니다. 모든 로케일에서 텍스트는 res/values/strings.xml 파일에 있습니다. </string>
+    <string name="loading">loading...</string>
+    
+    <string name="button">Button</string>
+    <string name="transition_desc">transition drawable적용이미지</string>
+    
+    
+    <string name="lifecycle_method_list">생명주기 함수 목록</string>
+
+    <string name="on_create">onCreate</string>
+    <string name="on_destroy">onDestroy</string>
+    <string name="on_start">onStart</string>
+    <string name="on_restart">onRestart</string>
+    <string name="on_stop">onStop</string>
+    <string name="on_pause">onPause</string>
+    <string name="on_resume">onResume</string>
+	<string name="on_save_instance_state">onSaveInstanceState</string>
+    <string name="on_restore_instance_state">onRestoreInstanceState</string>
+    
+    <string name="activity_a_label">Activity A</string>
+    <string name="activity_b_label">Activity B</string>
+    <string name="activity_c_label">Activity C</string>
+
+    <string name="btn_start_a_label">Start A</string>
+    <string name="btn_start_b_label">Start B</string>
+    <string name="btn_start_c_label">Start C</string>
+
+    <string name="btn_finish_a_label">Finish A</string>
+    <string name="btn_finish_b_label">Finish B</string>
+    <string name="btn_finish_c_label">Finish C</string>
+    
+    <string name="input_hint">여기에 입력하세요!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="on_save_instance_title">액티비티 상태정보 예제</string>
+	<string name="tv_label">Bundle Value : </string>
+</resources>

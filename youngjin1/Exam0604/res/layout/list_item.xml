@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<RelativeLayout
+android:id="@+id/list_item"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+<ImageView android:id="@+id/list_img"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="10px"
+	android:src="@drawable/item01" />
+
+<TextView
+	android:id="@+id/list_txt_name"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="180px"
+	android:textColor="#ffffff"
+	android:textSize="40px"
+	android:text="Replay"
+/>
+
+<TextView
+	android:id="@+id/list_txt_company"  
+   	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="60px"
+	android:layout_marginLeft="180px"
+	android:textColor="#ffd600"
+	android:textSize="20px"
+    android:text="OpenMindWorld"
+    >
+    <requestFocus/>
+</TextView>
+
+<TextView   
+	android:id="@+id/list_txt_flatform"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="90px"
+	android:layout_marginLeft="180px"
+	android:textColor="#c2c2c2"
+	android:textSize="15px"
+	android:text="Android/Windows Mobile/iPhone"
+ />
+
+
+</RelativeLayout>
+
+

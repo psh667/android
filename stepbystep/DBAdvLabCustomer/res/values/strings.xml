@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">고객관리</string>
+    
+    <string name="act_detail">고객정보</string>
+    <string name="act_update">고객정보 수정</string>
+    
+    <string name="name">성명</string>
+    <string name="sex">성별</string>
+    <string name="receive">수신여부</string>
+    
+    <!-- 스피너 관련 속성: 시작 -->
+    <!-- 스피너 라벨 -->
+    <string name="interest">관심분야</string>
+    <!-- 스피너 프롬프트  -->
+    <string name="interest_prompt">관심분야</string>   
+    <!-- 스피너 아이템  -->
+    <string-array name="interest_array">        
+        <item>경영/경제</item>        
+        <item>과학</item>        
+        <item>스포츠</item>        
+        <item>여행</item>        
+        <item>예술</item>        
+        <item>외국어</item>        
+        <item>요리</item>    
+        <item>컴퓨터</item>        
+    </string-array>
+    <!-- 스피너 관련 속성: 끝 -->
+   
+</resources>

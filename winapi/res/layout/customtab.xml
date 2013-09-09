@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<FrameLayout
+	android:layout_width="match_parent" 
+	android:layout_height="0px" 
+	android:layout_weight="1">
+	<LinearLayout android:id="@+id/opt_general"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:visibility="visible">
+		<EditText
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="프로젝트명"
+			/>
+		<Button
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="변경"
+			/>
+	</LinearLayout>
+
+	<LinearLayout android:id="@+id/opt_compiler"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:visibility="invisible">
+		<CheckBox
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content" 
+			android:text="최적화하기" />
+		<CheckBox
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content" 
+			android:text="경고 무시하기" />
+	</LinearLayout>
+
+	<TextView android:id="@+id/opt_linker"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="링커의 옵션"
+		android:visibility="invisible" />
+</FrameLayout>
+<RadioGroup
+	android:orientation="horizontal"
+	android:layout_width="match_parent" 
+	android:layout_height="65dip"
+	android:layout_weight="0"
+	android:gravity="center_vertical"
+	android:background="#808080"
+	android:checkedButton="@+id/btn1" 
+	>
+	<RadioButton
+		android:id="@+id/btn1"  
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_weight="1"
+		android:text="일반" 
+		/>
+	<RadioButton
+		android:id="@+id/btn2"  
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_weight="1" 
+		android:text="컴파일러" 
+		/>
+	<RadioButton
+		android:id="@+id/btn3"  
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_weight="1" 
+		android:text="링커" 
+		/>
+</RadioGroup> 
+</LinearLayout>

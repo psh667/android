@@ -1,0 +1,21 @@
+<resources>
+	<string name="app_name">AndExam4_1</string>
+	<string name="hello_world">Hello world!</string>
+	<string name="menu_settings">Settings</string>
+	<string name="title_activity_and_exam">AndExam</string>
+	<string name="insa">Hello</string>
+	<string name="anyoung">안녕하세요</string>
+	<string name="textstr">Resource Text</string>
+	<string name="attrbtn">Attr Button</string>
+	<string name="multi_caption">MultiLang</string>
+	<string name="multi_textcaption">This program supports Korean and English</string>
+	<string name="multi_buttoncaption">Press me</string>
+	<string name="multi_smile">^_^</string>
+	<string name="multi_smiletext">Let\'s smile</string>
+	<string name="multi_toasttext">You pressed button</string>
+	<string name="author">KimSangHyung</string>
+	<string name="ballwall">Moving Ball Wallpaper</string>
+	<string name="ballwalldescription">Bouncing yellow ball</string>
+	<string name="childrenwall">Children Wallpaper</string>
+	<string name="childrenwalldescription">My son and daughter</string>
+</resources>

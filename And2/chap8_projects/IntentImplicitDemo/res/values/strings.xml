@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">안녕하세요, 인텐트!</string>
+<string name="app_name">암시적 인텐트! </string>
+<string name="ACTION_DIAL">액션_다이얼</string>
+<string name="ACTION_VIEW_HTTP">액션_뷰_HTTP</string>
+
+<string name="ACTION_VIEW_GEO">액션_뷰_GEO</string>
+<string name="ACTION_EDIT_CONTACTS">액션_편집_연락처</string>
+
+<string name="finish_label">종료</string>
+
+</resources>

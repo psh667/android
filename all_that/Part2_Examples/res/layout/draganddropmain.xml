@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="아이콘을 롱클릭 하고 드래그하시다가 다시 아이콘 속으로 드롭 해보세요." />
+        
+    <ImageView android:id="@+id/imageView"
+    		  android:scaleType="center"
+    		  android:adjustViewBounds="true"
+    		  android:layout_width="wrap_content"
+    		  android:layout_height="wrap_content"
+    		  />
+	<ImageView android:id="@+id/emptyView"
+    		  android:scaleType="center"
+    		  android:adjustViewBounds="true"
+    		  android:layout_width="fill_parent"
+    		  android:layout_height="200dp"
+    		  />
+	<ImageView android:id="@+id/dropView"
+    		  android:scaleType="center"
+    		  android:adjustViewBounds="true"
+    		  android:layout_width="fill_parent"
+    		  android:background="#00aa00"
+    		  android:layout_height="150dp"
+    		  />    		  
+</LinearLayout>

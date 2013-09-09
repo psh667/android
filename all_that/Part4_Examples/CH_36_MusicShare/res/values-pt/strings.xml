@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guide">
+Compartilhando Música é um aplicativo paracompartilhar qualquer arquivo de música entre dois dispositivos separados, o que é fácil de usar. AndroidBoca estará em operação quando você conecta aparte traseira de seu dispositivo para que de outro por um par de segundos. Então, por favor, toque na telaque se torna menor, quando você vê a compartilhar a Palavra. Isso faz com que os dois dispositivosconectados através de Bluetooth. Depois que os doisdispositivos estão conectados, você deve escolherqualquer música que você deseja enviar, clique nele e pressione o botão para a música partilha. Agora, a música vai ser transmitida para o outro dispositivo.
+Lembre-se que uma conexão Bluetooth instável pode fazer a transmissão de música parou de repente antes de partilha de música a conclusão dos trabalhos.
+	</string>
+    <string name="app_name">partilha de Música</string>
+    <string name="NFC_NOT_CONNECTED">NFC não está conectado</string>
+    <string name="title_connected_to">conectado</string>
+    <string name="title_connecting">conectar ...</string>
+    <string name="title_not_connected">Dispositivo não está conectado</string>
+    <string name="not_connected">Você não pode ligar o dispositivo</string>
+    <string name="send_button">partilha de Música</string>
+	<string name="stop_button">parar de compartilhar</string>
+	<string name="menu_settings">Em Android Beam</string>
+	<string name="menu_reset">Redefinir</string>
+	<string name="file_chooser">Selecione Arquivo</string>
+	<string name="alread_receive">Já a música que você recebe ...</string>
+	<string name="connect_to">conectar-se</string>
+	<string name="sent_macaddress">Enviado MacAddress para conexãoBluetooth</string> 
+	<string name="plz_select_file">Você precisa selecionar o arquivo para o envio demúsicas</string> 
+	<string name="bluetooth_not_available">Bluetooth não está disponível</string>
+	<string name="start_actionbar">Por favor, ligar o dispositivo ..</string>
+	<string name="already_music_playing">Já Reprodução de música ...</string>
+	<string name="music_playing">Agora tocar música ...</string>
+	<string name="music_stoped">Música parou ...</string>  
+</resources>

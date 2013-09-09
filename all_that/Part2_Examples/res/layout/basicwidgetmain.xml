@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView android:id="@+id/basic_widget_title"
+    		  android:textSize="36px"
+    		  android:textStyle="bold"
+    		  android:text="@string/basic_widget_title"
+    		  android:layout_width="wrap_content"
+    		  android:layout_height="wrap_content"/>
+
+	<EditText
+        android:id="@+id/edittext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>  
+         
+    <CheckBox android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android" />
+    <CheckBox android:id="@+id/checkbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iphone" />    
+        
+	<RadioGroup
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <RadioButton android:id="@+id/radio_android"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Red" />
+      <RadioButton android:id="@+id/radio_iphone"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Blue" />
+    </RadioGroup>
+    
+    <ToggleButton android:id="@+id/togglebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Vibrate on"
+        android:textOff="Vibrate off"/>
+        
+	<RatingBar android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0"/>
+        
+  	<Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="테스트 버튼" />
+        
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/android_button"/>
+    		   
+</LinearLayout>

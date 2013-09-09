@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wallpaper 
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:thumbnail="@drawable/cube_launcher"
+  android:description="@string/cube_description_with_setting" 
+  android:settingsActivity="com.appstudio.android.sample.ch_29_2_2.CubeWallpaperSettingActivity"
+  />

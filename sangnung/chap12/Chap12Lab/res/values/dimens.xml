@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="heading_size">32dp</dimen>
+    <dimen name="body_size">22dp</dimen>
+</resources>

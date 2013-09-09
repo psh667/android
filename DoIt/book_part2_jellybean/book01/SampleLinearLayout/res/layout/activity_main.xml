@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<Button
+		android:id="@+id/button01"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:text="일반적인 경우"
+		android:textSize="16dp"
+		android:textStyle="bold"
+	/>
+	
+	<Button
+		android:id="@+id/button02"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:text="padding 사용하기"
+		android:textSize="16dp"
+		android:textStyle="bold"
+	/>
+	
+	<Button
+		android:id="@+id/button03"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:text="gravity 사용하기"
+		android:textSize="16dp"
+		android:textStyle="bold"
+	/>
+	
+	<Button
+		android:id="@+id/button04"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:text="weight 사용하기"
+		android:textSize="16dp"
+		android:textStyle="bold"
+	/>
+
+	<Button
+		android:id="@+id/button05"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="10dp"
+		android:text="baseline 사용하기"
+		android:textSize="16dp"
+		android:textStyle="bold"
+	/>
+	
+	<Button
+		android:id="@+id/button06"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="20dp"
+		android:text="gravity : left|top"
+		android:textSize="14dp"
+		android:textStyle="bold"
+		/>
+
+	<Button
+		android:id="@+id/button07"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="gravity : center_vertical|center_horizontal"
+		android:textSize="14dp"
+		android:textStyle="bold"
+		/>
+
+	<Button
+		android:id="@+id/button08"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="gravity : right|bottom"
+		android:textSize="14dp"
+		android:textStyle="bold"
+		/>
+
+</LinearLayout>

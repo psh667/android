@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#808080"
+	>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+<CheckBox
+	android:id="@+id/btnfillbefore"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:checked="true"
+	android:text="Fill Before"
+	/>
+<CheckBox
+	android:id="@+id/btnfillafter"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="Fill After"
+	/>
+</LinearLayout>	
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+<CheckBox
+	android:id="@+id/btnrepeat"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="2회 반복"
+	/>
+<CheckBox
+	android:id="@+id/btnreverse"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="역순 반복"
+	/>
+</LinearLayout>	
+<Spinner
+	android:id="@+id/spininter"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	/>
+<Button
+	android:id="@+id/btnstart"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="애니메이션 시작"
+	/>
+<ImageView
+	android:id="@+id/animtarget"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:src="@drawable/mugung"
+	/>
+</LinearLayout>

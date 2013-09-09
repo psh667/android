@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffffff"
+    >
+	<LinearLayout
+		android:id="@+id/titleLayout"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_marginTop="10dp"
+	    >
+		<TextView
+			android:id="@+id/noticeText"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:text="트위터 로그인을 위해 아래 내용을 확인하세요."
+			android:textSize="16dp"
+			android:textStyle="bold"
+			android:textColor="#ff000000"
+			android:paddingLeft="10dp"
+			android:paddingRight="10dp"
+			/>
+	</LinearLayout>
+	<WebView
+		android:id="@+id/webView"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:layout_marginTop="10dp"
+		android:layout_below="@+id/titleLayout"
+		/>
+</RelativeLayout>

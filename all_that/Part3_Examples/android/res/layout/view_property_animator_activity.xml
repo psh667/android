@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <Button
+        android:id="@+id/fadeOut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="페이드 아웃"/>
+    <Button
+        android:id="@+id/fadeIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="페이드 인"/>
+    <Button
+        android:id="@+id/moveOver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="이동"/>
+    <Button
+        android:id="@+id/moveBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="원위치"/>
+    <Button
+        android:id="@+id/rotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="회전"/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:id="@+id/container">
+	    <Button
+	        android:id="@+id/animatingButton"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="애니메이션 효과 발생 버튼"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="50dip" 
+	android:layout_marginTop="100dip" 
+	android:textSize="30sp"
+	android:text="(50,100)"
+	/>
+<TextView  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="200dip" 
+	android:layout_marginTop="70dip" 
+	android:textSize="30sp"
+	android:text="(200,70)"
+	/>
+</RelativeLayout>

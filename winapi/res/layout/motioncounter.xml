@@ -1,0 +1,69 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="오른쪽:증가, 왼쪽:감소, 위쪽:100, 아래쪽:200"
+	/>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+<TextView
+	android:id="@+id/txtsen"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	/>
+<Button
+	android:id="@+id/incsen"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="증가"
+	/>
+<Button
+	android:id="@+id/decsen"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="감소"
+	/>
+</LinearLayout>	
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+<TextView
+	android:id="@+id/txtgap"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	/>
+<Button
+	android:id="@+id/incgap"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="증가"
+	/>
+<Button
+	android:id="@+id/decgap"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="감소"
+	/>
+</LinearLayout>	
+<TextView
+	android:id="@+id/counter"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:textSize="48pt"
+	android:gravity="center_horizontal"
+	android:text="100"
+	/>
+<TextView
+	android:id="@+id/result"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="result"
+	/>
+</LinearLayout>

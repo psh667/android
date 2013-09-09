@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guide">
+Den Austausch von Musik ist eine Anwendung für den Austausch von beliebigen Musikdatei zwischen zwei separate Geräte, die einfach zu bedienen ist. AndroidBreite in Betrieb sein, wenn Sie die Rückseite des Geräts an, dass der andere für ein paar Sekunden zu befestigen. Dann bitte den Bildschirm berühren, diekleiner wird, wenn Sie das Wort SHARING sehen. Das macht die beiden Geräte über Bluetooth verbunden.Nachdem die beiden Geräte angeschlossen sind,sollten Sie sich für jede Musik die Sie senden möchten, klicken Sie darauf und drücken Sie anschließend die Taste zum Verteilen von Musik. Nun wird die Musik zu dem anderen Gerät übertragen werden.
+Bitte denken Sie daran, dass eine instabile Bluetooth-Verbindung können die Musikübertragung gestoppt, bevor alle plötzlich den Austausch von Musik die Arbeiten erledigt.
+	</string>
+    <string name="app_name">den Austausch von Musik</string>
+    <string name="NFC_NOT_CONNECTED">NFC nicht angeschlossen</string>
+    <string name="title_connected_to">verbunden</string>
+    <string name="title_connecting">Anschluss ...</string>
+    <string name="title_not_connected">Gerät ist nicht angeschlossen</string>
+    <string name="not_connected">Sie können kein Gerät</string>
+    <string name="send_button">den Austausch von Musik</string>
+	<string name="stop_button">Stop Sharing</string>
+	<string name="menu_settings">Android Beam On</string>
+	<string name="menu_reset">Zurücksetzen</string>
+	<string name="file_chooser">Wählen Sie Datei</string>
+	<string name="alread_receive">Bereits Musik empfangen Sie ...</string>
+	<string name="connect_to">Verbindung zu</string>
+	<string name="sent_macaddress">Macaddress für den Anschluss von Bluetooth versendet</string> 
+	<string name="plz_select_file">Sie müssen sich für das Senden von Musik-Dateiauswählen</string> 
+	<string name="bluetooth_not_available">Bluetooth ist nicht verfügbar</string>
+	<string name="start_actionbar">Bitte schließen Sie das Gerät ..</string>
+	<string name="already_music_playing">Bereits Wiedergabe von Musik ...</string>
+	<string name="music_playing">Zuletzt gespielte Musik ...</string>
+	<string name="music_stoped">Musik aufhörte ...</string>  
+</resources>

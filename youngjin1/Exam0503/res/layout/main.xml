@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:background="#464646"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+<ImageView
+	android:layout_width="800px" 
+    android:layout_height="480px"
+	android:src="@drawable/strategy_kor"
+	/>
+<ImageView
+	android:layout_width="wrap_content" 
+    android:layout_height="wrap_content"
+	android:src="@drawable/interface_strat"		      
+	/>
+<ImageView
+	android:id="@+id/char_image"
+	android:layout_width="83px" 
+    android:layout_height="100px"
+    android:layout_marginLeft="15px"
+	android:layout_marginTop="13px"
+	android:src="@drawable/image01"
+	/>
+<TextView
+	android:id="@+id/char_name"
+	android:layout_width="83px" 
+    android:layout_height="25px"
+    android:layout_marginLeft="15px"
+	android:layout_marginTop="120px"
+	android:gravity="center_horizontal"
+	android:textColor="#FFFFFF"
+	android:textSize="20px"
+	android:text="강철민"
+	/>
+<TextView
+	android:id="@+id/action_point"
+	android:layout_width="45px" 
+    android:layout_height="25px"
+    android:layout_marginLeft="52px"
+	android:layout_marginTop="150px"
+	android:gravity="center_horizontal"
+	android:textColor="#FFFFFF"
+	android:textSize="20px"
+	android:text="100"
+	/>	
+</RelativeLayout>

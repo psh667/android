@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<!-- 이 파일은 /res/layout/main.xml이다. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<EditText android:id="@+id/wordsToSpeak" android:text="Dohn Keyhotay"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+	<Button android:id="@+id/speakBtn" android:text="발음"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:enabled="false" />
+
+	<TextView android:id="@+id/filenameLabel" android:text="파일명:"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+	<EditText android:id="@+id/filename" android:text="/sdcard/donquixote.wav"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+	<Button android:id="@+id/recordBtn" android:text="녹음"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:enabled="false" />
+
+	<Button android:id="@+id/playBtn" android:text="재생"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:enabled="false" />
+
+	<TextView android:id="@+id/useWithLabel" android:text="읽을 내용:"
+		android:layout_width="wrap_content" android:layout_height="wrap_content" />
+
+	<EditText android:id="@+id/realText" android:text="Don Quixote"
+		android:layout_width="fill_parent" android:layout_height="wrap_content" />
+
+	<Button android:id="@+id/assocBtn" android:text="연결"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:enabled="false" />
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="D:/Private/★번역업무/Pro Android Augmented Reality/Source Code/Pro Android AR 6 A Simple App Using AR/lib/google-play-services.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

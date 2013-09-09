@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guide">
+Compartir música es una aplicación para compartircualquier archivo de música entre dos dispositivos independientes, lo cual es fácil de usar. AndroidManga estará en funcionamiento cuando se conecta la parte posterior de su dispositivo a la de otro por un par de segundos. Entonces, por favor, toque la pantalla, que se hace más pequeño, cuando vea el compartir la Palabra. Esto hace que los dos dispositivos conectados a través de Bluetooth. Después de los dosdispositivos están conectados, usted debe elegir la música que desea enviar, haga clic en él, y luego presione el botón para compartir música. Ahora, la música se transmite al otro dispositivo.
+Por favor, recuerde que una conexión Bluetoothinestable puede hacer que la transmisión de música se detuvo de repente antes de compartir música de completar el trabajo.	</string>
+    <string name="app_name">Compartir música</string>
+    <string name="NFC_NOT_CONNECTED">NFC no conectado</string>
+    <string name="title_connected_to">conectado</string>
+    <string name="title_connecting">la conexión ...</string>
+    <string name="title_not_connected">El dispositivo no está conectado</string>
+    <string name="not_connected">No se puede conectar el dispositivo</string>
+    <string name="send_button">Compartir música</string>
+	<string name="stop_button">Dejar de compartir</string>
+	<string name="menu_settings">En Android Beam</string>
+	<string name="menu_reset">reajustar</string>
+	<string name="file_chooser">Seleccione Archivo</string>
+	<string name="alread_receive">Ya que la música de recibir ...</string>
+	<string name="connect_to">conectarse a</string>
+	<string name="sent_macaddress">Enviado macaddress para la conexión de bluetooth</string> 
+	<string name="plz_select_file">Es necesario seleccionar el archivo para el envío de la música</string> 
+	<string name="bluetooth_not_available">Bluetooth no está disponible</string>
+	<string name="start_actionbar">Por favor, conecte el dispositivo ..</string>
+	<string name="already_music_playing">Ya Reproducción de música ...</string>
+	<string name="music_playing">Ahora la reproducción de música...</string>
+	<string name="music_stoped">Música se detuvo ...</string>  
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<TableLayout android:id="@+id/table3" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent" android:stretchColumns="0,1,2">
+	<EditText android:text="성명:"/>
+	<TableRow>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="버락"/>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="후세인"/>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="오바마"/>
+	</TableRow>
+	
+	<!-- 패딩 예제 액티비티 호출 버튼 -->
+	<Button android:id="@+id/ccbtn_padding"
+			android:text="패딩 예제 액티비티"
+			android:typeface="serif" android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+</TableLayout>

@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:background="#FFFFC0"
+		android:layout_marginBottom="20dp"
+	    >
+	    
+	    <TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginLeft="4dp"
+		    android:layout_marginRight="4dp"
+		    android:textSize="24dp"
+		    android:textStyle="bold"
+		    android:text="단말쪽 기능"
+		    />
+	    
+		<LinearLayout
+		    android:orientation="vertical"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginLeft="4dp"
+		    android:layout_marginRight="4dp"
+		    >
+		    <Button
+		    	android:id="@+id/registerButton"
+			    android:layout_width="180dp"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center_horizontal"
+			    android:text="단말 등록하기"
+			    />
+		</LinearLayout>
+		
+		<LinearLayout
+		    android:orientation="vertical"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginLeft="4dp"
+		    android:layout_marginRight="4dp"
+		    >
+		    <EditText
+				android:id="@+id/messageOutput"
+			    android:layout_width="match_parent"
+			    android:layout_height="wrap_content"
+			    android:textSize="16dp"
+			    android:textStyle="bold"
+			    android:text="수신 메시지"
+			    />
+		</LinearLayout>
+		
+	</LinearLayout>
+	
+    
+    <LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="20dp"
+		android:background="#D7D7FF"
+	    >
+		    
+	    <TextView
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="40dp"
+		    android:layout_marginLeft="4dp"
+		    android:layout_marginRight="4dp"
+		    android:textSize="24dp"
+		    android:textStyle="bold"
+		    android:text="서버쪽 기능"
+		    />
+    
+		<EditText
+			android:id="@+id/messageInput"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="20dp"
+		    android:layout_alignParentLeft="true"
+		    android:layout_toLeftOf="@+id/sendButton"
+		    android:textSize="16dp"
+		    android:textStyle="bold"
+		    android:lines="2"
+		    android:hint="보낼 메시지를 입력하고 [전송하기] 버튼을 누르세요."
+		    />
+		 
+		<LinearLayout
+		    android:orientation="vertical"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginLeft="4dp"
+		    android:layout_marginRight="4dp"
+		    android:layout_marginBottom="20dp"
+		    >
+		    <Button
+		    	android:id="@+id/sendButton"
+			    android:layout_width="180dp"
+			    android:layout_height="wrap_content"
+			    android:layout_gravity="center_horizontal"
+			    android:text="전송하기"
+			    />
+		</LinearLayout>
+		
+	</LinearLayout>
+	
+</LinearLayout>

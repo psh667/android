@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">긴급 응답기</string>
+    <string name="respondAllClearButtonText">전 무사해요</string>
+    <string name="respondMaydayButtonText">구조바람! 구조바람! 구조바람!</string>
+    <string name="respondAllClearText">전 무사해요. 걱정 마세요!</string>
+    <string name="respondMaydayText">어머니께 사랑한다고 전해주세요.</string>
+    <string name="querystring">괜찮니?</string>
+</resources>

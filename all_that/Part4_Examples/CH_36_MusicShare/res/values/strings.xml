@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guide">
+Sharing Music is an application for sharing any music file between two separate devices, which is easy to use.  Android Beam will be in operation when you attach the back of your device to that of another for a couple of seconds. Then, please touch the screen which becomes smaller, when you see the word SHARING. This makes the two devices connected through Bluetooth. After the two devices are connected, you should choose any music you want to send, click it, and then press the button for sharing music. Now, the music will be transmitted to the other device. 
+Please remember that an unstable Bluetooth connection can make the music transmission stopped all of sudden before Sharing Music completing the work.
+	</string>
+    <string name="app_name">Sharing Music</string>
+    <string name="NFC_NOT_CONNECTED">NFC not connected</string>
+    <string name="title_connected_to">connected</string>
+    <string name="title_connecting">connecting...</string>
+    <string name="title_not_connected">Device is not connected</string>
+    <string name="not_connected">You cannot connect device</string>
+    <string name="send_button">Sharing Music</string>
+	<string name="stop_button">Stop Sharing</string>
+	<string name="menu_settings">Android Beam On</string>
+	<string name="menu_reset">Reset</string>
+	<string name="file_chooser">Select File</string>
+	<string name="alread_receive">Already you music receving...</string>
+	<string name="connect_to">connect to</string>
+	<string name="sent_macaddress">Sent macaddress for connecting bluetooth</string> 
+	<string name="plz_select_file">You need to select file for sending music</string> 
+	<string name="bluetooth_not_available">Bluetooth is not available</string>
+	<string name="start_actionbar">Please connect device..</string>
+	<string name="already_music_playing">Already Playing music...</string>
+	<string name="music_playing">Now playing music...</string>
+	<string name="music_stoped">Music Stopped...</string>  
+</resources>

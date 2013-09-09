@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+	<Button android:text="이미지" 
+		android:layout_width="wrap_content" 
+		android:layout_height="match_parent" />
+   	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		>
+		<TextView android:text="왼쪽 이미지 오른쪽에 문자열" 
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content" />
+		<TextView android:text="LinearLayout을 중첩하여 만듬" 
+			android:layout_width="match_parent" 
+			android:layout_height="wrap_content" />
+   	</LinearLayout>
+</LinearLayout>
+		
+<GridLayout
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:columnCount="2"
+	>
+	<Button android:text="이미지" 
+		android:layout_rowSpan="2" 
+		android:layout_gravity="fill" 
+		android:gravity="center" />
+	<TextView android:text="왼쪽 이미지 오른쪽에 문자열" />
+	<TextView android:text="GridLayout으로 만듬" />
+</GridLayout>
+</LinearLayout>

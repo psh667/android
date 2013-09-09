@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView
+	android:id="@+id/txttimeout"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="16sp"
+	android:text="조명 시간"
+	/>
+<SeekBar 
+	android:id="@+id/screentimeout"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:max="30"
+	android:padding="20dip"
+	/>
+<ToggleButton
+	android:id="@+id/autorotate"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:onClick="mOnClick"
+	android:textOn="자동회전"
+	android:textOff="회전금지" 
+	/>
+</LinearLayout>

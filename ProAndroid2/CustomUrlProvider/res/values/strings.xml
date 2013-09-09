@@ -1,0 +1,16 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources>
+	<string name="search_activity_main_text">
+	이것은 검색 액티비티입니다.
+	\n\n
+	이 액티비티는 액션 뷰가 아니라 액션
+	검색이 사용될 경우 호출됩니다.
+	\n\n
+	액션 검색은 검색 아이콘을 누르면 시동됩니다.
+	\n\n
+	액션 뷰는 제시항목을 누르면 시동됩니다.
+	</string>
+	<string name="app_name">사용자 정의 제시항목 애플리케이션 </string>
+	<string name="search_label">사용자 정의 제시항목 데모 </string>
+	<string name="search_hint">사용자 정의 제시항목 힌트</string>
+</resources>

@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dip" >
+	<TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Event Table"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<LinearLayout
+	    android:id="@+id/input_calid"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_below="@+id/textViewTitle" >
+	    <EditText
+	       android:id="@+id/et_calid"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_weight="3"
+	       android:hint="숫자로된 캘린더 아이디를 입력하세요."
+	       android:inputType="number"
+	       android:ems="10" />
+	    <Button
+	       android:id="@+id/btn_calid"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_weight="1"
+	       android:onClick="cal_event_onClick"
+	       android:text="조회" />
+	</LinearLayout>
+	<LinearLayout android:id="@+id/ll_event"
+        android:layout_below="@+id/input_calid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal">
+	    <EditText
+	        android:id="@+id/et_event_name"
+	        android:layout_width="200dip"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:hint="이벤트명을 입력하세요."
+	        android:ems="10" >
+	    </EditText>
+	    
+	</LinearLayout>
+    <LinearLayout android:id="@+id/ll_btn"
+        android:layout_below="@+id/ll_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal">
+        <Button
+	        android:id="@+id/btn_do"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:onClick="cal_event_onClick"
+	        android:text="insert/update" />
+	
+	    <Button
+	        android:id="@+id/btn_del"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:onClick="cal_event_onClick"
+	        android:text="delete" />
+    </LinearLayout>
+    
+
+    <LinearLayout
+        android:id="@+id/list_header"
+        android:layout_below="@+id/ll_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dip"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/list_tv_title"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dip"
+            android:text="이벤트명"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/list_tv_id"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="이벤트아이디"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_header" >
+    </ListView>
+
+   
+
+</RelativeLayout>

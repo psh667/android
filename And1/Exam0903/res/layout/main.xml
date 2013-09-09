@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Exam0903 단어 암기장"
+    />
+<TextView
+	android:id="@+id/word"
+	android:layout_width="fill_parent" 
+    android:layout_height="300px"
+    android:textColor="#000000"
+    android:background="#f1eee7"
+    android:textSize="40dp"
+    android:text="WORD"
+    />
+<TextView
+	android:id="@+id/definition"
+	android:layout_width="fill_parent" 
+    android:layout_height="200px"
+    android:textColor="#000000"
+    android:background="#dccec1"
+    android:textSize="25dp"
+    android:text="DEFINITION"
+    />    
+<Button
+	android:id="@+id/start"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:text="시작"
+    />
+<Button
+	android:id="@+id/stop"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:text="중지"
+    />    
+</LinearLayout>

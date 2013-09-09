@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 비디오 목록 영역: 시작  -->
+	<ScrollView 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+        android:background="#0000ff" 
+	    android:layout_weight="1"  >		
+	    		
+		<!-- 비디오 목록 출력: 시작  -->    
+	    <LinearLayout 
+		    android:id="@+id/videolist_area" 
+		    android:orientation="vertical"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content" > 
+		</LinearLayout>
+		<!-- 비디오 목록 출력: 끝  -->    
+		
+	</ScrollView>
+    <!-- 비디오 목록 영역: 끝  -->
+    
+	<!-- 비디오 출력 영역: 시작  -->    
+    <LinearLayout 
+	    android:id="@+id/videoview_area" 
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" 
+	    android:layout_weight="3"  >		
+    </LinearLayout>
+	<!-- 비디오 출력 영역: 끝  -->
+    
+</LinearLayout>

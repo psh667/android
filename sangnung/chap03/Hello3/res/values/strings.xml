@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">Hello3</string>
+    <string name="hello_world">This is my first application.</string>
+    <string name="menu_settings">Settings</string>
+
+</resources>

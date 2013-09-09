@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent">
+  <TextView 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="순방향 지오코딩:문자 위치정보 -->지리적 좌표 " /> 
+  <EditText 
+    android:id="@+id/named" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:hint="주소/지역명 " /> 
+  <LinearLayout 
+    android:orientation="horizontal" 
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content">
+     <Button 
+        android:id="@+id/gcode"     
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="좌표" /> 
+     <Button 
+        android:id="@+id/map" 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="지도" 
+        android:visibility="gone" /> 
+  </LinearLayout>
+     <TextView 
+        android:id="@+id/transform" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="[출력 결과]" /> 
+</LinearLayout>

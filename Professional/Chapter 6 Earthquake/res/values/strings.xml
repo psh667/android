@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">지진 정보</string>
+    <string name="quake_feed">http://earthquake.usgs.gov/eqcenter/catalogs/1day-M2.5.xml</string>
+    <string name="menu_update">지진 정보 갱신</string>
+    <string name="auto_update_prompt">자동 업데이트?</string>
+    <string name="update_freq_prompt">업데이트 빈도</string>
+    <string name="min_quake_mag_prompt">최소 진도</string>
+    <string name="menu_preferences">환경설정</string>
+</resources>

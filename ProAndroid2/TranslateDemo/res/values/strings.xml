@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 이 파일은 /res/values/strings.xml이다. -->
+<resources>
+<string name="translateBtn">> 번역하기 ></string>
+<string name="input">번역할 텍스트를 입력하세요</string>
+<string name="translation">번역문은 여기 표시됩니다</string>
+<string name="prompt">언어 선택</string>
+</resources>

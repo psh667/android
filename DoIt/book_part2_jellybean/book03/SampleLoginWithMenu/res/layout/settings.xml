@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >	
+    
+	<LinearLayout 
+		android:id="@+id/mainLayout"
+	  	android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:orientation="vertical"
+	  	>
+	  	<org.androidtown.tutorial.ui.TitleButton 
+	  		android:id="@+id/titleBtn"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_marginBottom="4dp"
+			/>
+	</LinearLayout>
+	<LinearLayout 
+		android:layout_alignParentBottom="true"
+	  	android:layout_width="match_parent" 
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+	  	>
+	  	<ViewFlipper
+			android:id="@+id/flipper"
+		  	android:layout_width="match_parent" 
+			android:layout_height="wrap_content"
+		  	>
+		</ViewFlipper>
+		<RelativeLayout
+	  		android:id="@+id/buttonLayout"
+	  		android:layout_width="match_parent" 
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+		  	>
+		  	<Button android:id="@+id/saveBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="20dp"
+				android:layout_alignParentLeft="true"
+				android:text="   Save   " 
+				/>
+			<Button android:id="@+id/cancelBtn"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_marginRight="20dp"
+				android:layout_alignParentRight="true"
+				android:text=" Cancel " 
+				/>	
+		</RelativeLayout>
+	</LinearLayout>
+	
+</RelativeLayout>

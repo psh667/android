@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+	<!-- 버튼 영역  -->
+	<Button android:text="고객정보조회" 
+		android:id="@+id/button_call" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" />
+		
+	<!-- 웹문서 소스 출력 영역  -->	
+	<EditText
+		android:id="@+id/webpage_src"
+		android:background="#0000ff"
+		android:hint="고객정보 출력 영역"
+		android:gravity="top"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" />
+    
+</LinearLayout>

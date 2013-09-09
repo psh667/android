@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout             
+		xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@drawable/sky">
+    
+	<TextView 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_weight="20" />
+	<ImageView 
+		android:layout_gravity="center" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_weight="30" 
+		android:src="@drawable/title01"/>
+	<ImageView 
+		android:id="@+id/ImageView01" 
+		android:src="@drawable/button_1"
+		android:layout_gravity="center" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_weight="10"
+		android:clickable="true" 
+		android:focusable="true"/> 
+	<ImageView 
+		android:id="@+id/ImageView02" 
+		android:src="@drawable/button_2"
+		android:layout_gravity="center" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_weight="10" 
+		android:clickable="true" 
+		android:focusable="true"/> 
+	<ImageView 
+		android:id="@+id/ImageView03" 
+		android:src="@drawable/button_3"
+		android:layout_gravity="center" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_weight="10" 
+		android:clickable="true" 
+		android:focusable="true"/> 
+	<ImageView 
+		android:id="@+id/ImageView04" 
+		android:src="@drawable/button_4"
+		android:layout_gravity="center" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_weight="10" 
+		android:clickable="true" 
+		android:focusable="true"/> 
+	<ImageView 
+		android:id="@+id/ImageView05" 
+		android:src="@drawable/button_5"
+		android:layout_gravity="center" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_weight="10" 
+		android:clickable="true" 
+		android:focusable="true"/> 
+	<ImageView 
+		android:id="@+id/ImageView06" 
+		android:src="@drawable/button_6"
+		android:layout_gravity="center" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_weight="10" 
+		android:clickable="true" 
+		android:focusable="true"/> 
+	<ImageView 
+		android:layout_gravity="center" 
+		android:layout_height="wrap_content" 
+		android:layout_width="wrap_content" 
+		android:layout_weight="20" 
+		android:src="@drawable/title02" android:layout_marginTop="10dip"/>
+	<TextView 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" 
+		android:layout_weight="20"/>
+</LinearLayout>

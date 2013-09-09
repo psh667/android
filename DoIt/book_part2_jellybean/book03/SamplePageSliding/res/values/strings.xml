@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">페이지 슬라이딩</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">페이지 슬라이딩</string>
+
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">선택된 메뉴 항목을 보여주는 스크래치 패드</string>
+    <string name="app_name">SampleMenuApp</string>
+</resources>

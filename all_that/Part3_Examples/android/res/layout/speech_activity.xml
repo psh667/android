@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/text2speech"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClickText2Speech"
+        android:text="텍스트를 음성으로" />
+
+    <Button
+        android:id="@+id/speech2text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClickSpeech2Text"
+        android:text="음성을 텍스트로" />
+
+</LinearLayout>

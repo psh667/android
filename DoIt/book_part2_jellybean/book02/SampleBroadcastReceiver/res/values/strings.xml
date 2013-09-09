@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">SampleBroadcastReceiver</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">브로드캐스트 수신자</string>
+
+</resources>

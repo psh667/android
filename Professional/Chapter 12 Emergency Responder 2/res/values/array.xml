@@ -1,0 +1,20 @@
+<resources>
+    <string-array name="respondForDisplayItems">
+        <item>- 사용 안함 -</item>
+        <item>5분 뒤</item>
+        <item>15분 뒤</item>
+        <item>30분 뒤</item>
+        <item>1시간 뒤</item>
+        <item>2시간 뒤</item>
+        <item>8시간 뒤</item>
+    </string-array>
+    <array name="respondForValues">
+        <item>0</item>
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>480</item>
+    </array>
+</resources>

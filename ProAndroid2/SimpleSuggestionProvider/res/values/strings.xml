@@ -1,0 +1,25 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<resources>
+	<string name="main_activity_text">
+	이것은 간단한 액티비티입니다. 검색 키를 클릭해서 로컬 검색을 호출하세요.
+	\n\n
+	제시항목 프로바이더는 전역 검색에도 참여할 
+	것입니다. 이 애플리케이션에 전역 검색을 통해 올 경우엔
+	이뷰는 보이지 않고 곧장 searchactivity 
+	뷰로 갑니다.
+	
+	</string>
+	
+	<string name="search_activity_text">
+	이 액티비티를 보고 있다면 전역 검색이나
+	로컬 검색을 통해 오신 것일 겁니다.
+	
+	\n\n
+	이 액티비티는 입력즉시검색도 가용화합니다. 또한 이 
+	액티비티는 싱글톱과 새 인텐트 개념도 예시합니다.
+	</string>
+	
+	<string name="app_name">간단한 제시항목 프로바이더</string>
+	<string name="search_label">로컬 검색 데모</string>
+	<string name="search_hint">로컬 검색 힌트</string>
+</resources>

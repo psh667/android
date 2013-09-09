@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">SampleDialog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">대화상자 띄우기</string>
+
+</resources>

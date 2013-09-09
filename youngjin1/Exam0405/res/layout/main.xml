@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Exam0405"
+    />
+<ImageView
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:src="@drawable/image01"
+	/>
+<Button
+	android:id="@+id/sound"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="MP3 파일 플레이"
+	/>
+<Button
+	android:id="@+id/config"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="환경설정 실행"
+	/>
+</LinearLayout>

@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:paddingLeft="30dp"
+		android:paddingRight="30dp"
+		android:layout_gravity="center_horizontal"
+        android:text="요청 1단계"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/button02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:paddingLeft="30dp"
+		android:paddingRight="30dp"
+		android:layout_gravity="center_horizontal"
+        android:text="요청 2단계"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+        
+    <Button
+        android:id="@+id/button03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:paddingLeft="30dp"
+		android:paddingRight="30dp"
+		android:layout_gravity="center_horizontal"
+        android:text="요청 3단계"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+            
+    <Button
+        android:id="@+id/button04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:paddingLeft="30dp"
+		android:paddingRight="30dp"
+		android:layout_gravity="center_horizontal"
+        android:text="요청 4단계"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+                
+    <Button
+        android:id="@+id/button05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:paddingLeft="30dp"
+		android:paddingRight="30dp"
+		android:layout_gravity="center_horizontal"
+        android:text="요청 5단계"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+                    
+    <Button
+        android:id="@+id/button06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:paddingLeft="30dp"
+		android:paddingRight="30dp"
+		android:layout_gravity="center_horizontal"
+        android:text="요청 6단계"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

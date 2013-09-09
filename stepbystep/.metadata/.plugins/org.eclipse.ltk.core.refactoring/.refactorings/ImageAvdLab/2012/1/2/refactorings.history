@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;drawable-ldpi&apos;&#x0D;&#x0A;- Original project: &apos;ImageAvdLab&apos;&#x0D;&#x0A;- Destination element: &apos;drawable-ldpi&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     img1.jpg&#x0D;&#x0A;     img2.jpg&#x0D;&#x0A;     img3.jpg" description="Copy files" element1="res/drawable-ldpi/img1.jpg" element2="res/drawable-ldpi/img2.jpg" element3="res/drawable-ldpi/img3.jpg" files="3" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1326017355762" target="/ImageAdvLab/res/drawable-ldpi" units="0" version="1.0"/>
+</session>

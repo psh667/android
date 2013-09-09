@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/about_background"
+    >
+    
+    <LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical"
+	    >
+	    <TextView 
+	    	android:id="@+id/msgText"  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content"
+		    android:width="160dp"
+		    android:height="100dp"
+		    android:layout_marginTop="20dp"
+		    android:layout_gravity="center_horizontal"
+		    android:gravity="center_horizontal"
+		    android:textSize="14dp"
+		    android:textStyle="bold"
+		    android:textColor="#ff000000"
+		    android:text="식당 찾기 도우미 v.1.0\nAuthor : Mike\n\n이 프로그램은 메뉴와 About 대화상자를 보여줍니다."
+		    />
+		<org.androidtown.tutorial.ui.BitmapButton 
+			android:id="@+id/confirmBtn"  
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:layout_margin="20dp"
+		    android:layout_gravity="center_horizontal"
+		    />
+	</LinearLayout>   
+	     
+</LinearLayout>

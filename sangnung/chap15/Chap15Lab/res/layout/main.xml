@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/myInputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:hint="여기에 문자열을 입력하세요"
+        android:minLines="5" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="외부 공간에 저장" />
+
+    <Button
+        android:id="@+id/get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="외부 공간에서 불러오기" />
+
+</LinearLayout>

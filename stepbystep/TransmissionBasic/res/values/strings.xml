@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">고객등록</string>
+
+    <!-- 폼 구성요소에 사용되는 라벨  -->
+    <string name="name">성명</string>
+    <string name="sex">성별</string>
+    <string name="receive">수신여부</string>
+    
+    <!-- 고객정보 액티비티 구성 리소스  -->
+    <string name="act_name_receive">고객정보</string>
+    <string name="title_receive">입력하신 정보는 다음과 같습니다.</string>
+    
+</resources>

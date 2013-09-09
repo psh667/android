@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, 뷰 애니메이션!</string>
+    <string name="app_name">뷰 애니메이션 테스트 액티비티</string>
+</resources>

@@ -1,0 +1,8 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+	android:minWidth="110dip"
+	android:minHeight="40dip"
+	android:updatePeriodMillis="1800000"
+	android:initialLayout="@layout/fakenews"
+	android:configure="andexam.ver4_1.c37_appwidget.FakeNewsConfig"
+	>
+</appwidget-provider>

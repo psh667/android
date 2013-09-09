@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="프래그먼트의 상태를 저장합니다." />
+<fragment
+	android:name="andexam.ver4_1.c20_fragment.SaveFragmentState$CounterFragment"
+	android:id="@+id/counterfragment"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	/>
+</LinearLayout>

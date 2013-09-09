@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:custom="http://schemas.android.com/apk/res/andexam.ver4_1"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<andexam.ver4_1.c14_cuswidget.SoundEditWidget2  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	/>
+<andexam.ver4_1.c14_cuswidget.SoundEditWidget2  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	custom:sound="2"
+	/>
+<andexam.ver4_1.c14_cuswidget.SoundEditWidget2  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	custom:sound="2"
+	custom:speed="0.5"
+	custom:volume="0.5" 
+	/>
+</LinearLayout>

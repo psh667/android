@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Over the course of 5 seconds, move 150 up and then 100 back down the Y axis. -->
+<set  
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shareInterpolator="false">    
+    <translate android:toYDelta="-100"
+               android:fillAfter="true"
+               android:duration="2500" />
+    <translate android:toYDelta="150"
+               android:fillAfter="true"
+               android:duration="2500"
+               android:startOffset="2500" />
+</set>

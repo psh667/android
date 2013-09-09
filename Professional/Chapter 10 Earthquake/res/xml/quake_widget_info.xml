@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialLayout="@layout/quake_widget"
+    android:minWidth="146dp"
+    android:minHeight="74dp"
+    android:label="최신 지진 정보"
+    android:updatePeriodMillis="5000"
+/>

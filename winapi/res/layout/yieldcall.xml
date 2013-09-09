@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="16sp"
+	android:text="전화가 오면 음악 재생을 잠시 중지하며 통화가 종료되면 재생을 계속합니다."
+	/>	
+<Button
+	android:id="@+id/btnplay" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="파일 재생 시작"
+	/>
+<TextView
+	android:id="@+id/txtcall" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="16sp"
+	android:text="전화 대기중"
+	/>	
+</LinearLayout>

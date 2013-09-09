@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="app_name">CH_22_android</string>
+    <string name="message">C2DM전송 액티비티가 시작되었습니다.  써드 파티 서버에 접근하여 메시지를 전송 해 주세요. </string>
+
+</resources>

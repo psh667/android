@@ -1,0 +1,69 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"  android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<!-- 텍스트 컨트롤 1 예제 액티비티 호출 버튼 -->
+	<Button android:id="@+id/ccbtn_texts1"
+			android:text="텍스트 컨트롤 1 액티비티"
+			android:typeface="serif" android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+	<!-- 텍스트 컨트롤 2 예제 액티비티 호출 버튼 -->
+	<Button android:id="@+id/ccbtn_texts2"
+			android:text="텍스트 컨트롤 2 액티비티"
+			android:typeface="serif" android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+	<!-- 버튼 컨트롤 예제 액티비티 호출 버튼 -->
+	<Button android:id="@+id/ccbtn_btns"
+			android:text="버튼 컨트롤 액티비티"
+			android:typeface="serif" android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+	<!-- 리스트뷰 컨트롤 예제 액티비티 호출 버튼 -->
+	<Button android:id="@+id/ccbtn_listview"
+			android:text="리스트뷰 컨트롤 액티비티"
+			android:typeface="serif" android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+	<!-- 그리드뷰 컨트롤 예제 액티비티 호출 버튼 -->
+	<Button android:id="@+id/ccbtn_gridview"
+			android:text="그리드뷰 컨트롤 액티비티"
+			android:typeface="serif" android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+	<!-- 날짜/시간 컨트롤 예제 액티비티 호출 버튼 -->
+	<Button android:id="@+id/ccbtn_datetime"
+			android:text="날짜/시간 컨트롤 액티비티"
+			android:typeface="serif" android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+	<!-- 웨이트 / 그래버티 예제 액티비티 호출 버튼 -->
+	<Button android:id="@+id/ccbtn_wtgt1"
+			android:text="웨이트/그래버티 컨트롤 액티비티"
+			android:typeface="serif" android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+	<!-- 테이블 레이아웃 예제 액티비티 호출 버튼 -->
+	<Button android:id="@+id/ccbtn_tbLO1"
+			android:text="테이블 레이아웃 액티비티"
+			android:typeface="serif" android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+	<!-- 상대 레이아웃 예제 액티비티 호출 버튼 -->
+	<Button android:id="@+id/ccbtn_relLO"
+			android:text="상대 레이아웃 액티비티"
+			android:typeface="serif" android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>

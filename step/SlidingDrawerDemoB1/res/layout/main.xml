@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <SlidingDrawer
+        android:id="@+id/slidingdrawer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"        
+        android:orientation="vertical"
+        android:handle="@+id/handle"
+        android:content="@+id/content">        
+        <Button
+            android:id="@+id/handle"
+            android:text="*"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp" />
+        <LinearLayout
+            android:id="@+id/content"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#000000">
+            <TextView
+            android:text="이것은 슬라이딩드로어 입니다."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        </LinearLayout>
+    </SlidingDrawer>
+</LinearLayout>

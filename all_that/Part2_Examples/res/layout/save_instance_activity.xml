@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="8dip" >
+
+    <TextView
+        android:id="@+id/ch10_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="8dip"
+        android:text="@string/on_save_instance_title"
+        android:textColor="#A8DFF4"
+        android:textSize="44dp" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/input_hint" >
+    </EditText>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dip" >
+
+        <TextView
+            android:id="@+id/saved_instance_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_label"
+            android:textColor="#A8DFF4"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/saved_instance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/saved_instance_title"
+            android:textColor="#A8DFF4"
+            android:textSize="24dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/saved_instance" >
+
+            <TextView
+                android:id="@+id/status_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#FFFFFF"
+                android:padding="4dip"
+                android:textColor="#000000"
+                android:typeface="monospace" />
+        </ScrollView>
+    </RelativeLayout>
+
+</LinearLayout>

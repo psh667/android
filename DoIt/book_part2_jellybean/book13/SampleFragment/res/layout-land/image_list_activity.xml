@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <fragment
+        android:name="org.androidtown.ui.fragment.SampleListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/image_list_fragment"
+        android:layout_weight="25">
+    </fragment>
+    <fragment
+        android:name="org.androidtown.ui.fragment.SampleViewerFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/image_viewer_fragment"
+        android:layout_weight="75">
+    </fragment>
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+            
+<Button
+    android:id="@+id/call"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="전화 걸기"
+    />
+<Button
+    android:id="@+id/web_search"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="구글 검색"
+    />
+<Button
+    android:id="@+id/map1"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="구글 맵(서울 검색)"
+    />
+<Button
+    android:id="@+id/map2"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="구글 맵(위도, 경도)"
+    />
+<Button
+    android:id="@+id/map3"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="구글 맵(위도, 경도 + 축소)"
+    />        
+<Button
+    android:id="@+id/content"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="주소록"
+    />
+<Button
+    android:id="@+id/audio1"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="오디오 실행"
+    />
+<Button
+    android:id="@+id/audio2"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="오디오 실행(SD카드 MP3, 마임타입)"
+    />
+    
+<Button
+    android:id="@+id/video"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="비디오 실행"
+    />
+<Button
+    android:id="@+id/browser"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="브라우저 실행"
+    />
+<Button
+    android:id="@+id/email1"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="이메일 보내기"
+    />
+<Button
+    android:id="@+id/email2"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="이메일 보내기(여러명의 수신자와 참조 참조)"
+    />
+<Button
+    android:id="@+id/email3"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="이메일 보내기(첨부)"
+    />
+<Button
+    android:id="@+id/sms"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="SMS 보내기"
+    />
+<Button
+    android:id="@+id/image1"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="이미지 보기(내부 파일)"
+    />  
+<Button
+    android:id="@+id/image2"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="이미지 보기(SD카드 파일)"
+    />
+</LinearLayout>    
+</ScrollView>
+
+

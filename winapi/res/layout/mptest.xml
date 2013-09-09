@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<Button
+	android:id="@+id/btn1" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="리소스 재생"
+	/>
+<Button
+	android:id="@+id/btn2" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="파일 재생"
+	/>
+<Button
+	android:id="@+id/btn3" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="스트림 재생"
+	/>
+<Button
+	android:id="@+id/btn4" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="객체로 선언 후 재생"
+	/>
+<Button
+	android:id="@+id/btn5" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="준비 안된 상태에서 재생"
+	/>
+<Button
+	android:id="@+id/btn6" 
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="다른 파일 열기"
+	/>
+</LinearLayout>

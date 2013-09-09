@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">정물사진</string>
+
+    <!-- 이미지그룹 1 -->    
+    <string name="title1">컵</string>
+    <string name="desc1">책상 위의 컵과 노트</string>
+    
+    <!-- 이미지그룹 2 -->    
+    <string name="title2">과일</string>
+    <string name="desc2">쟁반 위의 탐스런 과일 </string>
+    
+</resources>

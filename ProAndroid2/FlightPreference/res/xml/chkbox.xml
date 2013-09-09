@@ -1,0 +1,42 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:key="using_categories_in_root_screen"
+android:title="카테고리" 
+android:summary="환경설정 카테고리 사용">
+
+<PreferenceCategory xmlns:android="http://schemas.android.com/apk/res/android"
+android:key="meats_category"
+android:title="육류"
+android:summary="육류 관련 환경설정">
+
+<CheckBoxPreference android:key="fish_selection_pref" 
+android:title="생선"
+android:summary="생선은 건강에 좋다" />
+<CheckBoxPreference
+android:key="chicken_selection_pref"
+android:title="가금"
+android:summary="일반 가금류" />
+<CheckBoxPreference
+android:key="lamb_selection_pref" 
+android:title="램"
+android:summary="램은 어린 양이다"   />
+
+</PreferenceCategory>
+<PreferenceCategory
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:key="vegi_category"
+android:title="채소류" 
+android:summary="채소 관련 환경설정">
+<CheckBoxPreference
+android:key="tomato_selection_pref"
+android:title="토마토" 
+android:summary="이건 사실상 과일이다"  />
+<CheckBoxPreference 
+android:key="potato_selection_pref"
+android:title="감자"
+android:summary="내가 즐겨먹는 채소" />
+
+</PreferenceCategory>
+
+</PreferenceScreen>

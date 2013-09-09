@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<ImageView  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:src="@drawable/korandoc"
+	/>
+<ImageView  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:src="@drawable/korandoc"
+	android:maxHeight="100px"
+	android:maxWidth="200px"
+	android:adjustViewBounds="true"
+	/>
+<ImageView  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:src="@drawable/dog"
+	android:tint="#80ff0000"
+	/>
+</LinearLayout>

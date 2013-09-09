@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <EditText  
+        android:id="@+id/id"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:hint="아이디를 입력하세요"
+        />  
+    <EditText  
+        android:id="@+id/pw"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:hint="패스워드를 입력하세요"
+        />
+    <Button  
+        android:id="@+id/view"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:text="트윗(Tweet)"
+        />
+    <EditText  
+        android:id="@+id/message"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:hint="메시지를 입력하세요"
+        />            
+</LinearLayout>

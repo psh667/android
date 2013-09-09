@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">here is reslut!</string>
+<string name="app_name">Explicit Intent</string>
+<string name="START_ACTIVITY_FOR_RESULT">Activity with result</string>
+<string name="finish_label">End</string>
+<string name="launced_activity_label">LauncedActivity</string>
+<string name="START_ACTIVITY">Simple call</string>
+</resources>

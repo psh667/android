@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">고객관리</string>
+    
+    <!-- 고객등록 액티비티 라벨  -->
+    <string name="act_join_form">고객등록</string>
+    
+    <!-- 폼 구성요소에 사용되는 라벨  -->
+    <string name="name">성명</string>
+    <string name="sex">성별</string>
+    <string name="receive">수신여부</string>
+    
+</resources>

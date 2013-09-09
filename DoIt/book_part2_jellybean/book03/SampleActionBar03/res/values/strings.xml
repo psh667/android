@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">SampleActionBar03</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="menu_refresh">새로고침</string>
+    <string name="menu_search">검색</string>
+    <string name="menu_settings">설정</string>
+    
+    <string name="title_activity_main">액션바에 탭 넣기</string>
+
+</resources>

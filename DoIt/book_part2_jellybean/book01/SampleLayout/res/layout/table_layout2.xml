@@ -1,0 +1,37 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ff3366cc"
+    >
+
+	<TableRow>
+		<TextView 
+			android:text="Name : " 
+		/>
+		<EditText 
+			android:id="@+id/editName" 
+			android:layout_span="3" 
+			/>
+	</TableRow>
+	<View 
+		android:layout_height="4dp" 
+		android:background="#0000FF" 
+		/>
+	<TableRow>
+		<Button 
+			android:id="@+id/cancel" 
+			android:layout_column="2"
+			android:text="아니오" 
+			/>
+		<Button 
+			android:id="@+id/ok" 
+			android:text="예" 
+			/>
+	</TableRow>
+	<View 
+		android:layout_height="4dp" 
+		android:background="#0000FF" 
+		/>
+	
+</TableLayout>

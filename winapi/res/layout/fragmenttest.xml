@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="아래 영역은 프래그먼트로 생성되었습니다." />
+<fragment
+	android:name="andexam.ver4_1.c20_fragment.FragmentTest$CounterFragment"
+	android:id="@+id/counterfragment"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	/>
+</LinearLayout>

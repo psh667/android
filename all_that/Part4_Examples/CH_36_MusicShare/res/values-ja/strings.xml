@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guide">
+音楽を共有すると、使いやすい2つの別々のデバイス間の任意の音楽ファイルを共有するためのアプリケーションです。あなたは数秒のための別のものには、デバイスの背面に接続するときにアンドロイドビーム操作になります。次に、単語の共有を見ると、小さくなり、画面をタッチしてください。これは、Bluetoothを介して接続された2つのデバイスになります。 2つのデバイスが接続された後、あなたは、あなたが送信するすべての音楽を選択し、それをクリックし、[共有の音楽のためのボタンを押す必要があります。今、音楽は他のデバイスに送信されます。
+不安定なBluetooth接続の音楽伝送が共有する音楽作業を完了する前に、すべての突然の停止することができることを覚えておいてください。
+	</string>
+    <string name="app_name">音楽を共有する</string>
+    <string name="NFC_NOT_CONNECTED">NFC接続されていません</string>
+    <string name="title_connected_to">接続された</string>
+    <string name="title_connecting">接続...</string>
+    <string name="title_not_connected">デバイスが接続されていません</string>
+    <string name="not_connected">あなたは、デバイスを接続することはできません</string>
+    <string name="send_button">音楽を共有する</string>
+	<string name="stop_button">共有を停止</string>
+	<string name="menu_settings">アンドロイドビームの</string>
+	<string name="menu_reset">リセット</string>
+	<string name="file_chooser">ファイルを選択します。</string>
+	<string name="alread_receive">受信既にあなたは音楽...</string>
+	<string name="connect_to">に接続</string>
+	<string name="sent_macaddress">bluetoothを接続するためのMACアドレスを送信</string> 
+	<string name="plz_select_file">あなたは音楽を送信するためのファイルを選択する必要があります</string> 
+	<string name="bluetooth_not_available">Bluetoothは使用できません。</string>
+	<string name="start_actionbar">デバイスを接続してください..</string>
+	<string name="already_music_playing">すでに音楽を再生...</string>
+	<string name="music_playing">今音楽を再生...</string>
+	<string name="music_stoped">音楽が停止...</string>  
+</resources>

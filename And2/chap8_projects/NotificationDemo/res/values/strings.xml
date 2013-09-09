@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+<string name="app_name">Hello Notification</string>
+<string name="when">when(yy/MM/dd HH:mm)</string>
+<string name="tickerText">tickerText</string>
+<string name="number">number</string>
+<string name="contentTitle">contentTitle</string>
+<string name="contentText">contentText</string>
+<string name="notify">notify</string>
+<string name="cancel">cancel</string>
+</resources>

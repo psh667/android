@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>/Users/shpark/Documents/Android Source bank/all_that/.DS_Store
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="libs/gson-2.1.jar"/>
+	<classpathentry kind="lib" path="libs/user_client.jar"/>
+	<classpathentry kind="lib" path="libs/httpclient-4.1.3.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

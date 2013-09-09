@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    style="@style/WidgetBackground">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/star_logo" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dip"
+        android:layout_marginBottom="1dip"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:ellipsize="end"
+        style="@style/Text.WordTitle" />
+   <TextView
+        android:id="@+id/type"
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/title"
+        android:layout_toLeftOf="@id/icon"
+        android:layout_alignBaseline="@id/title"
+        android:paddingLeft="4dip"
+        android:includeFontPadding="false"
+        android:singleLine="true"
+        android:ellipsize="end"
+        style="@style/Text.WordType" />
+    <TextView
+        android:id="@+id/saying"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:paddingRight="5dip"
+        android:paddingBottom="4dip"
+        android:includeFontPadding="false"
+        android:lineSpacingMultiplier="0.9"
+        android:maxLines="4"
+        android:fadingEdge="vertical"
+        style="@style/Text.Definition" />
+
+</RelativeLayout>

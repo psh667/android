@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#808080"
+	>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+<Button
+	android:id="@+id/btntrans1"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:textSize="12sp"
+	android:text="0~200이동"
+	/>
+<Button
+	android:id="@+id/btntrans2"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:textSize="12sp"
+	android:text="자기폭만큼"
+	/>
+<Button
+	android:id="@+id/btntrans3"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:textSize="12sp"
+	android:text="부모폭만큼"
+	/>
+</LinearLayout>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+<Button
+	android:id="@+id/btnrotate1"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:textSize="12sp"
+	android:text="좌상단 기준"
+	/>
+<Button
+	android:id="@+id/btnrotate2"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:textSize="12sp"
+	android:text="중심 기준"
+	/>
+<Button
+	android:id="@+id/btnrotate3"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:textSize="12sp"
+	android:text="부모 우하단 기준"
+	/>
+</LinearLayout>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+<Button
+	android:id="@+id/btnscale1"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:textSize="12sp"
+	android:text="좌상단 확대"
+	/>
+<Button
+	android:id="@+id/btnscale2"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:textSize="12sp"
+	android:text="중심 확대"
+	/>
+<Button
+	android:id="@+id/btnscale3"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:textSize="12sp"
+	android:text="중심 축소"
+	/>
+</LinearLayout>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+<Button
+	android:id="@+id/btnalpha1"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:textSize="12sp"
+	android:text="점점 밝게"
+	/>
+<Button
+	android:id="@+id/btnalpha2"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:textSize="12sp"
+	android:text="점점 흐리게"
+	/>
+</LinearLayout>
+<ImageView
+	android:id="@+id/animtarget"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:src="@drawable/mugung"
+	/>
+</LinearLayout>

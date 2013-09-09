@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dip" >
+	<TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Atendees Table"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+	<LinearLayout
+	    android:id="@+id/input_eventid"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:layout_below="@+id/textViewTitle" >
+	    <EditText
+	       android:id="@+id/et_eventid"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_weight="3"
+	       android:hint="숫자로된 이벤트 아이디를 입력하세요."
+	       android:inputType="number"
+	       android:ems="10" />
+	    <Button
+	       android:id="@+id/btn_eventid"
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_weight="1"
+	       android:onClick="attendee_onClick"
+	       android:text="조회" />
+	</LinearLayout>
+    <LinearLayout android:id="@+id/ll_attendee"
+        android:layout_below="@+id/input_eventid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal">
+        <TextView
+	        android:layout_below="@+id/textViewTitle"
+	        android:id="@+id/et_textView"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:text="참석자명" />
+	    <EditText
+	        android:id="@+id/et_event_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="3"
+	        android:ems="10" >
+	        <requestFocus />
+	    </EditText>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/ll_btn"
+        android:layout_below="@+id/ll_attendee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal">
+		<Button
+	        android:id="@+id/btn_do"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:onClick="attendee_onClick"
+	        android:text="insert/update" />
+	    <Button
+	        android:id="@+id/btn_del"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:onClick="attendee_onClick"
+	        android:text="delete" />	    
+	</LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/list_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ll_btn"
+        android:layout_marginTop="20dip"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/list_tv_title"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dip"
+            android:text="참석자명"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/list_tv_id"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="참석자아이디"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_header" >
+    </ListView>
+
+</RelativeLayout>

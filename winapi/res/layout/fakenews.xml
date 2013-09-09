@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainlayout"  
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FFFF00"
+	android:padding="@dimen/widget_margin" 
+	>
+<TextView
+	android:id="@+id/news"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:textSize="10sp"
+	/>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_alignParentBottom="true"
+	android:layout_alignParentRight="true" 
+	>
+<Button
+	android:id="@+id/btnchange"
+	style="?android:attr/buttonStyleSmall"  
+	android:layout_width="0px" 
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:textSize="10sp"
+	android:text="최신뉴스"
+	/>
+<Button
+	android:id="@+id/btnconfig"
+	style="?android:attr/buttonStyleSmall"  
+	android:layout_width="0px" 
+	android:layout_height="wrap_content"
+	android:layout_weight="1"
+	android:textSize="10sp"
+	android:text="설정"
+	/>
+</LinearLayout>	
+</RelativeLayout>

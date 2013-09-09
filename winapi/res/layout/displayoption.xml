@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+<CheckBox
+	android:id="@+id/chkuselogo"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="USE LOGO" />
+<CheckBox
+	android:id="@+id/chkshowhome"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="SHOW HOME" />
+<CheckBox
+	android:id="@+id/chkhomeasup"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="HOME AS UP" />
+<CheckBox
+	android:id="@+id/chkshowtitle"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="SHOW TITLE" />
+<CheckBox
+	android:id="@+id/chkshowcustom"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="SHOW CUSTOM" />
+</LinearLayout>

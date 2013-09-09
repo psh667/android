@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- XML Name space, 패키지명, 버전코드, 버전명  -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- 어플리케이션이 실행되는 SDK 최소 버전 -->
+    <uses-sdk android:minSdkVersion="15" />
+
+    <!-- 어플리케이션 아이콘과 라벨  -->  
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        
+        <!-- 액티비티 이름과 라벨  -->
+        <activity
+            android:name=".TextBasicActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <!-- 어플리케이션 실행 시, 최조 실행되는 액티비티를 의미함  -->
+                <action android:name="android.intent.action.MAIN" />
+
+                <!-- 메인메뉴에 나타나는 아이콘  클릭 시 실행되는 액티비티임을 의미함  -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>

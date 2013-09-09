@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+	    android:orientation="vertical"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    >
+	    <TextView 
+	    	android:id="@+id/textView01"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="Target #1"
+		    android:textSize="16dp"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginBottom="20dp"
+		    />
+		<TextView  
+			android:id="@+id/textView02"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="Target #2"
+		    android:textSize="16dp"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginBottom="20dp"
+		    />  
+	</LinearLayout>  
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    >
+		<Button  
+			android:id="@+id/startBtn"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="시작"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginBottom="20dp"
+		    />
+		<Button  
+			android:id="@+id/stopBtn"
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="중지"
+		    android:layout_marginLeft="20dp"
+		    android:layout_marginTop="20dp"
+		    android:layout_marginBottom="20dp"
+		    />    
+	</LinearLayout>
+
+</LinearLayout>

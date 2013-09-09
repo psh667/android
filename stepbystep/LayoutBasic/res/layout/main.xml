@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 화면 전체의 수직 배치: 시작 --> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <!-- 3명의 고객정보에 대한 수직배치: 시작 -->    
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+        <!-- 고객정보 1 -->
+        <TextView  
+            android:text="@string/customer1"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1" />
+        <!-- 고객정보 2 -->
+        <TextView  
+            android:text="@string/customer2"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1" />
+        <!-- 고객정보 3 -->
+        <TextView  
+            android:text="@string/customer3"
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_weight="1" />
+    </LinearLayout>
+    <!-- 3명의 고객정보에 대한 수직배치: 끝 -->    
+
+    <!-- 3가지 색에 대한 수평배치: 시작 -->    
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+        <!-- 색 1 -->
+        <TextView  
+            android:text="@string/color1"
+            android:gravity="center_horizontal"
+            android:background="#ff0000"
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent" 
+            android:layout_weight="1" />
+        <!-- 색 2 -->
+        <TextView  
+            android:text="@string/color2"
+            android:gravity="center_horizontal"
+            android:background="#00ff00"
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent" 
+            android:layout_weight="3" />
+        <!-- 색 3 -->
+        <TextView  
+            android:text="@string/color3"
+            android:gravity="center_horizontal"
+            android:background="#0000ff"
+            android:layout_width="wrap_content" 
+            android:layout_height="fill_parent" 
+            android:layout_weight="3" />
+    </LinearLayout>
+    <!-- 3가지 색에 대한 수평배치: 끝 -->    
+
+</LinearLayout>
+<!-- 화면 전체의 수직 배치: 끝 --> 

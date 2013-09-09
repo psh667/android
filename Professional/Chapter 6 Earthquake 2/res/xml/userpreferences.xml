@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="PREF_AUTO_UPDATE"
+        android:title="자동 업데이트"
+        android:summary="자동 업데이트 기능을 켬"
+        android:defaultValue="true"
+    />
+    <ListPreference
+        android:key="PREF_UPDATE_FREQ"
+        android:title="업데이트 빈도"
+        android:summary="지진 정보 리스트의 업데이트 빈도"
+        android:entries="@array/update_freq_options"
+        android:entryValues="@array/update_freq_values"
+        android:dialogTitle="업데이트 빈도"
+        android:defaultValue="60"
+    />
+    <ListPreference
+        android:key="PREF_MIN_MAG"
+        android:title="최소 진도"
+        android:summary="리포트 받을 지진 정보의 최소 진도 선택"
+        android:entries="@array/magnitude_options"
+        android:entryValues="@array/magnitude_values"
+        android:dialogTitle="진도"
+        android:defaultValue="3"
+    />
+</PreferenceScreen>

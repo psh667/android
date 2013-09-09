@@ -1,0 +1,7 @@
+<wallpaper xmlns:android="http://schemas.android.com/apk/res/android"
+	android:author="@string/author"
+	android:description="@string/childrenwalldescription"
+	android:thumbnail="@drawable/childrenwall"
+	android:settingsActivity="andexam.ver4_1.c30_service.ChildrenWallSetting"
+	>
+</wallpaper>

@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item
+		android:id="@+id/add" 
+		android:title="add"
+		android:icon="@android:drawable/ic_menu_add" 
+		android:showAsAction="always|withText"
+		/>
+	<item
+		android:id="@+id/edit" 
+		android:title="edit"
+		android:icon="@android:drawable/ic_menu_edit" 
+		android:showAsAction="always|withText"
+		/>
+	<item
+		android:id="@+id/search" 
+		android:title="search"
+		android:icon="@android:drawable/ic_menu_search" 
+		android:showAsAction="always|withText"
+		/>
+</menu>

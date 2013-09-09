@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/counter"
+	android:title="Counter"
+	android:showAsAction="always"
+	android:actionProviderClass=
+		"andexam.ver4_1.c21_actionbar.ActionProviderTest$CounterProvider"
+	/>
+<item android:id="@+id/countermenu"
+	android:title="Counter"
+	android:showAsAction="never"
+	android:actionProviderClass=
+		"andexam.ver4_1.c21_actionbar.ActionProviderTest$CounterProvider"
+	/>
+</menu>

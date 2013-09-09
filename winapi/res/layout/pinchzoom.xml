@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textSize="18sp"
+	android:text="두 손가락을 벌리거나 오므리세요"
+	/>
+<TextView
+	android:id="@+id/ratio"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:gravity="center" 
+	android:textSize="80sp"
+	android:text=""
+	/>
+</LinearLayout>

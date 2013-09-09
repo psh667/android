@@ -1,0 +1,5 @@
+<wallpaper xmlns:android="http://schemas.android.com/apk/res/android"
+	android:author="@string/author"
+	android:description="@string/ballwalldescription"
+	>
+</wallpaper>

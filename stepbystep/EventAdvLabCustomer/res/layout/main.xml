@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 성명 입력을 위한 폼 구성요소: 시작 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <!-- 성명 라벨 -->
+        <TextView  
+            android:layout_width="60sp" 
+            android:layout_height="wrap_content" 
+    		android:text="@string/name" />
+		<!-- 성명 입력을 위한 EditText -->    
+		<EditText 
+		    android:id="@+id/edit_name"        
+    		android:layout_width="fill_parent"        
+    		android:layout_height="wrap_content" />
+	</LinearLayout>    
+    <!-- 성명 입력을 위한 폼 구성요소: 끝 -->
+  
+    <!-- 성별 구분을 위한 폼 구성요소: 시작 -->
+	<LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+    	<!-- 성별 라벨 -->
+		<TextView  
+    		android:layout_width="60sp" 
+    		android:layout_height="wrap_content" 
+    		android:text="@string/sex" />
+		<!-- 성별 구분을 위한 RadioGroup -->    
+		<RadioGroup 
+        	android:id="@+id/radiogroup_sex"
+		    android:layout_width="fill_parent"      
+    		android:layout_height="wrap_content"      
+    		android:orientation="horizontal" >      
+			<!-- 성별: 남 -->    
+        	<RadioButton 
+        	    android:id="@+id/radio_male"          
+            	android:layout_width="wrap_content"          
+            	android:layout_height="wrap_content"          
+            	android:text="남" />      
+            <!-- 성별: 여 -->    
+        	<RadioButton android:id="@+id/radio_female"          
+            	android:layout_width="wrap_content"          
+            	android:layout_height="wrap_content"          
+            	android:text="여" />    
+		</RadioGroup>   
+	</LinearLayout>    
+    <!-- 성별 구분을 위한 폼 구성요소: 끝 -->
+
+    <!-- 수신여부 확인을 위한  폼 구성요소: 시작 -->
+	<LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+    	<!-- 수신여부 라벨 -->
+		<TextView  
+    		android:layout_width="60sp" 
+    		android:layout_height="wrap_content" 
+    		android:text="@string/receive" />
+    	<!-- SMS 확인 -->
+		<CheckBox android:id="@+id/checkbox_sms"        
+    		android:layout_width="wrap_content"        
+    		android:layout_height="wrap_content"        
+    		android:text="SMS" /> 
+	</LinearLayout>   
+    <!-- 수신여부 확인을 위한  폼 구성요소: 끝 -->
+
+	<!-- 관심분야 선택을 위한 스피너 구성요소: 시작  -->
+	<LinearLayout
+        android:orientation="horizontal"
+        android:gravity="right" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <!-- 관심분야 라벨  -->
+		<TextView  
+            android:layout_width="60sp" 
+            android:layout_height="wrap_content" 
+            android:text="@string/interest" />
+        <!-- 관심분야 스피너  -->
+		<Spinner         
+    		android:id="@+id/spinner_interest"        
+    		android:layout_width="fill_parent"        
+    		android:layout_height="wrap_content" />
+	</LinearLayout>   
+	<!-- 관심분야 선택을 위한 스피너 구성요소: 끝  -->
+
+    <!-- 생일 입력을 위한 폼 구성요소: 시작 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <!-- 생일 라벨 -->
+        <TextView  
+            android:layout_width="60sp" 
+            android:layout_height="wrap_content" 
+            android:text="@string/birthday" />
+        <!-- 생일 입력을 위한 EditText -->
+		<EditText android:id="@+id/edit_birthday"
+            android:layout_width="wrap_content"        
+            android:layout_height="wrap_content" />
+    </LinearLayout>    
+	<!-- 생일 입력을 위한 폼 구성요소: 끝 -->
+    <!-- 전송버튼을 위한  폼 구성요소: 시작 -->
+	<LinearLayout
+    	android:orientation="horizontal"
+    	android:gravity="right" 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+        <!-- 전송버튼 -->	    
+		<Button android:id="@+id/button_send"        
+    		android:layout_width="wrap_content"        
+    		android:layout_height="wrap_content" 
+    		android:text="전송" />         
+	</LinearLayout>  
+    <!-- 전송버튼을 위한  폼 구성요소: 끝 -->
+    
+</LinearLayout>

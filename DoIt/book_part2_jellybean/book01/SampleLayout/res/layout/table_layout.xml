@@ -1,0 +1,31 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:stretchColumns="1"
+    >
+	
+	<TableRow>
+		<TextView 
+			android:text="Name : "
+			android:textSize="24dp"
+			android:padding="10dp" />
+		<TextView 
+			android:text="박찬기"
+			android:textSize="24dp"
+			android:gravity="left"
+			android:padding="10dp" />
+	</TableRow>
+	<TableRow>
+		<TextView 
+			android:text="Age : "
+			android:textSize="24dp"
+			android:padding="10dp" />
+		<TextView 
+			android:text="26"
+			android:textSize="24dp"
+			android:gravity="left"
+			android:padding="10dp" />
+	</TableRow>
+
+</TableLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, CustomDialogDemoA1!</string>
+    <string name="app_name">CustomDialogDemoA1</string>
+</resources>

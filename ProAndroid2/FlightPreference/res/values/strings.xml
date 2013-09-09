@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 이 파일은 /res/values/strings.xml이다. -->
+<resources>
+	<string name="app_name">환경설정 데모</string>
+	<string name="prefTitle">내 설정</string>
+	<string name="prefSummary">항공편 옵션 환경설정 지정</string>
+	<string name="flight_sort_option_default_value">1</string>
+	<string name="dialogTitle">항공편 옵션 선택</string>
+	<string name="listSummary">검색 옵션 설정</string>
+	<string name="listTitle">항공편 옵션</string>
+	<string name="selected_flight_sort_option">선택된 항공편 정렬 옵션</string>
+	<string name="menu_prefs_title">설정</string>
+	<string name="menu_quit_title">종료</string>
+</resources>

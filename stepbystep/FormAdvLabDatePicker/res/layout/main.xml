@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 생일 입력을 위한 폼 구성요소: 시작 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <!-- 생일 라벨 -->
+        <TextView  
+            android:layout_width="60sp" 
+            android:layout_height="wrap_content" 
+            android:text="@string/birthday" />
+        <!-- 생일 입력을 위한 EditText -->
+		<EditText 
+		    android:id="@+id/edit_birthday"
+            android:layout_width="wrap_content"        
+            android:layout_height="wrap_content" />
+    </LinearLayout>    
+	<!-- 생일 입력을 위한 폼 구성요소: 끝 -->
+
+</LinearLayout>

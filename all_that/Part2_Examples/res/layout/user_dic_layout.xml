@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dip" >
+	<TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="User Dictionary"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:layout_below="@+id/textViewTitle"
+        android:id="@+id/et_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="단어" />
+
+    <EditText
+        android:id="@+id/et_word_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/et_textView"
+        android:layout_marginTop="10dip"
+        android:layout_toRightOf="@+id/et_textView"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/et_textView"
+        android:layout_below="@+id/et_textView"
+        android:layout_marginTop="10dip"
+        android:onClick="user_dic_click"
+        android:text="insert" />
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_insert"
+        android:layout_alignBaseline="@+id/btn_insert"
+        android:layout_marginTop="10dip"
+        android:onClick="user_dic_click"
+        android:text="update" />
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/btn_update"
+        android:layout_alignBaseline="@+id/btn_update"
+        android:onClick="user_dic_click"
+        android:text="delete" />
+ 
+    <LinearLayout
+        android:id="@+id/list_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_insert"
+        android:layout_marginTop="20dip"
+        android:background="@android:color/holo_blue_bright"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/list_tv_word"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="1dip"
+            android:text="단어"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/list_tv_id"
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:text="아이디"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/list_header" >
+    </ListView>
+
+</RelativeLayout>

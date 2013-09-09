@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<Button
+	android:layout_width="match_parent" 
+	android:layout_height="64dip" 
+	android:text="Tool Bar"
+	android:layout_weight="0"
+	/>
+<EditText
+	android:layout_width="match_parent" 
+	android:layout_height="0px" 
+	android:layout_weight="1"
+	android:background="#00ff00"
+	/>
+<Button
+	android:layout_width="match_parent" 
+	android:layout_height="64dip" 
+	android:text="Menu Bar"
+	android:layout_weight="0"
+	/>
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+<LinearLayout android:id="@+id/LinearLayout01" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_width="fill_parent">
+
+
+
+<EditText android:text="@+id/EditText01" android:id="@+id/display" android:layout_height="fill_parent" android:layout_width="fill_parent"></EditText>
+</LinearLayout>
+<LinearLayout android:id="@+id/LinearLayout02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.0"><Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="전체 표시" android:id="@+id/queryall"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="하나만 표시" android:id="@+id/queryone"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="추가" android:id="@+id/add"></Button>
+<Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/delete" android:text="삭제"></Button>
+</LinearLayout>
+</LinearLayout>

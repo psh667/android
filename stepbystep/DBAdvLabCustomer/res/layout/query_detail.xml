@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <!-- 회원정보 조회 영역  -->
+	<LinearLayout 
+	    android:id="@+id/customer_detail"
+	    android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	</LinearLayout>
+	
+    <!-- 회원정보 조회 영역  -->
+	<LinearLayout 
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+		<!-- 회원정보 수정 버튼  -->
+		<Button  
+		    android:id="@+id/button_previous" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="목록" />    
+		<!-- 회원정보 수정 버튼  -->
+		<Button  
+		    android:id="@+id/button_update_form" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="수정" />    
+				<!-- 회원정보 삭제록 버튼  -->
+		<Button  
+		    android:id="@+id/button_delete" 
+		    android:layout_width="wrap_content" 
+		    android:layout_height="wrap_content" 
+		    android:text="삭제" />    
+	</LinearLayout>
+			    
+</LinearLayout>

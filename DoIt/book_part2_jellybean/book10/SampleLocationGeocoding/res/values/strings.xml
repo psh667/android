@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">주소로 찾기</string>
+    <string name="hello_world">주소로 찾기</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">주소로 찾기</string>
+
+</resources>

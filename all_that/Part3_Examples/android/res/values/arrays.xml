@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <string-array name="entries_list_preference">
+        <item>Alpha Option 01</item>
+        <item>Beta Option 02</item>
+        <item>Charlie Option 03</item>  
+    </string-array>
+
+
+    <string-array name="entryvalues_list_preference">
+        <item>alpha</item>
+        <item>beta</item>
+        <item>charlie</item>  
+    </string-array>
+
+    <string-array name="chatter">
+        <item >헤이 친구~</item>
+        <item >내가 좀 바뻐</item>
+        <item >자네 지금 뭐하나?</item>
+        <item >네 좀 바쁘네만..</item>
+        <item >좀 신중해야 하지 않겠나?</item>
+        <item >뭘 더 고민하나 바로 Do it!!</item>
+    </string-array>
+
+    <string-array name="cube_shapenames">
+        <item>"큐브"</item>
+        <item>"12면체"</item>
+    </string-array>
+
+    <string-array name="cube_shapeprefix">
+        <item>"cube"</item>
+        <item>"dodecahedron"</item>
+    </string-array>    
+  
+    <string-array name="activities_array">
+        <item>스마트폰 상태-ch_23_1.PhoneStateActivity</item>
+        <item>전화걸기-ch_23_2.PhoneCallActivity</item>
+        <item>버그있는전화받기-ch_23_3.PhoneCallIncommingBugActivity</item>
+        <item>전화받기-ch_23_3.PhoneCallIncommingActivity</item>
+        <item>전화로그-ch_23_4.CallLogActivity</item>
+        <item>문자로그-ch_23_4.SMSLogActivity</item>
+        <item>인텐트사용문자보내기-ch_23_5.SendSmsActivity</item>
+        <item>API사용문자보내기-ch_23_5.SendSmsDirectActivity</item>
+        <item>연락처관리-ch_23_7.ContactManager</item>
+        
+        <item>사운드풀-ch_24_1.SoundPoolActivity</item>
+        <item>미디어플레이어-ch_24_2.MediaPlayerActivity</item>
+        <item>오디오레코드-ch_24_3.AudioRecordActivity</item>
+        <item>카메라-ch_24_4.CameraActivity</item>
+        <item>스피치-ch_24_5.SpeechActivity</item>
+        <item>미디어스토어 이용 카메라-ch_24_6.CameraActivity</item>
+        
+        <item>데이터베이스-ch_25_1.DatabaseActivity</item>
+        <item>프리퍼런스 스크린 심플-ch_25_2.PreferenceScreenSimpleActivy</item>
+        <item>프리퍼런스 스크린 코드-ch_25_2.PreferenceScreenCodeActivy</item>
+        <item>프리퍼런스 버튼-ch_25_2.PreferenceScreenButtonActivy</item>
+        <item>프리퍼런스 API-ch_25_2.PreferenceMenualEditingActivity</item>
+        <item>프리퍼런스 입력값 확인-ch_25_2.PreferenceScreenActivity</item>
+        <item>파일-ch_25_3.FileActivity</item>
+        
+        <item>ValueAnimator-ch_26_1.ValueAnimationActivity</item>
+        <item>ObjectAnimator-ch_26_1.ObjectAnimationActivity</item>
+        <item>애니메이션 집합-ch_26_1.BouncingBallsActivity</item>
+        <item>키프레임 사용-ch_26_1.KeyframeActivity</item>
+        <item>사용자 Evaluator-ch_26_1.CustomEvaluatorActivity</item>
+        <item>인터폴레이터-ch_26_1.InterpolateActivity</item>
+        <item>뷰 프로퍼티 애니메이터-ch_26_1.ViewPropertyAnimatorActivity</item>
+        <item>레이아웃 변화 애니메이션-ch_26_1.LayoutAnimationsHideShowActivity</item>
+        <item>디폴트 레이아웃 변화 애니메이션-ch_26_1.LayoutAnimationsByDefaultActivity</item>
+        <item>뷰 애니메이션-ch_26_2.ViewAnimationActivity</item>
+        
+        <item>로테이션 벡터-ch_27_1.RotationVectorDemo</item>
+        <item>센서-ch_27_1.SensorActivity</item>
+        
+        <item>맵 액티비티-ch_28_2.MyMapActivity</item>
+        <item>현재 위치-ch_28_2.MyLocationActivity</item>
+        
+        <item>블루투스 채팅-ch_30_1.BluetoothChat</item>
+        <item>안드로이드 빔-ch_30_2.Beam</item>
+        <item>와이파이 다이렉트-ch_30_3.WiFiDirectActivity</item>
+        <item>앱엔진-ch_31_2.AppEngineActivity</item>
+        
+        <item>GCM 데모-ch_32_7.GCMActivity</item>
+        
+        <item>트위터테스트-ch_33_2.TwitterTestActivity</item>
+        <item>페이스북테스트-ch_33_3.FacebookTestActivity</item>
+    </string-array>    
+</resources>

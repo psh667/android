@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <Button  
+    	android:id="@+id/start"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="위치 감지 시작"
+        />
+    <Button  
+    	android:id="@+id/stop"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="위치 감지 중지"
+        />   
+    <TextView  
+    	android:id="@+id/text"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" 
+        android:text="위치 감지  상태"
+        />     
+</LinearLayout>

@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="wrap_content">
+	<TextView android:id="@+id/userNameLbl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="사용자명: " android:layout_alignParentTop="true" />
+	<EditText android:id="@+id/userNameText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/userNameLbl" />
+	<TextView android:id="@+id/pwdLbl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/userNameText" android:text="암호: "  />
+	<EditText android:id="@+id/pwdText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/pwdLbl" />
+	<TextView android:id="@+id/pwdHintLbl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/pwdText" android:text="암호 찾기... "  />
+	<TextView android:id="@+id/disclaimerLbl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:text="사용 책임은 본인에게 있습니다... "  />
+	<!-- 프레임 레이아웃 2 예제 액티비티 호출 버튼 -->
+	<Button android:id="@+id/ccbtn_frmLO2"
+			android:text="프레임 레이아웃 액티비티 2"
+			android:typeface="serif" android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_above="@id/disclaimerLbl" />
+	<!-- 프레임 레이아웃 1 예제 액티비티 호출 버튼 -->
+	<Button android:id="@+id/ccbtn_frmLO"
+			android:text="프레임 레이아웃 액티비티 1"
+			android:typeface="serif" android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_above="@id/ccbtn_frmLO2" />
+</RelativeLayout>

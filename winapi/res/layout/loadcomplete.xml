@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="SoundPool의 추가 기능 테스트"
+	/>
+<Button
+	android:id="@+id/load1"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="로드 직후 재생"
+	/>
+<Button
+	android:id="@+id/load2"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:onClick="mOnClick" 
+	android:text="로드 완료 후 재생"
+	/>
+<Button
+	android:id="@+id/pause"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:onClick="mOnClick" 
+	android:text="잠시 멈춤"
+	/>
+<Button
+	android:id="@+id/resume"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:onClick="mOnClick" 
+	android:text="멈춘 위치에서 재생"
+	/>
+</LinearLayout>

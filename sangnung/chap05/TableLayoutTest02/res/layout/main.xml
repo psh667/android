@@ -1,0 +1,13 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <TableRow>
+        <TextView android:text="Address"/>
+        <EditText android:text="1120 Jongro-Gu Seoul"/>
+    </TableRow>
+    <TableRow>
+        <TextView android:text="Name"/>
+        <EditText android:text="Hong Gil-Dong"/>
+    </TableRow>
+    <Button  android:text="Done"/>
+</TableLayout>

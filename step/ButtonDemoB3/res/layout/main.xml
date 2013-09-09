@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<Button 
+    android:text="버튼"    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    />
+<Button 
+    android:text="버튼 크기 조절"    
+    android:layout_width="200dp"
+    android:layout_height="50dp"        
+    />
+<Button 
+    android:text="버튼 배경 설정"    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#00ff00"
+    />
+<Button 
+android:text="배경 설정"    
+android:layout_width="100dp"
+android:layout_height="100dp"
+android:background="@drawable/icon"
+/>    
+<Button 
+    android:text="투명 버튼"    
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#ffffff"
+    android:background="@android:color/transparent"
+    />       
+</LinearLayout>

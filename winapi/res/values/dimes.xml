@@ -1,0 +1,6 @@
+<resources>
+	<dimen name="textsize">20sp</dimen>
+	<dimen name="drawunit_width">160dip</dimen>
+	<dimen name="drawunit_height">60dip</dimen>
+	<dimen name="widget_margin">8dp</dimen>
+</resources>

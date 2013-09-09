@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:textSize="20sp"
+	android:text="63빌딩 위치(십진수)"
+	/>
+<TextView
+	android:id="@+id/lat1"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	/>
+<TextView
+	android:id="@+id/lon1"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	/>
+<TextView
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:textSize="20sp"
+	android:text="63빌딩 위치(도분초)"
+	/>
+<TextView
+	android:id="@+id/lat2"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	/>
+<TextView
+	android:id="@+id/lon2"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	/>
+</LinearLayout>

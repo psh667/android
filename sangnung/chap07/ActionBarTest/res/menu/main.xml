@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/item_refresh"
+        android:icon="@drawable/ic_menu_refresh"
+        android:showAsAction="ifRoom|withText"
+        android:title="Refresh"/>
+    <item
+        android:id="@+id/item_save"
+        android:icon="@drawable/ic_menu_save"
+        android:showAsAction="ifRoom|withText"
+        android:title="Save"/>
+
+</menu>

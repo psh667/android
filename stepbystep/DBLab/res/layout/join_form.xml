@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <!-- 성명 입력을 위한 폼 구성요소: 시작 -->    
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	    <!-- 성명 라벨 -->
+		<TextView  
+		    android:layout_width="60sp" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/name" />
+		<!-- 성명 입력을 위한 EditText -->    
+		<EditText android:id="@+id/edit_name"        
+		    android:layout_width="fill_parent"        
+		    android:layout_height="wrap_content" />
+	</LinearLayout>    
+	<!-- 성명 입력을 위한 폼 구성요소: 끝 -->
+	
+	<!-- 성별 구분을 위한 폼 구성요소: 시작 -->
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	<!-- 성별 라벨 -->    
+	<TextView  
+	    android:layout_width="60sp" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/sex" />
+	<!-- 성별 구분을 위한 RadioGroup -->    
+	<RadioGroup android:id="@+id/radiogroup_sex"
+	    android:layout_width="fill_parent"      
+	    android:layout_height="wrap_content"      
+	    android:orientation="horizontal" >  
+	    <!-- 성별: 남 -->    
+	    <RadioButton android:id="@+id/radio_male"          
+	        android:layout_width="wrap_content"          
+	        android:layout_height="wrap_content"          
+	        android:text="남" />   
+	    <!-- 성별: 여 -->       
+	    <RadioButton android:id="@+id/radio_female"          
+	        android:layout_width="wrap_content"          
+	        android:layout_height="wrap_content"          
+	        android:text="여" />    
+	</RadioGroup>   
+	</LinearLayout>    
+	<!-- 성별 구분을 위한 폼 구성요소: 끝 -->
+	
+	<!-- 수신여부 확인을 위한 폼 구성요소: 시작 -->
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	    <!-- 수신여부 라벨 -->
+		<TextView  
+		    android:layout_width="60sp" 
+		    android:layout_height="wrap_content" 
+		    android:text="@string/receive" />
+		<!-- SMS 확인 -->    
+		<CheckBox android:id="@+id/check_sms"        
+		    android:layout_width="wrap_content"        
+		    android:layout_height="wrap_content"        
+		    android:text="SMS" /> 
+	</LinearLayout>   
+	<!-- 수신여부 확인을 위한 폼 구성요소: 끝 -->
+	
+	<!-- 버튼: 시작 -->
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:gravity="right" 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content" >
+	<!-- 저장버튼 -->    
+	<Button android:id="@+id/button_store"        
+	    android:layout_width="wrap_content"        
+	    android:layout_height="wrap_content" 
+	    android:text="등록" />   
+	<!-- 목록 버튼 -->    
+	<Button android:id="@+id/button_list"        
+	    android:layout_width="wrap_content"        
+	    android:layout_height="wrap_content" 
+	    android:text="목록" />         
+	</LinearLayout>   
+    <!-- 버튼: 끝 -->
+    
+</LinearLayout>

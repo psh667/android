@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="lib" path="G:/도서1_번역중/제이펍_안드로이드_200911-201002/예제_소스코드/commons-lang-2.5/commons-lang-2.5.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

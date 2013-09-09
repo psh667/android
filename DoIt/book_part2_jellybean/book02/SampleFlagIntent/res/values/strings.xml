@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">SampleFlagIntent</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">액티비티 띄우면서 플래그 사용</string>
+	<string name="title_new_activity">새로운 액티비티</string>
+    
+</resources>

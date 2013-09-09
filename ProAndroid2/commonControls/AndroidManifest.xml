@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="pro.android"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name=".MainActivity"
+                  android:label="공통 컨트롤">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Text1Activity"
+                  android:label="공통 컨트롤">
+            <intent-filter>
+                <action android:name="android.intent.action.TEXTS1" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Text2Activity"
+                  android:label="공통 컨트롤">
+            <intent-filter>
+                <action android:name="android.intent.action.TEXTS2" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ButtonActivity"
+                  android:label="공통 컨트롤">
+            <intent-filter>
+                <action android:name="android.intent.action.BUTTONS" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ListDemoActivity"
+                  android:label="리스트뷰 데모">
+            <intent-filter>
+                <action android:name="android.intent.action.LISTVIEW" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>        
+        <activity android:name=".GridDemoActivity"
+                  android:label="그리드뷰 데모">
+            <intent-filter>
+                <action android:name="android.intent.action.GRIDVIEW" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>   
+        <activity android:name=".DateTimeActivity"
+                  android:label="공통 컨트롤 (날짜/시간 컨트롤)">
+            <intent-filter>
+                <action android:name="android.intent.action.DATETIME" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".WtGtActivity"
+                  android:label="웨이트 / 그래버티">
+            <intent-filter>
+                <action android:name="android.intent.action.WTGT" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name="TableActivity"
+                  android:label="단순 테이블">
+            <intent-filter>
+                <action android:name="android.intent.action.TBLO1" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Table2Activity"
+                  android:label="불규칙 테이블">
+            <intent-filter>
+                <action android:name="android.intent.action.TBLO2" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name="Table3Activity"
+                  android:label="EditText가 들어있는 테이블">
+            <intent-filter>
+                <action android:name="android.intent.action.TBLO3" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name="PaddingActivity"
+                  android:label="패딩 지정">
+            <intent-filter>
+                <action android:name="android.intent.action.PADDING" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name="RelativeLayoutActivity"
+                  android:label="RelativeLayout">
+            <intent-filter>
+                <action android:name="android.intent.action.RELLO" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name="FrameLayoutActivity"
+                  android:label="FrameLayout">
+            <intent-filter>
+                <action android:name="android.intent.action.FRMLO" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>
+        <activity android:name="FrameLayout2Activity"
+                  android:label="FrameLayout">
+            <intent-filter>
+                <action android:name="android.intent.action.FRMLO2" />
+                <category android:name="android.intent.category.VIEW" />
+            </intent-filter>
+        </activity>
+        
+
+    </application>
+    <uses-sdk android:minSdkVersion="8" />
+
+<uses-permission android:name="android.permission.READ_CONTACTS"></uses-permission>
+</manifest>

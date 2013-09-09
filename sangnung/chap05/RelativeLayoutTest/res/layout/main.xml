@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TextView android:id="@+id/address" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"	android:layout_alignParentTop="true"  android:text="주소를 입력하세요" />
+	<EditText android:id="@+id/input" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:background="@android:drawable/editbox_background"
+		android:layout_below="@id/address" />
+	<Button android:id="@+id/cancel" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_below="@id/input"
+		android:layout_alignParentRight="true" android:layout_marginLeft="10dip"
+		android:text="취소" />
+	<Button android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_toLeftOf="@id/cancel"
+		android:layout_alignTop="@id/cancel" android:text="확인" />
+</RelativeLayout>

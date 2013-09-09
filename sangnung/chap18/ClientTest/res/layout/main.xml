@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<EditText android:id="@+id/input" android:layout_height="wrap_content" android:text="" android:layout_width="match_parent" android:singleLine="true"></EditText>
+<Button android:text="입력완료" android:layout_height="wrap_content" android:id="@+id/button" android:layout_width="match_parent"></Button>
+<TextView android:text="" android:singleLine="false" android:id="@+id/output" android:layout_height="match_parent" android:layout_width="match_parent"></TextView>
+</LinearLayout>

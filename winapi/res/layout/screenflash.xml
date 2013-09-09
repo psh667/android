@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView
+	android:id="@+id/lighttext"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent" 
+	android:background="#ffffff"
+	android:gravity="center_horizontal|bottom"
+	android:text="뒤집어서 후레쉬로 사용하세요."
+	/>
+</LinearLayout>

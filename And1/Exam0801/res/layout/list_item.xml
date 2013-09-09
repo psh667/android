@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<RelativeLayout
+android:id="@+id/list_item"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+<TextView
+	android:id="@+id/list_txt_num"
+	android:layout_width="50px"
+	android:layout_height="50px"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="10px"
+	android:textColor="#ffffff"
+	android:background="#47883d"
+	android:textSize="40px"
+	android:text="0"
+/>
+
+<TextView
+	android:id="@+id/list_txt_keyword"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10px"
+	android:layout_marginLeft="80px"
+	android:textColor="#ffffff"
+	android:textSize="40px"
+	android:text="Keyword"
+/>
+
+<TextView
+	android:id="@+id/list_txt_incdec"  
+   	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="15px"
+	android:layout_marginLeft="400px"
+	android:textColor="#ff0000"
+	android:textSize="30px"
+    android:text="-"
+    >
+    <requestFocus/>
+</TextView>
+
+<TextView   
+	android:id="@+id/list_txt_value"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="15px"
+	android:layout_marginLeft="420px"
+	android:textColor="#c0c8bf"
+	android:textSize="30px"
+	android:text="000"
+ />
+
+
+</RelativeLayout>
+
+

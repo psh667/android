@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<CheckBox
+	android:id="@+id/givefruit"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="터치해서 애기들에게 과일 주기"
+	/>
+<RadioGroup
+	android:id="@+id/ColorGroup"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	>
+<RadioButton
+	android:id="@+id/Green"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="초록색"
+	/>
+<RadioButton
+	android:id="@+id/Blue"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="파란색"
+	/>
+<RadioButton
+	android:id="@+id/Yellow"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="노란색"
+	/>
+<RadioButton
+	android:id="@+id/Gray"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="회색"
+	/>
+</RadioGroup>
+<Button
+	android:id="@+id/btnclose"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="닫기" />
+</LinearLayout>

@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:textSize="16sp"
+	android:text="받을 사람"
+	/>
+<EditText
+	android:id="@+id/smsnum"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:inputType="phone"
+	android:text="5556"
+	/>
+<TextView
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:textSize="16sp"
+	android:text="메시지 내용"
+	/>
+<EditText
+	android:id="@+id/smstext"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="Test Message"
+	/>
+<Button
+	android:id="@+id/sendsms"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="메시지 프로그램 호출"
+	/>
+</LinearLayout>

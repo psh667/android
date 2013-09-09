@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.msi.manning.telephonyexplorer">
+	<application android:icon="@drawable/icon">
+		<activity android:name=".Main" android:label="@string/app_name">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+        <activity android:name=".TelephonyManagerExample" android:label="@string/app_name" />
+		<activity android:name=".PhoneNumberUtilsExample" android:label="@string/app_name" />
+		<activity android:name=".SmsExample" android:label="@string/app_name" />
+		<receiver android:name=".SmsReceiver">
+			<intent-filter>
+				<action android:name="android.provider.Telephony.SMS_RECEIVED" />
+			</intent-filter>
+		</receiver>
+		<receiver android:name=".OutgoingCallReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" />
+            </intent-filter>
+        </receiver>
+
+	</application>
+
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.MODIFY_PHONE_STATE" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+	<uses-permission android:name="android.permission.RECEIVE_SMS" />
+	<uses-permission android:name="android.permission.READ_SMS" />
+	<uses-permission android:name="android.permission.WRITE_SMS" />
+	<uses-permission android:name="android.permission.SEND_SMS" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+</manifest>

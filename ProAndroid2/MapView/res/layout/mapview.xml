@@ -1,0 +1,22 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<!-- 이 파일은 /res/layout/mapview.xml이다. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"  android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal"  android:layout_width="fill_parent" android:layout_height="wrap_content">
+
+	<Button  android:id="@+id/zoomin" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" android:onClick="myClickHandler" android:padding="12px" />
+	<Button  android:id="@+id/zoomout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="-" android:onClick="myClickHandler" android:padding="12px" />
+
+	<Button android:id="@+id/sat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="위성" android:onClick="myClickHandler" android:padding="8px"  />
+	<Button  android:id="@+id/street"  android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="거리" android:onClick="myClickHandler" android:padding="8px"  />
+	<Button  android:id="@+id/traffic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="교통" android:onClick="myClickHandler" android:padding="8px"  />
+	<Button  android:id="@+id/normal" android:layout_width="wrap_content" android:layout_height="wrap_content"  android:text="일반" android:onClick="myClickHandler" android:padding="8px"  />
+	</LinearLayout>
+	
+	<com.google.android.maps.MapView
+	android:id="@+id/mapview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:clickable="true"
+	android:apiKey="본인의 맵 API 키"   />
+
+</LinearLayout>

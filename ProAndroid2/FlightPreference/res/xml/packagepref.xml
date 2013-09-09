@@ -1,0 +1,12 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<!-- 이  파일은 /res/xml/packagepref.xml이다. -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+android:key="package_name_screen" 
+android:title="패키지명" 
+android:summary="패키지명 지정">
+
+	<EditTextPreference android:key="package_name_preference" 
+		android:title="패키지명 지정"
+		android:summary="생성된 코드에 패키지명을 지정" 
+		android:dialogTitle="패키지명" />
+</PreferenceScreen>

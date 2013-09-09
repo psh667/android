@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;LayoutAdvLabGrid&apos;" deleteContents="true" description="Delete resource &apos;LayoutAdvLabGrid&apos;" element1="/LayoutAdvLabGrid" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1326445586975"/>&#x0A;<refactoring comment="Delete resource &apos;LayoutAdvLabTabView&apos;" deleteContents="true" description="Delete resource &apos;LayoutAdvLabTabView&apos;" element1="/LayoutAdvLabTabView" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1326453103682"/>
+</session>

@@ -1,0 +1,14 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- 이 그룹은 디폴트 카테고리를 사용한다 -->
+<group  android:id="@+id/menuGroup_Main">
+<item  android:id="@+id/mid_no_search"
+android:title="비 검색 액티비티" />
+
+<item  android:id="@+id/mid_local_search" android:title="로컬 검색 액티비티" />
+
+<item  android:id="@+id/mid_invoke_search" android:title="검색 호출 액티비티"  />
+
+<item  android:id="@+id/menu_clear" android:title="화면 초기화"  />
+</group>
+</menu>

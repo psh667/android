@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+	android:background="@drawable/login_background" >
+
+    <TextView
+        android:id="@+id/titleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+		android:layout_centerHorizontal="true"
+        android:text="식당 찾기 도우미"
+        android:textColor="#ffffffff"
+		android:textSize="24dp"
+		android:textStyle="bold"
+        tools:context=".MainActivity" />
+
+	<RelativeLayout 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerInParent="true"
+	    android:padding="4dp"
+	    android:background="#aaffffff"
+	    >
+		<TextView 
+			android:id="@+id/usernameLabel"
+			android:text="Username : "
+			android:textColor="#ff222222"
+			android:textSize="18dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingTop="4dp"
+			/>
+		<EditText 
+			android:id="@+id/usernameEntry"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/usernameLabel" 
+			android:layout_alignBaseline="@+id/usernameLabel"
+			android:layout_marginLeft="4dp"
+			/>
+		<TextView 
+			android:id="@+id/passwordLabel"
+			android:text="Password  : "
+			android:textColor="#ff222222"
+			android:textSize="18dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingTop="12dp"
+			android:layout_below="@+id/usernameLabel"
+			/>
+		<EditText 
+			android:id="@+id/passwordEntry"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/passwordLabel" 
+			android:layout_alignBaseline="@+id/passwordLabel"
+			android:layout_marginLeft="4dp"
+			android:inputType="textPassword"
+			/>	
+		<Button 
+			android:id="@+id/loginBtn"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/passwordLabel"
+			android:layout_alignParentLeft="true"
+			android:layout_marginLeft="10dp"
+			android:layout_marginTop="12dp"
+			android:text="Login" 
+			android:drawableLeft="@drawable/ok_btn"
+			android:drawablePadding="2dp"
+			/>
+		<Button 
+			android:id="@+id/exitBtn"
+			android:layout_width="100dp"
+			android:layout_height="wrap_content"
+			android:layout_below="@+id/passwordLabel"
+			android:layout_alignParentRight="true"
+			android:layout_marginRight="10dp"
+			android:layout_marginTop="12dp"
+			android:text="Exit" 
+			android:drawableLeft="@drawable/cancel_btn"
+			android:drawablePadding="2dp"
+			/>
+	</RelativeLayout>
+	
+</RelativeLayout>

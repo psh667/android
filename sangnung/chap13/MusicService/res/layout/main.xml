@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:gravity="top|center">
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" android:text="음악 서비스 테스트" android:gravity="center" android:textSize="20sp" android:padding="20dp"/>
+<Button android:layout_height="wrap_content" android:id="@+id/start" android:text="시작" android:layout_width="fill_parent"></Button>
+<Button android:layout_height="wrap_content" android:text="중지" android:id="@+id/stop" android:layout_width="fill_parent"></Button>
+</LinearLayout>

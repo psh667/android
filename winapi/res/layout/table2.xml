@@ -1,0 +1,14 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<TableRow>
+		<TextView android:text="국어" android:textSize="30sp" android:padding="10dip" />
+		<TextView android:text="지구과학" android:textSize="30sp" android:padding="10dip" />
+		<TextView android:text="수학" android:textSize="30sp" android:padding="10dip" />
+	</TableRow>
+	<TableRow>
+		<TextView android:text="88" android:textSize="30sp" android:padding="10dip" />
+		<TextView android:text="92" android:textSize="30sp" android:padding="10dip" />
+		<TextView android:text="76" android:textSize="30sp" android:padding="10dip" />
+	</TableRow>
+</TableLayout>

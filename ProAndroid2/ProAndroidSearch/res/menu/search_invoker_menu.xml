@@ -1,0 +1,10 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!-- This  group  uses   the   default category. -->
+<group  android:id="@+id/menuGroup_Main">
+<item  android:id="@+id/mid_si_search"
+android:title="검색"  />
+
+<item  android:id="@+id/mid_si_clear" android:title="화면 초기화"  />
+</group>
+</menu>

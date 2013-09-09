@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="여기에 입력할 수 있습니다." />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:password="true"
+        android:text="패스워드" />
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:phoneNumber="true"
+        android:text="010-8899-1234" />
+
+</LinearLayout>

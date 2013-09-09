@@ -1,0 +1,77 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="8pt"
+	android:text="미디어 볼륨을 조정합니다."
+	/>
+<Button
+	android:id="@+id/btnplay"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:onClick="mOnClick" 
+	android:text="재생 시작/일시 중지"
+	/>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+<Button
+	android:id="@+id/btnvoldown"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick" 
+	android:text="볼륨 감소"
+	/>
+<Button
+	android:id="@+id/btnvolup"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick" 
+	android:text="볼륨 증가"
+	/>
+</LinearLayout>
+<SeekBar 
+	android:id="@+id/seekvolume"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="10dip"
+	/>
+<Button
+	android:id="@+id/btnring"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick" 
+	android:text="전화벨 토글"
+	/>	
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+<Button
+	android:id="@+id/btneffect1"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick" 
+	android:text="효과음1"
+	/> 
+<Button
+	android:id="@+id/btneffect2"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick" 
+	android:text="효과음2"
+	/> 
+<Button
+	android:id="@+id/btneffect3"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick" 
+	android:text="효과음3"
+	/> 
+</LinearLayout>
+</LinearLayout>

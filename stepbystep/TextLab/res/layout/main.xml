@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<!--  고객1의 정보: 시작  -->    
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/name1"
+	    android:textSize="25sp"
+	    android:gravity="center"
+	    android:textColor="#ffffff"
+        android:background="#0000ff" />
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/addr1"
+	    android:textSize="20sp"
+	    android:textColor="#ff0000" />
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/tel1"
+	    android:textSize="20sp"
+	    android:textColor="#00ff00" />
+	<!--  고객1의 정보: 끝  -->  
+
+	<!--  고객2의 정보: 시작  -->    
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/name2"
+	    android:textSize="25sp"
+	    android:gravity="center"
+	    android:textColor="#ffffff"
+        android:background="#0000ff" />
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/addr2"
+	    android:textSize="20sp"
+	    android:textColor="#ff0000" />
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/tel2"
+	    android:textSize="20sp"
+	    android:textColor="#00ff00" />
+	<!--  고객2의 정보: 끝  --> 	    
+
+</LinearLayout>

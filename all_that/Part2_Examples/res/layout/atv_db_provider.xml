@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="데이터를 입력하세요."
+        android:layout_marginTop="30dip"
+        android:ems="10">
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_weight="1" >
+
+        <Button
+            android:id="@+id/btn_insert"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:onClick="btn_click"
+            android:text="추가" />
+
+        <Button
+            android:id="@+id/btn_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btn_click"
+            android:text="조회" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btn_click"
+            android:text="삭제" />
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="btn_click"
+            android:text="수정" />
+
+    </LinearLayout>
+	<ListView
+	    android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+	</ListView>
+</LinearLayout>

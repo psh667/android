@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="listtype">
+		<item>ListType01</item>
+		<item>ListType02</item>
+		<item>ListType03</item>
+		<item>ListType04</item>
+		<item>ListType05</item>
+	</string-array>
+	<string-array name="listtype_codes">
+		<item>TYPE01</item>
+		<item>TYPE02</item>
+		<item>TYPE03</item>
+		<item>TYPE04</item>
+		<item>TYPE05</item>
+	</string-array>
+
+</resources>

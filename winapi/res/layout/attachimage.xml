@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+<LinearLayout 
+	android:orientation="vertical"
+	android:layout_width="0px"
+	android:layout_weight="1"
+	android:layout_height="match_parent" >
+<TextView
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="메시지에 사진을 첨부합니다." />
+<Button
+	android:id="@+id/btncamera"  
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="카메라 호출" />
+<Button
+	android:id="@+id/btncamera2"  
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="카메라 호출(고해상도)" />
+<Button
+	android:id="@+id/btngallery"  
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="갤러리 호출" />
+</LinearLayout>
+<LinearLayout 
+	android:orientation="vertical"
+	android:layout_width="0px"
+	android:layout_weight="1"
+	android:layout_height="match_parent" >
+<ImageView
+	android:id="@+id/attachimage"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:src="@drawable/dog" />
+</LinearLayout>
+</LinearLayout>

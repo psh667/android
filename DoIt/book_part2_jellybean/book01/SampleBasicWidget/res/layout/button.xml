@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<Button
+		android:id="@+id/selectButton"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="선택 "
+		android:textSize="24dp"
+		android:textStyle="bold"
+	/>
+	
+	<RadioGroup 
+		android:id="@+id/radioGroup01" 
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:layout_margin="10dp"
+		>
+		<RadioButton 
+			android:id="@+id/radio01" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:text="남성" 
+			android:textColor="#ffaaff10"
+			android:textStyle="bold" 
+			android:textSize="24dp" 
+			/>
+		<RadioButton 
+			android:id="@+id/radio02" 
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:layout_marginLeft="10dp"
+			android:text="여성" 
+			android:textColor="#ffaaff10"
+			android:textStyle="bold" 
+			android:textSize="24dp" 
+			/>
+	</RadioGroup>
+	
+	<LinearLayout
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:gravity="center_vertical|center_horizontal"
+    	android:paddingTop="10dp"
+    	>
+        <TextView
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="하루종일"
+        	android:textSize="24dp"
+        	android:paddingRight="10dp"
+        	android:textColor="#ffaaff10"
+        	/>
+        <CheckBox 
+        	android:id="@+id/allDay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    
+</LinearLayout>

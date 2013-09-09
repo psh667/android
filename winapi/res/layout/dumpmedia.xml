@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#404040"
+	>
+<RadioGroup
+	android:id="@+id/media"
+	android:orientation="horizontal"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:checkedButton="@+id/image" 
+	>
+<RadioButton
+	android:id="@id/image"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="Image"
+	/>
+<RadioButton
+	android:id="@+id/audio"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="Audio"
+	/>
+<RadioButton
+	android:id="@+id/video"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="Video"
+	/>
+</RadioGroup>
+<ToggleButton
+	android:id="@+id/storage"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textOn="내부 메모리"
+	android:textOff="외부 메모리" 
+	/>
+<ScrollView
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent"
+	android:background="#ffffff"
+	> 
+<TextView
+	android:id="@+id/result"  
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent"
+	android:background="#ffffff"
+	android:textColor="#000000" 
+	/>
+</ScrollView>
+</LinearLayout>

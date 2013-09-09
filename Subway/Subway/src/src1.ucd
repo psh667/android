@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="src1" size="1551,840" id="" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D3130204C6F63616C537562776179496E666F">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.0" name="CommonFunction" location="444,180" size="154,103" id="/CommonFunction" runTimeClassModel="getStationLine(Ljava.lang.String;),getStationCode(Ljava.lang.String;),getStrStationLine(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,54">
+      <children xsi:type="editmodel:MethodEditModel" name="getStationCode" id="/CommonFunction#getStationCode(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStrStationLine" id="/CommonFunction#getStrStationLine(Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStationLine" id="/CommonFunction#getStationLine(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="MakeSubwayData" location="135,180" size="156,355" id="/MakeSubwayData" runTimeClassModel="strSID,main([Ljava.lang.String;),strpreStation,strCID,strStationTime,strnextStation,DownloadHtml(Ljava.lang.String;),getMobileSeoulURL(),getScheduleInfo(),strStationURL,strStationLine,strStationInfo,getStationInfo(),strStaionExit,getExitInfo(),strLID,strStationName">
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,198">
+      <children xsi:type="editmodel:AttributeEditModel" name="strCID" id="/MakeSubwayData#strCID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="strLID" id="/MakeSubwayData#strLID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="strSID" id="/MakeSubwayData#strSID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="strStationName" id="/MakeSubwayData#strStationName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="strStationLine" id="/MakeSubwayData#strStationLine"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="strStationURL" id="/MakeSubwayData#strStationURL"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="strpreStation" id="/MakeSubwayData#strpreStation"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="strnextStation" id="/MakeSubwayData#strnextStation"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="strStationInfo" id="/MakeSubwayData#strStationInfo"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="strStaionExit" id="/MakeSubwayData#strStaionExit"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="strStationTime" id="/MakeSubwayData#strStationTime"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="122,108">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="/MakeSubwayData#main([Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStationInfo" id="/MakeSubwayData#getStationInfo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getExitInfo" id="/MakeSubwayData#getExitInfo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getScheduleInfo" id="/MakeSubwayData#getScheduleInfo()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMobileSeoulURL" id="/MakeSubwayData#getMobileSeoulURL()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="DownloadHtml" id="/MakeSubwayData#DownloadHtml(Ljava.lang.String;)"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/MakeSubwayData-Standard::Call->/CommonFunction" source="//@children.1" target="//@children.0" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="29,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="156,51" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,51"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="/MakeSubwayData-Standard::Call->/StationList*/MakeSubwayData-Standard::Instantiate->/StationList*/MakeSubwayData-Soyatec::Import->/StationList" source="//@children.1" target="//@children.2" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Call, Instantiate»" size="119,14" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="156,261" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,94"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.1/@sourceConnections.1" name="StationList" location="444,347" size="187,265" id="/StationList" runTimeClassModel="strCode,strName,getStrCode(),StationList(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;),strCID,getStationList(),station,getStrLine(),getStrName(),getStrCID(),strLine,StationList()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="164,90">
+      <children xsi:type="editmodel:AttributeEditModel" name="station" id="/StationList#station"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="strCID" id="/StationList#strCID"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="strName" id="/StationList#strName"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="strLine" id="/StationList#strLine"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="strCode" id="/StationList#strCode"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="95,126">
+      <children xsi:type="editmodel:MethodEditModel" name="StationList" id="/StationList#StationList(Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;Ljava.lang.String;)"/>
+      <children xsi:type="editmodel:MethodEditModel" name="StationList" id="/StationList#StationList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStationList" id="/StationList#getStationList()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStrName" id="/StationList#getStrName()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStrLine" id="/StationList#getStrLine()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStrCode" id="/StationList#getStrCode()"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getStrCID" id="/StationList#getStrCID()"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="0,0"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=7;Product=eUML2;displayOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>

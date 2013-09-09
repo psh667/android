@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">ローカライズされたアプリケーションをテストする</string>
+   <string name="text_a">最初のテキストにはサインインしてください。</string>
+   <string name="text_b">番目のテキストにはサインインしてください。</string>
+</resources>

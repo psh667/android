@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SpinnerActivity</string>
+    <string name="planet_prompt">행성을 선택하시오</string>
+
+    <string-array name="planets_array">
+        <item>수성</item>
+        <item>금성</item>
+        <item>지구</item>
+        <item>화성</item>
+        <item>목성</item>
+        <item>토성</item>
+        <item>천왕성</item>
+        <item>해왕성</item>
+    </string-array>
+
+</resources>

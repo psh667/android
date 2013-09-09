@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- 비디오 목록  -->      
+	<TextView  
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" 
+	    android:text="@string/video1" />
+	    
+    <!-- 동영상 재생을 위한 비디오뷰  -->   
+	<VideoView android:id="@+id/videoview_area" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content">
+	</VideoView>
+
+</LinearLayout>

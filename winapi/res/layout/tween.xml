@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linear"  
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_gravity="center_horizontal"
+	android:text="Press Start Button to run animation!"
+	/>
+<Button
+	android:id="@+id/translate"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_gravity="center_horizontal"
+	android:onClick="mOnClick"
+	android:text="Translate Animation"
+	/>
+<Button
+	android:id="@+id/rotate"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_gravity="center_horizontal"
+	android:onClick="mOnClick"
+	android:text="Rotate Animation"
+	/>
+<Button
+	android:id="@+id/scale"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_gravity="center_horizontal"
+	android:onClick="mOnClick"
+	android:text="Scale Animation"
+	/>
+<Button
+	android:id="@+id/alpha"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_gravity="center_horizontal"
+	android:onClick="mOnClick"
+	android:text="Alpha Animation"
+	/>
+<Button
+	android:id="@+id/set"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:layout_gravity="center_horizontal"
+	android:onClick="mOnClick"
+	android:text="Set Animation"
+	/>
+</LinearLayout>

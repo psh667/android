@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.ai.android.search.custom"
+android:versionCode="1" android:versionName="1.0.0">
+	<application android:icon="@drawable/icon"
+	android:label="사용자 정의 제시항목 프로바이더">
+		<!--
+		****************************************************************
+		*  검색 관련 코드: 검색 액티비티
+		****************************************************************
+		-->
+		<activity android:name=".SearchActivity" android:label="검색 액티비티 라벨" android:launchMode="singleTop">
+			<intent-filter>
+				<action android:name="android.intent.action.SEARCH" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+			
+			<meta-data android:name="android.app.searchable"
+			android:resource="@xml/searchable" />
+		</activity>
+		<!-- 디폴트 검색 선언 -->
+		<meta-data android:name="android.app.default_searchable"
+		android:value=".SearchActivity" />
+		
+		<!-- 제시항목 프로바이더 선언 -->
+		<provider android:name="SuggestUrlProvider"
+		android:authorities="com.ai.android.search.custom.suggesturlprovider"
+		/>
+	</application>
+	<uses-sdk android:minSdkVersion="8" />
+</manifest>

@@ -1,0 +1,80 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceScreen 
+		android:key="config"
+		android:title="환경설정 예제">
+		<PreferenceCategory android:title="카테고리1">
+		
+			<ListPreference
+				android:key="list"
+				android:title="리스트1"
+				android:summary="리스트 예제"
+				android:dialogTitle="리스트1"
+				android:entries="@array/listtype"
+				android:entryValues="@array/listtype_codes"
+				/>
+				
+			<EditTextPreference
+				android:key="name"
+				android:title="텍스트  입력"
+				android:summary="에디트텍스트 예제"
+				android:dialogTitle="텍스트 입력"
+				android:dialogMessage="당신의 이름을 입력해주세요."
+				/>	
+		
+			<CheckBoxPreference
+				android:key="check"
+				android:title="체크박스1"
+				android:summary="체크박스 예제"
+				/>
+
+			<RingtonePreference
+				android:key="ringtone"
+				android:title="벨소리 선택"
+				android:showDefault="true"
+				android:showSilent="false"
+				android:summary="벨소리 선택 예제"
+			/>	
+		
+		</PreferenceCategory>
+		
+		<PreferenceCategory android:title="카테고리2">
+	
+			<org.nashorn.exam0405.TimePickerPreference 
+			  android:key="time"
+			
+			  android:title="시간 설정"
+			  android:summary="시간 설정 예제"
+			  android:dialogMessage="시간 설정"
+			/>
+			
+			<org.nashorn.exam0405.SeekBarPreference 
+				android:key="seekbar"
+		        android:title="SeekBar1"
+		        android:summary="SeekBar 예제"
+		        android:dialogMessage="SeekBar1"
+        	/>
+	
+		</PreferenceCategory>
+	</PreferenceScreen>
+	
+	<PreferenceScreen 
+		android:key="text"
+		android:title="텍스트 예제">
+			<PreferenceScreen 
+				android:key="text1"
+				android:title="제목1"
+				android:summary="이것은 첫번째 내용입니다.">
+			</PreferenceScreen>
+			<PreferenceScreen 
+				android:key="text2"
+				android:title="제목2"
+				android:summary="이것은 두번째 내용입니다.">
+			</PreferenceScreen>
+			<PreferenceScreen 
+				android:key="text3"
+				android:title="제목3"
+				android:summary="이것은 세번째 내용입니다.">
+			</PreferenceScreen>
+	</PreferenceScreen>
+
+</PreferenceScreen>

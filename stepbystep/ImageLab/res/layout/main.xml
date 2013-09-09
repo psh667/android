@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 스크롤 기능  -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+	
+	<!-- 스크롤 대상 영역을 하나로 지정: 시작  -->    
+    <LinearLayout 
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    
+	    <!-- img1.jpg에 대한 가로 크기, 세로  크기, 이미지명, 배치 위치, 가로 세로 비율  -->
+		<ImageView  
+		    android:layout_width="220dp" 
+		    android:layout_height="wrap_content" 
+		    android:src="@drawable/img1"
+		    android:layout_gravity="center_horizontal"
+		    android:adjustViewBounds="true" />
+	
+	    <!-- img2.jpg에 대한 가로 크기, 세로  크기, 이미지명, 배치 위치, 가로 세로 비율  -->
+		<ImageView  
+		    android:layout_width="220dp" 
+		    android:layout_height="wrap_content" 
+		    android:src="@drawable/img2"
+		    android:layout_gravity="left"
+		    android:adjustViewBounds="true" />
+	
+	    <!-- img3.jpg에 대한 가로 크기, 세로  크기, 이미지명, 배치 위치, 가로 세로 비율  -->
+		<ImageView  
+		    android:layout_width="220dp" 
+		    android:layout_height="wrap_content" 
+		    android:src="@drawable/img3"
+		    android:layout_gravity="right"
+		    android:adjustViewBounds="true" />
+	
+	</LinearLayout>
+	<!-- 스크롤 대상 영역을 하나로 지정: 끝  -->    
+	
+</ScrollView>

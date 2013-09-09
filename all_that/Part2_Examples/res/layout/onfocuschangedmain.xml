@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:nextFocusUp="@+id/button4"
+        android:nextFocusDown="@+id/button2"
+        android:text="버튼1" />
+        
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:nextFocusUp="@+id/button1"
+        android:nextFocusDown="@+id/button3"
+        android:text="버튼2" />
+        
+     <Button
+        android:id="@+id/button3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:nextFocusUp="@+id/button2"
+        android:nextFocusDown="@+id/button4"
+        android:text="버튼3" />
+        
+     <Button
+        android:id="@+id/button4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:nextFocusUp="@+id/button3"
+        android:nextFocusDown="@+id/button1"
+        android:text="버튼4" />        
+
+</LinearLayout>

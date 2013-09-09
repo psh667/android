@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:background="#ffff00"
+	>
+<TextView
+	android:id="@+id/txtcounter"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textColor="#ff0000"
+	android:textSize="40sp"
+	android:text="0"
+	/>
+<Button
+	android:id="@+id/btnincrease"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:text="Increase"
+	/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">오디오</string>
+
+    <!-- 음악 목록 1  -->
+    <string name="music_album1">Bibidi Babidi Buu</string>
+    
+</resources>

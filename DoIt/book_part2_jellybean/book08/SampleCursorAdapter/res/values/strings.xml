@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">데이터베이스 커서</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">데이터베이스 커서</string>
+
+</resources>

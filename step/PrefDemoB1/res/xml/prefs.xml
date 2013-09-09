@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+	xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Wi-Fi 및 네트워크 설정">
+    	<CheckBoxPreference
+    		android:key="wifi"
+    		android:title="Wi-Fi"
+    		android:summary="Wi-Fi 켜기"
+        android:enabled="false" />
+    	<ListPreference
+                android:key="network"
+                android:title="데이터 네트워크 설정"
+                android:summary="과금되는 데이터 네트워크(3G 등) 연결방식을 선택할 수 있습니다."
+                android:entries="@array/networks"
+                android:entryValues="@array/network_codes"
+                android:dialogTitle="데이터 네트워크 설정"
+                android:enabled="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Bluetooth 및 장치이름 설정">
+        <CheckBoxPreference
+            android:key="bluetooth"
+            android:title="Bluetooth"
+            android:summary="Bluetooth 켜기" />
+        <EditTextPreference
+            android:key="device"
+            android:title="장치이름"
+            android:summary="장치 이름을 설정하세요."
+            android:dialogTitle="장치이름"
+        />
+    </PreferenceCategory>
+</PreferenceScreen>

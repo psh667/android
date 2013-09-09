@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical" >
+<TextView
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:text="두 개의 프래그먼트를 배치합니다." 
+	/>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+<fragment
+	android:name="andexam.ver4_1.c20_fragment.TwoFragment1$CounterFragment"
+	android:id="@+id/counterfragment1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_margin="20dp" 
+	/>
+<fragment
+	android:name="andexam.ver4_1.c20_fragment.TwoFragment1$CounterFragment"
+	android:id="@+id/counterfragment2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_margin="20dp" 
+	/>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">오버레이 추가하기</string>
+    <string name="hello_world">오버레이 추가하기</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">오버레이 추가하기</string>
+
+</resources>

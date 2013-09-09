@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff" >
+
+    <RelativeLayout
+    	android:id="@+id/titleLayout"
+    	android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:background="#ffffffff"
+	    >
+	    <org.androidtown.multimemo.common.TitleBackgroundButton
+			android:id="@+id/titleBackgroundBtn"
+		    android:layout_width="match_parent"
+		    android:layout_height="48dp"
+		    android:layout_alignParentTop="true"
+		    android:text="멀티 메모"
+		    android:textSize="18dp"
+		    android:textStyle="bold"
+		    />
+    </RelativeLayout>
+	<ListView
+    	android:id="@+id/memoList"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:layout_margin="4dp"
+    	android:layout_below="@+id/titleLayout"
+    	android:layout_above="@+id/buttonLayout"
+    	android:divider="#00000000"
+    	android:listSelector="#00000000"
+    	android:cacheColorHint="#00000000"
+    	/>
+    <LinearLayout
+    	android:id="@+id/buttonLayout"
+    	android:orientation="vertical"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_marginTop="10dp"
+    	android:layout_marginBottom="10dp"
+    	android:layout_alignParentBottom="true"
+    	>
+    	<LinearLayout
+	    	android:id="@+id/buttonLayout"
+	    	android:orientation="horizontal"
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"
+	    	android:layout_gravity="center_horizontal"
+	    	>
+			<org.androidtown.multimemo.common.TitleBitmapButton
+				android:id="@+id/newMemoBtn"
+			    android:layout_width="100dp"
+			    android:layout_height="48dp"
+			    android:text="새 메모"
+			    android:textSize="18dp"
+			    android:textStyle="bold"
+			    android:textColor="#ff420000"
+			    />
+			<org.androidtown.multimemo.common.TitleBitmapButton
+				android:id="@+id/closeBtn"
+			    android:layout_width="100dp"
+			    android:layout_height="48dp"
+			    android:layout_marginLeft="20dp"
+			    android:text="닫기"
+			    android:textSize="18dp"
+			    android:textStyle="bold"
+			    android:textColor="#ff420000"
+			    />
+		 </LinearLayout>
+	</LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+	android:id="@+id/statuslabel"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="Press button to get time from DayTime Server"
+    />
+    
+	<Button android:id="@+id/testit"
+	android:text="Get Date/Time"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	/>    
+</LinearLayout>

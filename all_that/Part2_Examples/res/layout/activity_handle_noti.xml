@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099CC"
+    android:padding="8dip"
+    >
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="just handle notification screen"
+        android:gravity="center_horizontal"
+        android:textSize="44dp"
+        android:textColor="#A8DFF4"
+        android:paddingBottom="16dip"
+        />
+
+</LinearLayout>
+

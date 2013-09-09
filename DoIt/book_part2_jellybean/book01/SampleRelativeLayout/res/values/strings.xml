@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">SampleRelativeLayout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">상대레이아웃 사용하기</string>
+
+</resources>

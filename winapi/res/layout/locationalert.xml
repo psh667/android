@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView
+	android:id="@+id/text"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:textSize="20sp" 
+	android:text="낚시 지점 안내"
+	/>
+<TextView
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:text="이 프로그램은 현재 위치를 감시하여 낚시하기 좋은 곳을 알려 줍니다."
+	/>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+	<Button
+		android:id="@+id/button01"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="20dp"
+		android:text="로그인 화면"
+		android:textSize="18dp"
+		android:textStyle="bold"
+	/>
+	
+	<Button
+		android:id="@+id/button02"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="20dp"
+		android:text="중첩되는 뷰"
+		android:textSize="18dp"
+		android:textStyle="bold"
+	/>
+	
+	<Button
+		android:id="@+id/button03"
+		android:layout_width="200dp"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginTop="20dp"
+		android:text="가운데 꽉 채우기"
+		android:textSize="18dp"
+		android:textStyle="bold"
+	/>
+	
+</LinearLayout>

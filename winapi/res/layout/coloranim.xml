@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+<Button
+	android:id="@+id/btn1"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="IntEvaluator" />
+<Button
+	android:id="@+id/btn2"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="ArgbEvaluator" />
+<Button
+	android:id="@+id/btn"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="Button" />
+</LinearLayout>

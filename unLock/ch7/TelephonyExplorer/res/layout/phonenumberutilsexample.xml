@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:gravity="center_horizontal" android:padding="10px"
+	android.setVerticalScrollBarEnabled="true" android:background="#000000">
+
+	<TextView android:id="@+id/intro_label_pn"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginLeft="10px" android:layout_marginBottom="15px"
+		android:textStyle="bold" android:text="PhoneNumberUtils Example" />
+	<TextView android:id="@+id/label_pninput"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:layout_marginLeft="10px" android:layout_marginBottom="5px"
+		android:layout_below="@id/intro_label_pn" android:text="Input string to format:" />
+	<EditText android:id="@+id/pninput" android:layout_width="250dip"
+		android:layout_height="wrap_content" android:layout_marginLeft="10px"
+		android:layout_marginBottom="20px" android:layout_below="@id/label_pninput"
+		android:text="" />
+		
+	<Button android:id="@+id/pnformat" android:layout_width="150dip"
+        android:layout_height="wrap_content" android:layout_below="@id/pninput"
+        android:layout_marginLeft="10px" android:layout_marginBottom="10px"
+        android:text="Format" />
+
+    <TextView android:id="@+id/label_pnoutput" android:layout_width="150dip"
+        android:layout_height="wrap_content" android:layout_marginLeft="10px"
+        android:layout_marginBottom="5px" android:layout_below="@id/pnformat"
+        android:text="Formatting Results:" />
+	<TextView android:id="@+id/pnoutput" android:layout_width="150dip"
+		android:layout_height="wrap_content" android:layout_marginLeft="10px"
+		android:layout_marginBottom="25px" android:layout_below="@id/label_pnoutput"
+		android:text="" />
+		
+	<TextView android:id="@+id/label_pninplaceinput"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginLeft="10px" android:layout_marginBottom="5px"
+        android:layout_below="@id/pnoutput" android:text="Edit in place phone number:" />
+    <EditText android:id="@+id/pninplaceinput" android:layout_width="250dip"
+        android:layout_height="wrap_content" android:layout_marginLeft="10px"
+        android:layout_marginBottom="5px" android:layout_below="@id/label_pninplaceinput"
+        android:text="" />
+        
+    <EditText android:id="@+id/pnnextfocus" android:layout_width="250dip"
+        android:layout_height="wrap_content" android:layout_marginLeft="10px"
+        android:layout_marginBottom="20px" android:layout_below="@id/pninplaceinput"
+        android:text="Change focus to here to format previous field" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">HTTP 요청하기</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">HTTP 요청하기</string>
+
+</resources>

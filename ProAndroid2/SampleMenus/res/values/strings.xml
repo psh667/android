@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, SampleMenusActivity!</string>
+    <string name="app_name">샘플 메뉴 애플리케이션</string>
+</resources>

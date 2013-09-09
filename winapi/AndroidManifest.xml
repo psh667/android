@@ -1,0 +1,767 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="andexam.ver4_1"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <application 
+        android:icon="@drawable/andexam"
+        android:label="안드로이드 프로그래밍 정복"
+        android:theme="@style/android:Theme.Holo"
+        android:debuggable="true" 
+        android:name=".c18_process.AndExam_Application"
+        android:hardwareAccelerated="false"
+        >
+        <activity
+            android:name=".AndExam"
+            android:label="AndExam" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="AndExamSetting" android:label="옵션" />
+        
+        // 4장.뷰
+        <activity android:name=".c04_view.TextViewTest" android:label="TextViewTest" />
+        <activity android:name=".c04_view.ImageViewTest" android:label="ImageViewTest" />
+        <activity android:name=".c04_view.ButtonEdit" android:label="ButtonEdit" />
+        
+        // 5장.레이아웃
+        <activity android:name=".c05_layout.Horizontal1" android:label="Horizontal1" />
+        <activity android:name=".c05_layout.Horizontal2" android:label="Horizontal2" />
+        <activity android:name=".c05_layout.Horizontal3" android:label="Horizontal3" />
+        <activity android:name=".c05_layout.Gravity1" android:label="Gravity1" />
+        <activity android:name=".c05_layout.Gravity2" android:label="Gravity2" />
+        <activity android:name=".c05_layout.Gravity3" android:label="Gravity3" />
+        <activity android:name=".c05_layout.Gravity4" android:label="Gravity4" />
+        <activity android:name=".c05_layout.Gravity5" android:label="Gravity5" />
+        <activity android:name=".c05_layout.lGravity1" android:label="lGravity1" />
+        <activity android:name=".c05_layout.lGravity2" android:label="lGravity2" />
+        <activity android:name=".c05_layout.lGravity3" android:label="lGravity3" />
+        <activity android:name=".c05_layout.lGravity4" android:label="lGravity4" />
+        <activity android:name=".c05_layout.lGravity5" android:label="lGravity5" />
+        <activity android:name=".c05_layout.Base1" android:label="Base1" />
+        <activity android:name=".c05_layout.Base2" android:label="Base2" />
+        <activity android:name=".c05_layout.Weight1" android:label="Weight1" />
+        <activity android:name=".c05_layout.Weight2" android:label="Weight2" />
+        <activity android:name=".c05_layout.Weight3" android:label="Weight3" />
+        <activity android:name=".c05_layout.Padding1" android:label="Padding1" />
+        <activity android:name=".c05_layout.Padding2" android:label="Padding2" />
+        <activity android:name=".c05_layout.Padding3" android:label="Padding3" />
+        <activity android:name=".c05_layout.Relative" android:label="Relative" />
+        <activity android:name=".c05_layout.NameCard" android:label="NameCard" />
+        <activity android:name=".c05_layout.NameCard2" android:label="NameCard2" />
+        <activity android:name=".c05_layout.IfMissing" android:label="IfMissing" />
+        <activity android:name=".c05_layout.IfMissing2" android:label="IfMissing2" />
+        <activity android:name=".c05_layout.Absolute" android:label="Absolute" />
+        <activity android:name=".c05_layout.NoAbsolute" android:label="NoAbsolute" />
+        <activity android:name=".c05_layout.Frame" android:label="Frame" />
+        <activity android:name=".c05_layout.Table" android:label="Table" />
+        <activity android:name=".c05_layout.Table2" android:label="Table2" />
+        
+        // 6장.레이아웃 관리
+        <activity android:name=".c06_layoutman.NestLayout" android:label="NestLayout" />
+        <activity android:name=".c06_layoutman.LinearTable" android:label="LinearTable" />
+        <activity android:name=".c06_layoutman.MultiPage" android:label="MultiPage" />
+        <activity android:name=".c06_layoutman.CodeLayout" android:label="CodeLayout" />
+        <activity android:name=".c06_layoutman.CodeLayout2" android:label="CodeLayout2" />
+        <activity android:name=".c06_layoutman.Inflation" android:label="Inflation" />
+        <activity android:name=".c06_layoutman.Inflation2" android:label="Inflation2" />
+        <activity android:name=".c06_layoutman.Inflation3" android:label="Inflation3" />
+        <activity android:name=".c06_layoutman.Inflation4" android:label="Inflation4" />
+        <activity android:name=".c06_layoutman.Inflation5" android:label="Inflation5" />
+        <activity android:name=".c06_layoutman.LayoutParameter" android:label="LayoutParameter" />
+        <activity android:name=".c06_layoutman.LayoutParameter2" android:label="LayoutParameter2" />
+        <activity android:name=".c06_layoutman.LayoutParameter3" android:label="LayoutParameter3" />
+        <activity android:name=".c06_layoutman.MarginParameter" android:label="MarginParameter" />
+        <activity android:name=".c06_layoutman.MarginParameter2" android:label="MarginParameter2" />
+        <activity android:name=".c06_layoutman.SetParameter" android:label="SetParameter" />
+        <activity android:name=".c06_layoutman.GridHorz" android:label="GridHorz" />
+        <activity android:name=".c06_layoutman.GridVert" android:label="GridVert" />
+        <activity android:name=".c06_layoutman.GridLinear" android:label="GridLinear" />
+        <activity android:name=".c06_layoutman.CellSize" android:label="CellSize" />
+        <activity android:name=".c06_layoutman.CellPosition" android:label="CellPosition" />
+        <activity android:name=".c06_layoutman.CellSpan" android:label="CellSpan" />
+        <activity android:name=".c06_layoutman.TwoLine" android:label="TwoLine" />
+        <activity android:name=".c06_layoutman.InputForm" android:label="InputForm" />
+        
+        // 7장 출력
+        <activity android:name=".c07_output.CustomView" android:label="CustomView" />
+        <activity android:name=".c07_output.Primitive1" android:label="Primitive1" />
+        <activity android:name=".c07_output.Primitive2" android:label="Primitive2" />
+        <activity android:name=".c07_output.AntiAlias" android:label="AntiAlias" />
+        <activity android:name=".c07_output.Stroke" android:label="Stroke" />
+        <activity android:name=".c07_output.PaintStyle" android:label="PaintStyle" />
+        <activity android:name=".c07_output.NewPaint" android:label="NewPaint" />
+        <activity android:name=".c07_output.PrePaint" android:label="PrePaint" />
+        <activity android:name=".c07_output.DrawBitmap" android:label="DrawBitmap" />
+        <activity android:name=".c07_output.OffScreen" android:label="OffScreen" />
+        <activity android:name=".c07_output.DrawText" android:label="DrawText" />
+        <activity android:name=".c07_output.TypeFace" android:label="TypeFace" />
+        <activity android:name=".c07_output.CustomFont" android:label="CustomFont" />
+        <activity android:name=".c07_output.DrawPath" android:label="DrawPath" />
+        <activity android:name=".c07_output.LinearGrad" android:label="LinearGrad" />
+        <activity android:name=".c07_output.RadialGrad" android:label="RadialGrad" />
+        <activity android:name=".c07_output.SweepGrad" android:label="SweepGrad" />
+        <activity android:name=".c07_output.BitmapSdr" android:label="BitmapSdr" />
+        <activity android:name=".c07_output.ComposeSdr" android:label="ComposeSdr" />
+        <activity android:name=".c07_output.MirrorImage" android:label="MirrorImage" />
+        <activity android:name=".c07_output.Shape" android:label="Shape" />
+        <activity android:name=".c07_output.ToastTest" android:label="ToastTest" />
+        <activity android:name=".c07_output.Beep" android:label="Beep" />
+        <activity android:name=".c07_output.Vibrate" android:label="Vibrate" />
+
+        // 8.입력
+        <activity android:name=".c08_input.HandleEvent" android:label="HandleEvent" />
+        <activity android:name=".c08_input.HandlerOrder" android:label="HandlerOrder" />
+        <activity android:name=".c08_input.HandlerOrder2" android:label="HandlerOrder2" />
+        <activity android:name=".c08_input.HandlerAccess" android:label="HandlerAccess" />
+        <activity android:name=".c08_input.MoveCircle" android:label="MoveCircle" />
+        <activity android:name=".c08_input.FreeLine" android:label="FreeLine" />
+        <activity android:name=".c08_input.Fruit" android:label="Fruit" />
+        <activity android:name=".c08_input.Fruit2" android:label="Fruit2" />
+        <activity android:name=".c08_input.LongClick" android:label="LongClick" />
+        <activity android:name=".c08_input.FocusTest" android:label="FocusTest" />
+        <activity android:name=".c08_input.FocusTest2" android:label="FocusTest2" />
+        <activity android:name=".c08_input.TimerTest" android:label="TimerTest" />
+
+        // 9.메뉴
+        <activity android:name=".c09_menu.OptionMenu" android:label="OptionMenu" />
+        <activity android:name=".c09_menu.OptionMenuXml" android:label="OptionMenuXml" />
+        <activity android:name=".c09_menu.MenuOnClick" android:label="MenuOnClick" />
+        <activity android:name=".c09_menu.ContextMenuTest" android:label="ContextMenuTest" />
+        <activity android:name=".c09_menu.PopupMenuTest" android:label="PopupMenuTest" />
+        <activity android:name=".c09_menu.MenuHistory" android:label="MenuHistory" />
+        <activity android:name=".c09_menu.MenuCheck" android:label="MenuCheck" />
+        <activity android:name=".c09_menu.ChangeMenu" android:label="ChangeMenu" />
+        
+        // 10.개발툴
+        <activity android:name=".c10_tool.MemoryPower" android:label="MemoryPower" />
+        <activity android:name=".c10_tool.MemoryPowerBaby" android:label="MemoryPowerBaby" />
+        <activity android:name=".c10_tool.NumPang" android:label="NumPang" 
+            android:screenOrientation="portrait" />
+        <activity android:name=".c10_tool.BabyPang" android:label="BabyPang" 
+            android:screenOrientation="portrait" />
+        <activity android:name=".c10_tool.MemoryPower2" android:label="MemoryPower2" />
+        <activity android:name=".c10_tool.LogTest" android:label="LogTest" />
+        
+        // 11.기본 위젯
+        <activity android:name=".c11_widget.ReadResource" android:label="ReadResource" />
+        <activity android:name=".c11_widget.ReadResource2" android:label="ReadResource2" />
+        <activity android:name=".c11_widget.StyleTest" android:label="StyleTest" />
+        <activity android:name=".c11_widget.StyleTest2" android:label="StyleTest2" />
+        <activity android:name=".c11_widget.ThemeTest" 
+        	android:theme="@style/mytheme" 
+        	android:label="ThemeTest" />
+        <activity android:name=".c11_widget.SystemTheme" 
+        	android:theme="@android:style/Theme.Dialog" 
+        	android:label="SystemTheme" />
+        <activity android:name=".c11_widget.TextViewAttr" android:label="TextViewAttr" />
+        <activity android:name=".c11_widget.EditableTest" android:label="EditableTest" />
+        <activity android:name=".c11_widget.SpannableTest" android:label="SpannableTest" />
+        <activity android:name=".c11_widget.SpannableTest2" android:label="SpannableTest2" />
+        <activity android:name=".c11_widget.TextViewHtml" android:label="TextViewHtml" />
+        <activity android:name=".c11_widget.TextChange" android:label="TextChange" />
+        <activity android:name=".c11_widget.GramPrice" android:label="GramPrice" />
+        <activity android:name=".c11_widget.EditLimit" android:label="EditLimit" />
+        <activity android:name=".c11_widget.EditSelect" android:label="EditSelect" />
+        <activity android:name=".c11_widget.InputTypeTest" android:label="InputType" />
+        <activity android:name=".c11_widget.ShowHideKey" android:label="ShowHideKey" />
+        <activity android:name=".c11_widget.AdjustKey1" android:label="AdjustKey1" />
+        <activity android:name=".c11_widget.AdjustKey2" android:label="AdjustKey2" 
+        	android:windowSoftInputMode="adjustResize" 
+        	/>
+        <activity android:name=".c11_widget.NoNinePatch" android:label="NoNinePatch" />
+        <activity android:name=".c11_widget.YesNinePatch" android:label="YesNinePatch" />
+        <activity android:name=".c11_widget.ArrowButton" android:label="ArrowButton" />
+        <activity android:name=".c11_widget.RadioCheck" android:label="RadioCheck" />
+        <activity android:name=".c11_widget.FilterTouch" android:label="FilterTouch" />
+        <activity android:name=".c11_widget.ScaleTypeTest" android:label="ScaleTypeTest" />
+        <activity android:name=".c11_widget.ImageViewAttr" android:label="ImageViewAttr" />
+        <activity android:name=".c11_widget.ImageButtonTest" android:label="ImageButtonTest" />
+        <activity android:name=".c11_widget.ButtonDrawable" android:label="ButtonDrawable" />
+        <activity android:name=".c11_widget.ButtonSelector" android:label="ButtonSelector" />
+        
+        // 12.어댑터 뷰
+        <activity android:name=".c12_adapterview.ListViewTest" android:label="ListViewTest" />
+        <activity android:name=".c12_adapterview.ListFromArray" android:label="ListFromArray" />
+        <activity android:name=".c12_adapterview.ListAttr" android:label="ListAttr" />
+        <activity android:name=".c12_adapterview.ListItemSelect" android:label="ListItemSelect" />
+        <activity android:name=".c12_adapterview.ListAddDel" android:label="ListAddDel" />
+        <activity android:name=".c12_adapterview.ListAddDelMulti" android:label="ListAddDelMulti" />
+        <activity android:name=".c12_adapterview.ListAddDelMulti2" android:label="ListAddDelMulti2" />
+        <activity android:name=".c12_adapterview.ListAddDelMulti3" android:label="ListAddDelMulti3" />
+        <activity android:name=".c12_adapterview.ListIconText" android:label="ListIconText" />
+        <activity android:name=".c12_adapterview.ListOfViews" android:label="ListOfViews" />
+        <activity android:name=".c12_adapterview.ManyItem" android:label="ManyItem" />
+        <activity android:name=".c12_adapterview.Expandable" android:label="Expandable" />
+        <activity android:name=".c12_adapterview.ListOnly" android:label="ListOnly" />
+        <activity android:name=".c12_adapterview.OverScroll" android:label="OverScroll" />
+        <activity android:name=".c12_adapterview.SpinnerTest" android:label="SpinnerTest" />
+        <activity android:name=".c12_adapterview.GridViewTest" android:label="GridViewTest" />
+        <activity android:name=".c12_adapterview.GalleryTest" android:label="GalleryTest" />
+        
+        // 13. 고급 위젯
+        <activity android:name=".c13_advwidget.ProgressBarTest" android:label="ProgressBarTest" />
+        <activity android:name=".c13_advwidget.ProgressTitle" android:label="ProgressTitle" />
+        <activity android:name=".c13_advwidget.ProgressTitle2" android:label="ProgressTitle2" />
+        <activity android:name=".c13_advwidget.SeekBarTest" android:label="SeekBarTest" />
+        <activity android:name=".c13_advwidget.RatingBarTest" android:label="RatingBarTest" />
+        <activity android:name=".c13_advwidget.DateTimeTest" android:label="DateTimeTest" />
+        <activity android:name=".c13_advwidget.SpeedTest" android:label="SpeedTest" />
+        <activity android:name=".c13_advwidget.ClockTest" android:label="ClockTest" />
+        <activity android:name=".c13_advwidget.DatePickerTest" android:label="DatePickerTest" />
+        <activity android:name=".c13_advwidget.TimePickerTest" android:label="TimePickerTest" />
+        <activity android:name=".c13_advwidget.PickerDialogTest" android:label="PickerDialogTest" />
+        <activity android:name=".c13_advwidget.ChronometerTest" android:label="ChronometerTest" />
+        <activity android:name=".c13_advwidget.StopWatch" android:label="StopWatch" />
+        <activity android:name=".c13_advwidget.AutoComplete" android:label="AutoComplete" />
+        <activity android:name=".c13_advwidget.MultiAuto" android:label="MultiAuto" />
+        <activity android:name=".c13_advwidget.SlidingDrawerTest" android:label="SlidingDrawerTest" />
+        <activity android:name=".c13_advwidget.ScrollViewTest" android:label="ScrollViewTest" />
+        <activity android:name=".c13_advwidget.HScrollView" android:label="HScrollView" />
+        <activity android:name=".c13_advwidget.WebViewTest" android:label="WebViewTest" />
+        <activity android:name=".c13_advwidget.SportsScore" android:label="SportsScore" />
+        <activity android:name=".c13_advwidget.SwitchTest" android:label="SwitchTest" />
+        <activity android:name=".c13_advwidget.SpaceTest" android:label="SpaceTest" />
+        <activity android:name=".c13_advwidget.NumberPickerTest" android:label="NumberPickerTest" />
+        <activity android:name=".c13_advwidget.NumberPickerTest2" android:label="NumberPickerTest2" 
+            android:theme="@style/android:Theme" />
+        <activity android:name=".c13_advwidget.CalendarViewTest" android:label="CalendarViewTest" />
+        <activity android:name=".c13_advwidget.ListPopupWindowTest" android:label="ListPopupWindowTest" />
+
+        // 14. 커스텀 위젯
+        <activity android:name=".c14_cuswidget.SoundEdit" android:label="SoundEdit" />
+        <activity android:name=".c14_cuswidget.NumEdit" android:label="NumEdit" />
+        <activity android:name=".c14_cuswidget.AttributeTest" android:label="AttributeTest" />
+        <activity android:name=".c14_cuswidget.SoundEdit2" android:label="SoundEdit2" />
+        <activity android:name=".c14_cuswidget.Measuring" android:label="Measuring" />
+        <activity android:name=".c14_cuswidget.Measuring2" android:label="Measuring2" />
+        <activity android:name=".c14_cuswidget.Measuring3" android:label="Measuring3" />
+        <activity android:name=".c14_cuswidget.Measuring4" android:label="Measuring4" />
+        <activity android:name=".c14_cuswidget.Measuring5" android:label="Measuring5" />
+        <activity android:name=".c14_cuswidget.Measuring6" android:label="Measuring6" />
+        <activity android:name=".c14_cuswidget.Rainbow" android:label="Rainbow" />
+        
+        // 15. 리소스 관리
+        <activity android:name=".c15_resource.LandPort" android:label="LandPort" />
+        <activity android:name=".c15_resource.MultiLang" android:label="@string/multi_caption" />
+        <activity android:name=".c15_resource.DisplayMetricsTest" android:label="DisplayMetricsTest" />
+        <activity android:name=".c15_resource.LogicUnit" android:label="LogicUnit" />
+        <activity android:name=".c15_resource.ConvertDpi" android:label="ConvertDpi" 
+        	android:windowSoftInputMode="stateAlwaysVisible"
+        />
+        <activity android:name=".c15_resource.ResDensity" android:label="ResDensity" />
+        <activity android:name=".c15_resource.SameSize" android:label="SameSize" />
+        <activity android:name=".c15_resource.FillWidth" android:label="FillWidth" />
+        <activity android:name=".c15_resource.DrawUnit" android:label="DrawUnit" />
+        <activity android:name=".c15_resource.RulerTest" android:label="RulerTest"
+        	android:screenOrientation="landscape" 
+        	android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+        	/>
+        <activity android:name=".c15_resource.ScreenSize" android:label="ScreenSize" />
+        <activity android:name=".c15_resource.SmallestWidth" android:label="SmallestWidth" />
+        <activity android:name=".c15_resource.SwLayout" android:label="SwLayout" />
+        
+        // 16. 대화상자
+        <activity android:name=".c16_dialog.DialogTest" android:label="DialogTest" />
+        <activity android:name=".c16_dialog.AlertDialogTest" android:label="AlertDialogTest" />
+        <activity android:name=".c16_dialog.DialogButton" android:label="DialogButton" />
+        <activity android:name=".c16_dialog.OkCancel" android:label="OkCancel" />
+        <activity android:name=".c16_dialog.Cancelable" android:label="Cancelable" />
+        <activity android:name=".c16_dialog.TouchOutside" android:label="TouchOutside" />
+        <activity android:name=".c16_dialog.ShowDialog" android:label="ShowDialog" />
+        <activity android:name=".c16_dialog.ErrorMessage1" android:label="ErrorMessage1" />
+        <activity android:name=".c16_dialog.ErrorMessage2" android:label="ErrorMessage2" />
+        <activity android:name=".c16_dialog.Question1" android:label="Question1" />
+        <activity android:name=".c16_dialog.Question2" android:label="Question2" />
+        <activity android:name=".c16_dialog.Question3" android:label="Question3" />
+        <activity android:name=".c16_dialog.SelectDialog1" android:label="SelectDialog1" />
+        <activity android:name=".c16_dialog.SelectDialog2" android:label="SelectDialog2" />
+        <activity android:name=".c16_dialog.SelectDialog3" android:label="SelectDialog3" />
+        <activity android:name=".c16_dialog.OrderDialog" android:label="OrderDialog" />
+        <activity android:name=".c16_dialog.Popup" android:label="Popup" />
+        
+        // 17.액티비티
+        <activity android:name=".c17_activity.CallActivity" android:label="CallActivity" />
+        <activity android:name=".c17_activity.SubActivity" android:label="SubActivity" />
+        <activity android:name=".c17_activity.CommActivity" android:label="CommActivity" />
+        <activity android:name=".c17_activity.ActEdit" android:label="ActEdit" />
+        <activity android:name=".c17_activity.CallOther" android:label="CallOther" />
+        <activity android:name=".c17_activity.Add" android:label="Add">
+            <intent-filter>
+                <action android:name="andexam.ver4_1.ADD" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".c17_activity.CallAdd" android:label="CallAdd" />
+        <activity android:name=".c17_activity.ActParent" android:label="ActParent" />
+        <activity android:name=".c17_activity.ActChild" android:label="ActChild" />
+        <activity android:name=".c17_activity.SaveState" android:label="SaveState" />
+        <activity android:name=".c17_activity.SaveState2" android:label="SaveState2" />
+        <activity android:name=".c17_activity.SaveState3" android:label="SaveState3" />
+        <activity android:name=".c17_activity.SaveCurve" android:label="SaveCurve" />
+        <activity android:name=".c17_activity.SaveCurve2" android:label="SaveCurve2" />
+        <activity android:name=".c17_activity.SaveCurve3" 
+        	android:label="SaveCurve3"
+        	android:configChanges="orientation|keyboardHidden|screenSize" 
+       	/>
+        <activity android:name=".c17_activity.TabTest" android:label="TabTest" />
+        <activity android:name=".c17_activity.TabTest2" android:label="TabTest2" />
+        <activity android:name=".c17_activity.TabTest3" android:label="TabTest3" />
+        <activity android:name=".c17_activity.CustomTab" android:label="CustomTab" />
+        
+        // 18.프로세스
+        <activity android:name=".c18_process.ApplicationTest" android:label="ApplicationTest" />
+        <activity android:name=".c18_process.NoTitle" android:label="NoTitle" /> 
+        <!-- <activity android:name=".c18_process.NoTitle" android:label="NoTitle" 
+            android:theme="@android:style/Theme.NoTitleBar" /> -->
+        <activity android:name=".c18_process.FullScreen" android:label="FullScreen" />
+        <!-- <activity android:name=".c18_process.FullScreen" android:label="FullScreen" 
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/> -->
+        <activity android:name=".c18_process.Overlay" android:label="Overlay" />
+        <activity android:name=".c18_process.Center" android:label="Center" 
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <activity android:name=".c18_process.WindowManagerTest" android:label="WindowManagerTest" />
+        <activity android:name=".c18_process.DragReorder" android:label="DragReorder" />
+        
+        // 19.스레드
+        <activity android:name=".c19_thread.ThreadTest" android:label="ThreadTest" />
+        <activity android:name=".c19_thread.HandlerTest" android:label="HandlerTest" />
+        <activity android:name=".c19_thread.LooperTest" android:label="LooperTest" />
+        <activity android:name=".c19_thread.Upload" android:label="Upload" />
+        <activity android:name=".c19_thread.Post" android:label="Post" />
+        <activity android:name=".c19_thread.ANR" android:label="ANR" />
+        <activity android:name=".c19_thread.ANR2" android:label="ANR2" />
+        <activity android:name=".c19_thread.StrictModeTest" android:label="StrictModeTest" />
+        <activity android:name=".c19_thread.LongTime" android:label="LongTime" />
+        <activity android:name=".c19_thread.LongTime2" android:label="LongTime2" />
+        <activity android:name=".c19_thread.LongTime3" android:label="LongTime3" />
+        <activity android:name=".c19_thread.LongTime4" android:label="LongTime4" />
+        <activity android:name=".c19_thread.LongTime5" android:label="LongTime5" />
+        <activity android:name=".c19_thread.BackWork" android:label="BackWork" />
+        <activity android:name=".c19_thread.BackWork2" android:label="BackWork2" />
+        <activity android:name=".c19_thread.BackWork3" android:label="BackWork3" />
+        
+        // 20.프래그먼트
+        <activity android:name=".c20_fragment.FragmentTest" android:label="FragmentTest" />
+        <activity android:name=".c20_fragment.ReuseFragment" android:label="ReuseFragment" />
+        <activity android:name=".c20_fragment.TwoFragment1" android:label="TwoFragment1" />
+        <activity android:name=".c20_fragment.TwoFragment2" android:label="TwoFragment2" />
+        <activity android:name=".c20_fragment.SaveFragmentState" android:label="SaveFragmentState" />
+        <activity android:name=".c20_fragment.FragmentManagerTest" android:label="FragmentManagerTest" />
+        <activity android:name=".c20_fragment.FragmentArgument" android:label="FragmentArgument" />
+        <activity android:name=".c20_fragment.BackStack" android:label="BackStack" />
+        <activity android:name=".c20_fragment.ListFragmentTest" android:label="ListFragmentTest" />
+        <activity android:name=".c20_fragment.WordList" android:label="WordList" />
+        <activity android:name=".c20_fragment.DialogFragmentTest" android:label="DialogFragmentTest" />
+        <activity android:name=".c20_fragment.DialogFragmentEmbed" android:label="DialogFragmentEmbed" />
+        <activity android:name=".c20_fragment.DialogStyleTheme" android:label="DialogStyleTheme" />
+        <activity android:name=".c20_fragment.MultiPaneWidth" android:label="MultiPaneWidth" />
+        <activity android:name=".c20_fragment.MultiPaneWidth$DescActivity" android:label="DescActivity" />
+        <activity android:name=".c20_fragment.MultiPaneOrient" android:label="MultiPaneOrient" />
+        <activity android:name=".c20_fragment.MultiPaneOrient$DescActivity" android:label="DescActivity" />
+        
+        // 21.액션바
+        <activity android:name=".c21_actionbar.ActionBarTest" android:label="ActionBarTest" />
+        <activity android:name=".c21_actionbar.NoActionBar" android:label="NoActionBar"
+            android:theme="@android:style/Theme.Holo.NoActionBar" />
+        <activity android:name=".c21_actionbar.ShowHideActionBar" android:label="ShowHideActionBar" />
+        <activity android:name=".c21_actionbar.OverlayActionBar" android:label="OverlayActionBar" 
+            android:theme="@style/actionbaroverlay"/>        
+        <activity android:name=".c21_actionbar.SplitActionBar" android:label="SplitActionBar" 
+			android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:name=".c21_actionbar.AppIcon" android:label="AppIcon" />
+        <activity android:name=".c21_actionbar.ActionView" android:label="ActionView" />
+        <activity android:name=".c21_actionbar.ActionSwitch" android:label="ActionSwitch" />
+        <activity android:name=".c21_actionbar.ActionProviderTest" android:label="ActionProviderTest" />
+        <activity android:name=".c21_actionbar.ShareAction" android:label="ShareAction" />
+        <activity android:name=".c21_actionbar.ActionTab" android:label="ActionTab" />
+        <activity android:name=".c21_actionbar.DisplayOption" android:label="DisplayOption" 
+            android:logo="@drawable/androboy" />
+        <activity android:name=".c21_actionbar.ActionModeTest" android:label="ActionModeTest" />
+
+        // 22.그리기        
+        <activity android:name=".c22_graphic.BlurFlt" android:label="BlurFlt" />
+        <activity android:name=".c22_graphic.EmbossFlt" android:label="EmbossFlt" />
+        <activity android:name=".c22_graphic.ColorFlt" android:label="ColorFlt" />
+        <activity android:name=".c22_graphic.ColorM" android:label="ColorM" />
+        <activity android:name=".c22_graphic.GrayScale" android:label="GrayScale" />
+        <activity android:name=".c22_graphic.Porter" android:label="Porter" />
+        <activity android:name=".c22_graphic.DashPathEft" android:label="DashPathEft" />
+        <activity android:name=".c22_graphic.CornerPathEft" android:label="CornerPathEft" />
+        <activity android:name=".c22_graphic.PathDashEft" android:label="PathDashEft" />
+        <activity android:name=".c22_graphic.DashAnim" android:label="DashAnim" />
+        <activity android:name=".c22_graphic.Xfer" android:label="Xfer" />
+        <activity android:name=".c22_graphic.Dither" android:label="Dither" />
+        <activity android:name=".c22_graphic.AccelTest1" android:label="AccelTest1" 
+            android:hardwareAccelerated="true" />
+        <activity android:name=".c22_graphic.AccelTest2" android:label="AccelTest2" 
+            android:hardwareAccelerated="false" />
+        <activity android:name=".c22_graphic.BlurFlt2" android:label="BlurFlt2" 
+            android:hardwareAccelerated="true" />
+        <activity android:name=".c22_graphic.DashPathEft2" android:label="DashPathEft2" 
+            android:hardwareAccelerated="true" />
+        <activity android:name=".c22_graphic.Translate" android:label="Translate" />
+        <activity android:name=".c22_graphic.Translate2" android:label="Translate2" />
+        <activity android:name=".c22_graphic.SaveCanvas" android:label="SaveCanvas" />
+        <activity android:name=".c22_graphic.Skew" android:label="Skew" />
+        <activity android:name=".c22_graphic.Scale" android:label="Scale" />
+        <activity android:name=".c22_graphic.TransOrder" android:label="TransOrder" />
+        <activity android:name=".c22_graphic.Rotate" android:label="Rotate" />
+        <activity android:name=".c22_graphic.Reflection" android:label="Reflection" />
+        <activity android:name=".c22_graphic.Reflection2" android:label="Reflection2" />
+        <activity android:name=".c22_graphic.ReDraw1" android:label="ReDraw1" />
+        <activity android:name=".c22_graphic.ReDraw2" android:label="ReDraw2" />
+        <activity android:name=".c22_graphic.ReDraw3" android:label="ReDraw3" />
+        <activity android:name=".c22_graphic.ReDraw4" android:label="ReDraw4" />
+        <activity android:name=".c22_graphic.ReDraw5" android:label="ReDraw5" />
+        <activity android:name=".c22_graphic.OpenGLTest" android:label="OpenGLTest" />
+        
+        // 23.애니메이션
+        <activity android:name=".c23_animation.FrameAni" android:label="FrameAni" />
+        <activity android:name=".c23_animation.AnimAttr" android:label="AnimAttr" />
+        <activity android:name=".c23_animation.AnimationTest" android:label="AnimationTest" />
+        <activity android:name=".c23_animation.AnimSet" android:label="AnimSet" />
+        <activity android:name=".c23_animation.AnimCustom" android:label="AnimCustom" />
+        <activity android:name=".c23_animation.Tween" android:label="Tween" />
+        <activity android:name=".c23_animation.TweenListener" android:label="TweenListener" />
+        <activity android:name=".c23_animation.ListAnim" android:label="ListAnim" />
+        <activity android:name=".c23_animation.ListAnim2" android:label="ListAnim2" />
+        <activity android:name=".c23_animation.GridAnim" android:label="GridAnim" />
+        <activity android:name=".c23_animation.GridAnim2" android:label="GridAnim2" />
+        <activity android:name=".c23_animation.ActAnim" android:label="ActAnim" />
+        <activity android:name=".c23_animation.ViewFlipperTest" android:label="ViewFlipperTest" />
+        <activity android:name=".c23_animation.TextSwitcherTest" android:label="TextSwitcherTest" />
+        
+        // 24.속성 애니메이션
+        <activity android:name=".c24_propani.ValueAnimatorTest" android:label="ValueAnimatorTest" />
+        <activity android:name=".c24_propani.ValueAnimatorTest2" android:label="ValueAnimatorTest2" />
+        <activity android:name=".c24_propani.ObjectAnimatorTest" android:label="ObjectAnimatorTest" />
+        <activity android:name=".c24_propani.ObjectAnimatorTest2" android:label="ObjectAnimatorTest2" />
+        <activity android:name=".c24_propani.BallAnim" android:label="BallAnim" />
+        <activity android:name=".c24_propani.ColorAnim" android:label="ColorAnim" />
+        <activity android:name=".c24_propani.AnimInterpolator" android:label="AnimInterpolator" />
+        <activity android:name=".c24_propani.AnimatorSetTest" android:label="AnimatorSetTest" />
+        <activity android:name=".c24_propani.XmlAnim" android:label="XmlAnim" />
+        <activity android:name=".c24_propani.LayoutAnim" android:label="LayoutAnim" />
+        
+        // 25. 파일
+        <activity android:name=".c25_file.FileIO" android:label="FileIO" />
+        <activity android:name=".external.ShareFile" android:label="ShareFile" />
+        <activity android:name=".c25_file.SDCard" android:label="SDCard" />
+        <activity android:name=".c25_file.TextLogTest" android:label="TextLogTest" />
+        <activity android:name=".c25_file.FileExplorer" android:label="FileExplorer" />
+        <activity android:name=".c25_file.ReadZip" android:label="ReadZip" />
+        <activity android:name=".c25_file.PrefTest" android:label="PrefTest" />
+        <activity android:name=".c25_file.PrefActivity" android:label="PrefActivity" />
+        <activity android:name=".c25_file.TextPrefTest" android:label="TextPrefTest" />
+        
+        // 26장.CP
+        <activity android:name=".c26_cp.EnglishWord" android:label="EnglishWord" />
+        <activity android:name=".c26_cp.ProductList" android:label="ProductList" />
+        <provider android:name=".c26_cp.EWProvider"
+                    android:authorities="andexam.ver4_1.EnglishWord"
+                    android:exported="true"
+                    />
+        <activity android:name=".c26_cp.CallWordCP" android:label="CallWordCP" />
+        
+        // 27장.클립보드
+        <activity android:name=".c27_clipboard.CopyText" android:label="CopyText" />
+        <activity android:name=".c27_clipboard.CopyUri" android:label="CopyUri" />
+        <activity android:name=".c27_clipboard.CopyIntent" android:label="CopyIntent" />
+        <activity android:name=".c27_clipboard.DragButton" android:label="DragButton" />
+        <activity android:name=".c27_clipboard.DragShadow" android:label="DragShadow" />
+        <activity android:name=".c27_clipboard.DragCoin" android:label="DragCoin" />
+        
+        // 28장. 네트워크
+        <activity android:name=".c28_network.ConMgr" android:label="ConMgr" />
+        <activity android:name=".c28_network.DownHtml" android:label="DownHtml" />
+        <activity android:name=".c28_network.DownHtml2" android:label="DownHtml2" />
+        <activity android:name=".c28_network.AsyncDownHtml" android:label="AsyncDownHtml" />
+        <activity android:name=".c28_network.ApacheDownHtml" android:label="ApacheDownHtml" />
+        <activity android:name=".c28_network.DownImage" android:label="DownImage" />
+        <activity android:name=".c28_network.DownImage2" android:label="DownImage2" />
+        <activity android:name=".c28_network.DownloadManagerTest" android:label="DownloadManagerTest" />
+        <activity android:name=".c28_network.SearchRank" android:label="SearchRank" />
+        <activity android:name=".c28_network.DomParser" android:label="DomParser" />
+        <activity android:name=".c28_network.DomParser2" android:label="DomParser2" />
+        <activity android:name=".c28_network.SaxParser" android:label="SaxParser" />
+        <activity android:name=".c28_network.PullParser" android:label="PullParser" />
+        <activity android:name=".c28_network.JSONArrayTest" android:label="JSONArrayTest" />
+        <activity android:name=".c28_network.JSONObjectTest" android:label="JSONObjectTest" />
+
+        // 29장. BR
+        <activity android:name=".c29_br.NapAlarm" android:label="NapAlarm" />
+        <activity android:name=".c29_br.NapEnd" android:label="NapEnd" />
+        <activity android:name=".c29_br.CustomNotiView" android:label="CustomNotiView" />
+        <activity android:name=".c29_br.DetectFree" android:label="DetectFree" />
+        <receiver android:name=".c29_br.FreeBR">
+	        <intent-filter>
+	        	<action android:name="andexam.ver4_1.FREEWIFI" />
+	        </intent-filter>
+        </receiver>
+        <activity android:name=".c29_br.DetectSaveZone" android:label="DetectSaveZone" />
+        <activity android:name=".c29_br.OnSaveZone" android:label="OnSaveZone" />
+        <activity android:name=".c29_br.WatchBattery" android:label="WatchBattery" />
+        <activity android:name=".c29_br.WatchSdcard" android:label="WatchSdcard" />
+        <!--  
+		<receiver android:name=".c29_br.BRSdcard">
+		 <intent-filter>
+		 	<action android:name="android.intent.action.MEDIA_MOUNTED" />
+		 	<data android:scheme="file" />
+		 </intent-filter>
+		</receiver>
+		-->
+        <activity android:name=".c29_br.AlarmTest" android:label="AlarmTest" />
+        <receiver android:name=".c29_br.AlarmReceiver" />
+        <receiver android:name=".c29_br.DisplayScore" />
+		
+        // 30장. 서비스
+        <service android:name=".c30_service.NewsService" android:enabled="true">
+        	<intent-filter>
+        		<action android:name="andexam.ver4_1.NEWS" />
+        	</intent-filter>
+        </service>
+        <activity android:name=".c30_service.NewsController" android:label="NewsController" />
+        <activity android:name="andexam.ver4_1.external.NewsController" android:label="NewsController" />
+        <service android:name=".c30_service.CalcService" android:enabled="true">
+        	<intent-filter>
+        		<action android:name="andexam.ver4_1.CALC" />
+        	</intent-filter>
+        </service>
+        <activity android:name=".c30_service.CalcClient" android:label="CalcClient" />
+        <activity android:name="andexam.ver4_1.external.CalcClient" android:label="CalcClient" />
+        <service android:name=".c30_service.CalcService2" android:enabled="true" />
+        <activity android:name=".c30_service.CalcClient2" android:label="CalcClient2" />
+        <service android:name="andexam.ver4_1.c30_service.BallWall" 
+			android:label="@string/ballwall"
+			android:permission="android.permission.BIND_WALLPAPER" >
+			<intent-filter>
+				<action android:name="android.service.wallpaper.WallpaperService" />
+			</intent-filter>
+			<meta-data android:name="android.service.wallpaper"
+				android:resource="@xml/ballwallmeta" />
+		</service>
+		<service android:name="andexam.ver4_1.c30_service.ChildrenWall" 
+			android:label="@string/childrenwall"
+			android:permission="android.permission.BIND_WALLPAPER" >
+			<intent-filter>
+				<action android:name="android.service.wallpaper.WallpaperService" />
+			</intent-filter>
+			<meta-data android:name="android.service.wallpaper"
+				android:resource="@xml/childrenwallmeta" />
+		</service>
+		<activity android:name="andexam.ver4_1.c30_service.ChildrenWallSetting" 
+			android:label="ChildrenWallSetting" 
+			android:theme="@android:style/Theme.Light.WallpaperSettings"
+			android:exported="true" />
+        <service android:name="andexam.ver4_1.c30_service.MiniKeyboardService"
+                android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+            <meta-data android:name="android.view.im" 
+                android:resource="@xml/minikeyboard_method" />
+        </service>
+				
+		// 31장.제스처
+        <activity android:name=".c31_gesture.GestureDump" android:label="GestureDump" />
+        <activity android:name=".c31_gesture.GestureNavi" android:label="GestureNavi" />
+        <activity android:name=".c31_gesture.CustomGesture" android:label="CustomGesture" />
+        <activity android:name=".c31_gesture.GestureOverlay" android:label="GestureOverlay" />
+        <activity android:name=".c31_gesture.TouchDump" android:label="TouchDump" />
+        <activity android:name=".c31_gesture.PinchZoom" android:label="PinchZoom" />
+        <activity android:name=".c31_gesture.ImageZoom" android:label="ImageZoom" />
+
+        // 32장.맵 서비스
+        <activity android:name=".c32_map.GetProvider" android:label="GetProvider" />
+        <activity android:name=".c32_map.ReadLocation" android:label="ReadLocation"
+        	android:configChanges="orientation|keyboardHidden" 
+        	/>
+        <activity android:name=".c32_map.LastKnown" android:label="LastKnown" />
+        <activity android:name=".c32_map.LocationConvert" android:label="LocationConvert" />
+        <activity android:name=".c32_map.LocationAlert" android:label="LocationAlert" />
+        <receiver android:name=".c32_map.FishingReceiver" />
+        <activity android:name=".c32_map.ViewLocation" android:label="ViewLocation" />
+        <activity android:name=".c32_map.MapViewTest" android:label="MapViewTest" />
+        <activity android:name=".c32_map.GeoCoding" android:label="GeoCoding" />
+        <activity android:name=".c32_map.OverlayWidget" android:label="OverlayWidget" />
+        <activity android:name=".c32_map.OverlayView" android:label="OverlayView" />
+        <activity android:name=".c32_map.OverlayMulti" android:label="OverlayMulti" />
+        <activity android:name=".c32_map.OverlayLocation" android:label="OverlayLocation" />
+        
+        // 33장.멀티미디어
+        <activity android:name=".c33_multimedia.MPTest" android:label="MPTest" />
+        <activity android:name=".c33_multimedia.PlayAudio" android:label="PlayAudio" />
+        <activity android:name=".c33_multimedia.RecAudio" android:label="RecAudio" />
+        <activity android:name=".c33_multimedia.SoundPoolTest" android:label="SoundPoolTest" />
+        <activity android:name=".c33_multimedia.LoadComplete" android:label="LoadComplete" />
+        <activity android:name=".c33_multimedia.ChangeVolume" android:label="ChangeVolume" />
+        <activity android:name=".c33_multimedia.PlayVideo" android:label="PlayVideo" />
+        <activity android:name=".c33_multimedia.VideoViewer" android:label="VideoViewer" />
+        <activity android:name=".c33_multimedia.RecVideo" android:label="RecVideo"
+        	android:screenOrientation="landscape" 
+        	/>
+        <activity android:name=".c33_multimedia.DumpMedia" android:label="DumpMedia" />
+        <activity android:name=".c33_multimedia.DumpMedia2" android:label="DumpMedia2" />
+        <activity android:name=".c33_multimedia.ImageViewer" android:label="ImageViewer" />
+        <activity android:name=".c33_multimedia.ImageGrid" android:label="ImageGrid" />
+        <activity android:name=".c33_multimedia.ImageGridFull" android:label="ImageGridFull" />
+        <activity android:name=".c33_multimedia.CameraTest" android:label="CameraTest"
+        	android:screenOrientation="landscape" 
+        	/>
+        <activity android:name=".c33_multimedia.SHCamera" android:label="SHCamera"
+        	android:screenOrientation="landscape" 
+        	/>
+        <activity android:name=".c33_multimedia.AttachImage" android:label="AttachImage" 
+        	android:screenOrientation="landscape" 
+        	/>
+        	
+        // 34장.센서
+        <activity android:name=".c34_sensor.SensorManagerTest" android:label="SensorManagerTest" />
+        <activity android:name=".c34_sensor.SensorDump" android:label="SensorDump" />
+        <activity android:name=".c34_sensor.Compass" android:label="Compass"
+        	android:screenOrientation="portrait" 
+        	/>
+        <activity android:name=".c34_sensor.Accelerator" android:label="Accelerator"
+        	android:screenOrientation="portrait" 
+        	/>
+        <activity android:name=".c34_sensor.MotionCounter" android:label="MotionCounter"
+        	android:screenOrientation="portrait" 
+        	/>
+        <activity android:name=".c34_sensor.ShakeCounter" android:label="ShakeCounter"
+        	android:screenOrientation="portrait" 
+        	/>
+        <activity android:name=".c34_sensor.ScreenFlash" android:label="ScreenFlash"
+        	android:screenOrientation="portrait" 
+        	/>
+        <activity android:name=".c34_sensor.GetOrientation" android:label="GetOrientation"
+        	android:screenOrientation="portrait" 
+        	/>
+        <activity android:name=".c34_sensor.Ottogi" android:label="Ottogi"
+        	android:screenOrientation="portrait" 
+        	/>
+        
+        // 35장.시스템 설정
+        <activity android:name=".c35_setting.WakeAlways" android:label="WakeAlways" />
+        <activity android:name=".c35_setting.ReadingCounter" android:label="ReadingCounter" />
+        <activity android:name=".c35_setting.UserInteraction" android:label="UserInteraction" />
+        <activity android:name=".c35_setting.GetSetting" android:label="GetSetting" />
+        <activity android:name=".c35_setting.SetSetting" android:label="SetSetting" />
+        <activity android:name=".c35_setting.MakeWallPaper" android:label="MakeWallPaper" />
+
+        // 36장.전화
+        <activity android:name=".c36_tel.TelState" android:label="TelState" />
+        <activity android:name=".c36_tel.TelCall" android:label="TelCall" />
+        <activity android:name=".c36_tel.YieldCall" android:label="YieldCall" />
+        <activity android:name=".c36_tel.YieldCall2" android:label="YieldCall2" />
+        <activity android:name=".c36_tel.FormatNumber" android:label="FormatNumber" />
+        <activity android:name=".c36_tel.CallSms" android:label="CallSms" />
+        <activity android:name=".c36_tel.SendSms" android:label="SendSms" />
+        <activity android:name=".c36_tel.ReceiveSms" android:label="ReceiveSms" />
+        <activity android:name=".c36_tel.ReadContactOld" android:label="ReadContactOld" />
+        <activity android:name=".c36_tel.ReadContact" android:label="ReadContact" />
+        <activity android:name=".c36_tel.CallLogTest" android:label="CallLogTest" />
+        <activity android:name=".c36_tel.SmsLog" android:label="SmsLog" />
+
+        // 앱 위젯
+        <activity android:name=".c37_appwidget.AppWidgetManagerTest" android:label="AppWidgetManagerTest" />
+		<receiver android:name=".c37_appwidget.NalYoil" android:label="날짜와 요일">
+		    <intent-filter>
+		        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		    </intent-filter>
+		    <meta-data android:name="android.appwidget.provider"
+		            android:resource="@xml/nalyoilmeta" />
+		</receiver>
+		<receiver android:name=".c37_appwidget.NalYoil2" android:label="날짜와 요일2">
+		    <intent-filter>
+		        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		    </intent-filter>
+		    <meta-data android:name="android.appwidget.provider"
+		            android:resource="@xml/nalyoilmeta2" />
+		</receiver>
+
+		<receiver android:name=".c37_appwidget.BatteryGauge" android:label="배터리 보여줘!">
+		    <intent-filter>
+		        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		    </intent-filter>
+		    <meta-data android:name="android.appwidget.provider"
+		            android:resource="@xml/batterygaugemeta" />
+		</receiver>
+		
+        <service android:name=".c37_appwidget.BatteryGaugeService" android:enabled="true">
+        	<intent-filter>
+        		<action android:name=".c37_appwidget.BatteryGaugeService" />
+        	</intent-filter>
+        </service>
+				
+		<receiver android:name=".c37_appwidget.ClockWidget" android:label="시계 위젯">
+		    <intent-filter>
+		        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		    </intent-filter>
+		    <meta-data android:name="android.appwidget.provider"
+		            android:resource="@xml/clockwidgetmeta" />
+		</receiver>
+						
+		<receiver android:name=".c37_appwidget.FakeNews" android:label="가짜 뉴스">
+		    <intent-filter>
+		        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		        <action android:name="andexam.ver4_1.c37_appwidget.FakeNews.ACTION_FAKENEWS_CHANGE" />
+		    </intent-filter>
+		    <meta-data android:name="android.appwidget.provider"
+		            android:resource="@xml/fakenewsmeta" />
+		</receiver>
+		
+		<activity android:name=".c37_appwidget.FakeNewsConfig" android:label="FakeNewsConfig">
+		    <intent-filter>
+		        <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+		    </intent-filter>
+		</activity>
+		
+		<activity android:name=".c37_appwidget.FakeNewsDetail" android:label="FakeNewsDetail" />
+        
+		<receiver android:name=".c37_appwidget.AnnivListWidget" android:label="기념일 목록">
+		    <intent-filter>
+		        <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+		    </intent-filter>
+		    <meta-data android:name="android.appwidget.provider"
+		            android:resource="@xml/annivlistwidgetmeta" />
+		</receiver>
+		
+        <service android:name=".c37_appwidget.AnnivListWidget$AnnivListWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS"
+            android:exported="false" />
+        
+        <uses-library android:name="com.google.android.maps" />        	
+    </application>
+
+	<uses-feature android:name="android.software.live_wallpaper" />
+	<uses-feature android:name="android.hardware.camera" /> 
+	<uses-feature android:name="android.hardware.camera.autofocus" />
+	
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+</manifest>

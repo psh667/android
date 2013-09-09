@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<LinearLayout
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	>
+<ImageView
+	android:id="@+id/imgnodpi"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="6dip"
+	android:src="@drawable/flower_nodpi" 
+	/>
+<TextView
+	android:id="@+id/txtnodpi"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="26sp" 
+	/>
+</LinearLayout>	
+<LinearLayout
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	>
+<ImageView
+	android:id="@+id/imgldpi"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="6dip"
+	android:src="@drawable/flower_ldpi" 
+	/>
+<TextView
+	android:id="@+id/txtldpi"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="26sp" 
+	/>
+</LinearLayout>	
+<LinearLayout
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	>
+<ImageView
+	android:id="@+id/imgmdpi"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="6dip"
+	android:src="@drawable/flower_mdpi" 
+	/>
+<TextView
+	android:id="@+id/txtmdpi"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textSize="26sp" 
+	/>
+</LinearLayout>	
+<LinearLayout
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	>
+<ImageView
+	android:id="@+id/imghdpi"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:layout_marginTop="6dip"
+	android:src="@drawable/flower_hdpi" 
+	/>
+<TextView
+	android:id="@+id/txthdpi"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="26sp" 
+	/>
+</LinearLayout>	
+</LinearLayout>

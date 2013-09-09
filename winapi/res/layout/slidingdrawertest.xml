@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="아래쪽의 핸들을 드래그하세요."
+	/>
+<SlidingDrawer	 
+	android:id="@+id/drawer"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:topOffset="60dip"
+	android:handle="@+id/handle"
+	android:content="@+id/content">
+<ImageView
+	 android:id="@id/handle"
+	 android:src="@drawable/andexam"
+	 android:layout_width="wrap_content"
+	 android:layout_height="wrap_content" 
+	 />	 
+<LinearLayout		 
+	android:id="@id/content"
+	android:orientation="vertical"
+	android:layout_width="match_parent"		 
+	android:layout_height="match_parent" 
+	android:background="#808080"
+	> 
+<TextView
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textColor="#000000" 
+	android:text="여기는 서랍의 안쪽입니다."
+	/>
+<Button
+	android:id="@+id/closedrawer"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="서랍 닫기"
+	/>
+</LinearLayout>	
+</SlidingDrawer>	
+</RelativeLayout>

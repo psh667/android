@@ -1,0 +1,2 @@
+This file is in resource
+may be very big

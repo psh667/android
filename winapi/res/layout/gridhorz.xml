@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+	
+<TextView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="3행 3열의 수평 그리드 레이아웃" /> 
+<GridLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:columnCount="3"
+	android:rowCount="3"
+	android:orientation="horizontal"
+	>
+	<Button android:text="1" />
+	<Button android:text="2" />
+	<Button android:text="3" />
+	<Button android:text="4" />
+	<Button android:text="5" />
+	<Button android:text="6" />
+	<Button android:text="7" />
+</GridLayout>
+
+<TextView 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="4열의 수평 그리드 레이아웃" /> 
+<GridLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:columnCount="4"
+	>
+	<Button android:text="1" />
+	<Button android:text="2" />
+	<Button android:text="3" />
+	<Button android:text="4" />
+	<Button android:text="5" />
+	<Button android:text="6" />
+	<Button android:text="7" />
+</GridLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"> 
+  <!-- 이 그룹은 디폴트 카테고리를 사용한다. --> 
+  <group android:id="@+id/menuGroup_Main"> 
+
+    <item android:id="@+id/menu_testPick" 
+      android:orderInCategory="5" 
+      android:title="테스트 선택" /> 
+    <item android:id="@+id/menu_testGetContent" 
+      android:orderInCategory="5" 
+      android:title="테스트 내용 가져오기" /> 
+    <item android:id="@+id/menu_clear" 
+      android:orderInCategory="10" 
+      android:title="지우기" /> 
+    <item android:id="@+id/menu_dial" 
+      android:orderInCategory="7" 
+      android:title="전화 걸기" /> 
+    <item android:id="@+id/menu_test" 
+      android:orderInCategory="4" 
+      android:title="@+string/test" /> 
+    <item android:id="@+id/menu_show_browser" 
+      android:orderInCategory="5" 
+      android:title="브라우저 보기" /> 
+  </group> 
+</menu>

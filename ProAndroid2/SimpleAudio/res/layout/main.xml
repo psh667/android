@@ -1,0 +1,18 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<!-- 이 파일은 /res/layout/main.xml이다. -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical" android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+>
+	<Button  android:id="@+id/startPlayerBtn"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="오디오 재생 시작"
+	/>
+	
+	<Button  android:id="@+id/restartPlayerBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="재생 재개"
+	/>
+	
+	<Button  android:id="@+id/pausePlayerBtn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="재생 일시중지"
+	/>
+</LinearLayout>

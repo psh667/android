@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item0"
+        android:title="항목 0"
+        android:alphabeticShortcut='a' />
+    <item android:id="@+id/item1"
+        android:title="항목 1"
+        android:alphabeticShortcut='b' />
+    <item android:id="@+id/item2"
+        android:title="항목 2"
+        android:icon="@drawable/icon"/>
+    <item android:id="@+id/submenu"
+		android:title="부 메뉴">
+		<menu>
+			<item android:id="@+id/leveldown0"
+				android:title="부항목 0" />
+			<item android:id="@+id/leveldown1"
+				android:title="부항목 1" />				
+		</menu>
+	</item>	
+    <item android:id="@+id/item4"
+        android:title="항목 4"
+        android:enabled="false"/>
+    <item android:id="@+id/item5"
+        android:title="항목 5"/>
+    <item android:id="@+id/item6"
+        android:title="항목 6"/>
+</menu>

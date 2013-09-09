@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="146dp"
+    android:layout_height="72dp"    
+    android:background="#00ffffff"
+    >
+<Button
+    android:id="@+id/button1"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:textSize="12sp"
+    android:text="긴급전화"
+    />
+<Button  
+    android:id="@+id/button2"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:textSize="12sp"
+    android:text="모바일\n안사"
+    />    
+</LinearLayout>

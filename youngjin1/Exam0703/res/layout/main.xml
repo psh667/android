@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="전체 내부 메모리"
+    />
+<TextView  
+	android:id="@+id/total_internal_memory"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textSize="30px" 
+    android:text=""
+    />    
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="사용 가능한 내부 메모리"
+    />
+<TextView  
+	android:id="@+id/available_internal_memory"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textSize="30px" 
+    android:text=""
+    />    
+    
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="전체  외장 메모리 (SD카드)"
+    />
+<TextView  
+	android:id="@+id/total_external_memory"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textSize="30px" 
+    android:text=""
+    />    
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="사용 가능한 외장 메모리 (SD카드)"
+    />
+<TextView  
+	android:id="@+id/available_external_memory"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:textSize="30px" 
+    android:text=""
+    />    
+    
+</LinearLayout>

@@ -1,0 +1,20 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#808080">
+	<TableRow>
+		<Button android:id="@+id/btn11" android:layout_width="90px" android:layout_height="90px" android:layout_margin="5px" android:background="@drawable/shape1" /> 
+		<Button android:id="@+id/btn12" android:layout_width="90px" android:layout_height="90px" android:layout_margin="5px" android:background="@drawable/shape2" /> 
+		<Button android:id="@+id/btn13" android:layout_width="90px" android:layout_height="90px" android:layout_margin="5px" android:background="@drawable/shape3" /> 
+	</TableRow>
+	<TableRow>
+		<Button android:id="@+id/btn21" android:layout_width="90px" android:layout_height="90px" android:layout_margin="5px" /> 
+		<Button android:id="@+id/btn22" android:layout_width="90px" android:layout_height="90px" android:layout_margin="5px" /> 
+		<Button android:id="@+id/btn23" android:layout_width="90px" android:layout_height="90px" android:layout_margin="5px" /> 
+	</TableRow>
+	<TableRow>
+		<Button android:id="@+id/btn31" android:layout_width="90px" android:layout_height="90px" android:layout_margin="5px" /> 
+		<Button android:id="@+id/btn32" android:layout_width="90px" android:layout_height="90px" android:layout_margin="5px" /> 
+		<Button android:id="@+id/btn33" android:layout_width="90px" android:layout_height="90px" android:layout_margin="5px" /> 
+	</TableRow>
+</TableLayout>

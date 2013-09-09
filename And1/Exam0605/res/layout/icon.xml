@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/grid_item"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+
+<ImageView android:id="@+id/icon_image"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="0px"
+android:layout_marginLeft="0px"
+android:src="@drawable/item01"
+>
+</ImageView>
+
+<TextView android:id="@+id/icon_text"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="60px"
+android:layout_marginLeft="10px"
+android:text="홍길동"
+android:textSize="25px"
+android:textColor="#000000">
+</TextView>
+
+<TextView android:id="@+id/icon_text"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_marginTop="59px"
+android:layout_marginLeft="9px"
+android:text="홍길동"
+android:textSize="25px"
+android:textColor="#ffffff">
+</TextView>
+
+</RelativeLayout>

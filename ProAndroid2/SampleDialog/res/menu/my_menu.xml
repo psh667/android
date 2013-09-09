@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"> 
+  <!-- 이 그룹은 디폴트 카테고리를 사용한다. --> 
+  <group android:id="@+id/menuGroup_Main"> 
+
+    <item android:id="@+id/menu_simple_alert" 
+      android:orderInCategory="5" 
+      android:title="Alert" />
+
+  </group> 
+</menu>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    <!-- 제목에 대한 수평 배치: 시작  -->
+	<LinearLayout 
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+		<!-- 제목 -->    
+		<TextView  
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content" 
+	    	android:text="@string/title_receive" />
+	</LinearLayout>    
+    <!-- 제목에 대한 수평 배치: 끝  -->
+    
+    <!-- 성명에 대한 수평 배치: 시작  -->
+	<LinearLayout 
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+		<!-- 성명 라벨 -->    
+		<TextView  
+    		android:layout_width="60sp" 
+    		android:layout_height="wrap_content" 
+    		android:text="@string/name" />
+		<!-- 성명 수신 내용  -->    
+		<TextView android:id="@+id/tv_name"        
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content" /> 
+	</LinearLayout>
+    <!-- 성명에 대한 수평 배치: 끝  -->
+    
+    <!-- 성별에 대한 수평 배치: 시작  -->
+	<LinearLayout 
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+		<!-- 성별 라벨 -->    
+		<TextView  
+    		android:layout_width="60sp" 
+    		android:layout_height="wrap_content" 
+    		android:text="@string/sex" />
+		<!-- 성별 수신 내용  -->    
+		<TextView 
+		    android:id="@+id/tv_sex"        
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content" /> 
+	</LinearLayout>
+    <!-- 성별에 대한 수평 배치: 끝  -->
+    
+    <!-- 수신여부에 대한 수평 배치: 시작  -->
+	<LinearLayout 
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content" >
+		<!-- 수신여부 라벨 -->    
+		<TextView  
+    		android:layout_width="60sp" 
+    		android:layout_height="wrap_content" 
+    		android:text="@string/receive" />
+		<!-- 수신여부 수신 내용  -->    
+		<TextView 
+		    android:id="@+id/tv_receive"        
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content" /> 
+	</LinearLayout>
+    <!-- 수신여부에 대한 수평 배치: 끝  -->
+        
+	<!-- "이전" 버튼을 수평으로 배치: 시작  -->
+	<LinearLayout 
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent"
+    	android:gravity="right" >
+		<!-- 이전 버튼을 오른쪽으로 배치  -->
+		<Button 
+		    android:id="@+id/button_prev"        
+    		android:layout_width="wrap_content"        
+    		android:layout_height="wrap_content"        
+    		android:text="이전" />         
+	</LinearLayout>
+    <!-- "이전" 버튼을 수평으로 배치: 끝  -->
+            
+</LinearLayout>

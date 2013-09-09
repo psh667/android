@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Calendar Table"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <LinearLayout
+         	android:id="@+id/inputaccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/textViewTitle" >
+         <EditText
+	        android:id="@+id/et_account"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="3"
+	        android:hint="구글 이메일을 입력하세요."
+	        android:ems="10" />
+	    <Button
+	        android:id="@+id/btn_account"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:onClick="cal_table_onClick"
+	        android:text="조회" />
+     </LinearLayout>
+     <LinearLayout
+         	android:id="@+id/inputForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/inputaccount" >
+         <EditText
+	        android:id="@+id/et_displayname"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="3"
+	        android:hint="변경할 Display Name을 입력하세요."
+	        android:ems="10" />
+	    <Button
+	        android:id="@+id/btn_change"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:onClick="cal_table_onClick"
+	        android:text="변경" />
+     </LinearLayout>
+    
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/inputForm"
+        android:layout_margin="30dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="TextView" />
+        </LinearLayout>
+    </ScrollView>
+
+    
+
+    
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<Button android:id="@+id/action_dial" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="@string/ACTION_DIAL" />
+<Button android:id="@+id/action_edit_contacts"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="@string/ACTION_EDIT_CONTACTS" />
+<Button android:id="@+id/action_view_geo"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="@string/ACTION_VIEW_GEO" />
+<Button android:id="@+id/action_view_http"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="@string/ACTION_VIEW_HTTP" />
+
+<DigitalClock android:id="@+id/DigitalClock01"
+	android:text="DigitalClock01" 
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" />
+</LinearLayout>

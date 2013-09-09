@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<TextView
+		android:id="@+id/text01"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="#ff0000cc"
+		android:text="전화번호를 입력하고 전화걸기 버튼을 누르세요."
+		android:textSize="18dp"
+		android:textColor="#ffffffff" 
+		/>
+	<EditText
+		android:id="@+id/edit01"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="tel:010-7788-1234"
+		android:textSize="22dp" 
+		/>
+	<Button
+		android:id="@+id/btnCall"
+		android:layout_width="180dp"
+		android:layout_height="wrap_content"
+		android:text="전화걸기"
+		android:textSize="22dp" 
+		android:textStyle="bold" 
+		/>
+
+</LinearLayout>

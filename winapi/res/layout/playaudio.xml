@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView
+	android:id="@+id/filename"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="16sp"
+	android:text="파일 : "
+	android:layout_marginTop="10dip"
+	android:layout_marginBottom="10dip"
+	/>
+<LinearLayout
+	android:orientation="horizontal"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	>
+<Button
+	android:id="@+id/play"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:layout_weight="1" 
+	android:onClick="mOnClick"
+	android:text="Play"
+	/>
+<Button
+	android:id="@+id/stop"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:layout_weight="1" 
+	android:onClick="mOnClick"
+	android:text="Stop"
+	/>
+<Button
+	android:id="@+id/prev"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:layout_weight="1" 
+	android:onClick="mOnClick"
+	android:text="Prev"
+	/>
+<Button
+	android:id="@+id/next"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:layout_weight="1" 
+	android:onClick="mOnClick"
+	android:text="Next"
+	/>
+</LinearLayout>
+<SeekBar 
+	android:id="@+id/progress"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:max="100"
+	android:progress="0"
+	android:padding="10dip"
+	/>
+</LinearLayout>

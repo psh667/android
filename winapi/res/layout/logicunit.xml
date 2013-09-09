@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<Button  
+	android:layout_width="160px" 
+	android:layout_height="60px" 
+	android:text="Pixel"
+	/>
+<Button  
+	android:layout_width="160dip" 
+	android:layout_height="60dip" 
+	android:text="Dip"
+	/>
+<Button  
+	android:layout_width="16mm" 
+	android:layout_height="6mm" 
+	android:text="Milli"
+	/>
+<TextView  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:textSize="12px" 
+	android:text="12 Pixel 글꼴"
+	/>
+<TextView  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:textSize="12pt" 
+	android:text="12 Point 글꼴"
+	/>
+<TextView  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:textSize="12sp" 
+	android:text="12 sp 글꼴"
+	/>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, MyLocationDemoActivity!</string>
+    <string name="app_name">위치 애플리케이션 종합선물세트</string>
+</resources>

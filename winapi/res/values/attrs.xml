@@ -1,0 +1,7 @@
+<resources>
+	<declare-styleable name="SoundEditWidget2">
+		<attr name="sound" format="integer" />
+		<attr name="volume" format="float" />
+		<attr name="speed" format="float" />
+	</declare-styleable>
+</resources>

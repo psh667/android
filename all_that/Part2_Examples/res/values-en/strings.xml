@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">Testing, and localized applications</string>
+   <string name="text_a">Hello First text.</string>
+   <string name="text_b">Hello Second text.</string>
+</resources>

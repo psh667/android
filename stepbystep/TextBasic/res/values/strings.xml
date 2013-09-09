@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">고객목록</string>
+    
+    <!-- 고객1의 정보: 시작 -->
+    <string name="name1">홍길동</string>
+    <string name="addr1">서울</string>
+    <string name="tel1">02-555-1234</string>
+    <!-- 고객1의 정보: 끝 -->
+    
+</resources>

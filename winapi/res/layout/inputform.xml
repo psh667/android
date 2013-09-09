@@ -1,0 +1,12 @@
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:columnCount="2"
+	>
+	<TextView android:text="주민등록 번호" android:layout_gravity="right" />
+	<EditText android:text="891388-1914051" />
+	<TextView android:text="주소" android:layout_gravity="right" />
+	<EditText android:text="제주도 서귀포시" />
+	<TextView android:text="전화번호" android:layout_gravity="right" />
+	<EditText android:text="015-111-2222" />
+</GridLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+  	      <Button
+            android:id="@+id/loadfromresource"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Load from res/raw/appstudio.txt" 
+            android:onClick="mOnClickLoadFromResource"
+            />
+  	      
+  	      <Button
+            android:id="@+id/loadfromsd"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:onClick="mOnClickLoadFromSD"
+            />
+
+        <Button
+            android:id="@+id/loadfromlocal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Load from /data/data/com.appstudio.android.c16_3/files/appstudio.txt" 
+            android:onClick="mOnClickLoadFromLocal"
+            />  	      
+                
+           <Button
+        android:id="@+id/savetosd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="mOnClickSaveToSD"
+        />
+
+                      <Button
+        android:id="@+id/savetolocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save to /data/data/com.appstudio.android.c16_3/files/appstudio.txt" 
+        android:onClick="mOnClickSaveToLocal"
+        />
+
+                      <TextView
+                          android:id="@+id/status"
+                          android:layout_width="fill_parent"
+                          android:layout_height="wrap_content"
+                          android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="top|left"
+             >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+</LinearLayout>

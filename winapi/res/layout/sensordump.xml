@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView
+	android:id="@+id/light"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="10pt"
+	android:text="조도"
+	/>
+<TextView
+	android:id="@+id/proxi"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="10pt"
+	android:text="근접"
+	/>
+<TextView
+	android:id="@+id/press"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="10pt"
+	android:text="압력"
+	/>
+<TextView
+	android:id="@+id/orient"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="10pt"
+	android:text="방향"
+	/>
+<TextView
+	android:id="@+id/accel"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="10pt"
+	android:text="가속"
+	/>
+<TextView
+	android:id="@+id/magnetic"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="10pt"
+	android:text="자기"
+	/>
+</LinearLayout>

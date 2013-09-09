@@ -1,0 +1,7 @@
+<resources>
+	<string name="multi_caption">다국어 지원</string>
+	<string name="multi_textcaption">이 프로그램은 한국어와 영어를 지원합니다.</string>
+	<string name="multi_buttoncaption">나 좀 눌러 줘</string>
+	<string name="multi_smiletext">웃어보아요</string>
+	<string name="multi_toasttext">버튼을 눌렀습니다.</string>
+</resources>

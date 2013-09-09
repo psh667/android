@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PageList</string>
+    <string name="forward_page">Forward</string>
+    <string name="backward_page">Back</string>
+    <string name="main_no_items">No items</string>
+    <string name="list_loading">Loading ...</string>
+</resources>

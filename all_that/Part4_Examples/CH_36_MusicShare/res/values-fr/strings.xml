@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guide">
+Partage de musique est une application pour partagern importe quel fichier musical entre deux dispositifs distincts, ce qui est facile à utiliser. Android faisceausera en opération lorsque vous attachez à l arrière devotre appareil à celle d un autre pour un couple de secondes. Alors, s il vous plaît de toucher l écran qui devient plus petit, quand vous voyez le partage de la Parole. Cela rend les deux appareils connectés via Bluetooth. Après les deux périphériques sont connectés, vous devez choisir la musique que vousvoulez envoyer, cliquez dessus, puis appuyez sur le bouton pour partager de la musique. Maintenant, la musique sera transmise à l autre appareil.
+S il vous plaît rappelez-vous que d une connexionBluetooth instable peut faire la transmission de la musique s arrêta tout d un coup avant partage de la musique l achèvement des travaux.
+	</string>
+    <string name="app_name">Partage de musique</string>
+    <string name="NFC_NOT_CONNECTED">NFC pas connecté</string>
+    <string name="title_connected_to">lié</string>
+    <string name="title_connecting">connexion ...</string>
+    <string name="title_not_connected">Le périphérique n est pas connecté</string>
+    <string name="not_connected">Vous ne pouvez pas connecter un appareil</string>
+    <string name="send_button">Partage de musique</string>
+	<string name="stop_button">Arrêter le partage</string>
+	<string name="menu_settings">Sur Android Beam</string>
+	<string name="menu_reset">remettre</string>
+	<string name="file_chooser">Sélectionnez Fichier</string>
+	<string name="alread_receive">Déjà vous la musique de réception...</string>
+	<string name="connect_to">connecter à</string>
+	<string name="sent_macaddress">Envoyé adresse mac bluetooth pour se connecter</string> 
+	<string name="plz_select_file">Vous devez sélectionner le fichier pour l envoi de la musique</string> 
+	<string name="bluetooth_not_available">Bluetooth n est pas disponible</string>
+	<string name="start_actionbar">S il vous plaît connecter un appareil..</string>
+	<string name="already_music_playing">Déjà Jouer de la musique ...</string>
+	<string name="music_playing">Maintenant jouer de la musique ...</string>
+	<string name="music_stoped">Musique s est arrêtée ...</string>  
+</resources>

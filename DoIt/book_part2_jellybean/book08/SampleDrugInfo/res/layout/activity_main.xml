@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+	<Button
+		android:id="@+id/btnWriteDB"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:text="데이터베이스 파일 생성 /sdcard/druginfo.db" 
+		/>
+	
+	<ScrollView
+		android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+		<TextView
+			android:id="@+id/txtView"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:background="#ff99ccee"
+			android:textColor="#ff0000ff"
+			android:textSize="14dp"
+			>
+		</TextView>
+	</ScrollView>	
+
+</LinearLayout>

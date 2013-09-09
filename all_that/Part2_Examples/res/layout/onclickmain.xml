@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+        
+    <CheckBox android:id="@+id/checkbox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="android" />
+    <CheckBox android:id="@+id/checkbox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="iphone" />    
+        
+	<RadioGroup
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+      <RadioButton android:id="@+id/radio_android"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Red" />
+      <RadioButton android:id="@+id/radio_iphone"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Blue" />
+    </RadioGroup>
+    
+    <ToggleButton android:id="@+id/togglebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Vibrate on"
+        android:textOff="Vibrate off"/>
+        
+	<RatingBar android:id="@+id/ratingbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:stepSize="1.0"/>
+        
+  	<Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/android_button" />
+        
+  	<Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Button1" />
+  	<Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Button1" />
+  	<Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Button1" />
+                
+</LinearLayout>

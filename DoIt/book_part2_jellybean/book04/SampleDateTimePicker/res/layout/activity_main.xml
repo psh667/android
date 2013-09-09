@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:text="날짜와 시간을 한꺼번에 선택할 수 있는 복합위젯입니다."
+        tools:context=".MainActivity" />
+    
+    <TextView
+        android:id="@+id/text01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="현재 시각" />
+
+    <org.androidtown.ui.composite.DateTimePicker
+    	android:id="@+id/dateTimePicker"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_gravity="center_horizontal"
+    	android:layout_marginTop="20dp" />
+        
+</LinearLayout>

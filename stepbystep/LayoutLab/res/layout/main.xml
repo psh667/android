@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--이미지 그룹들의 수직 배치: 시작 -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    <!-- 이미지 그룹1 내의 수평 배치: 시작 -->
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <!-- 이미지1 -->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img1"
+            android:adjustViewBounds = "true" />
+        <!-- 제목과 설명에 대한 수직배치: 시작 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp" >
+            <!-- 제목 -->
+            <TextView
+                android:text="@string/title1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  
+                android:gravity="left" />
+            <!-- 설명 -->
+            <TextView
+                android:text="@string/desc1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:gravity="left" />
+        </LinearLayout>         
+        <!-- 제목과 설명에 대한 수직배치: 끝 -->
+    </LinearLayout>
+    <!-- 이미지 그룹1 내의 수평 배치: 끝 -->
+    
+    <!-- 이미지 그룹2 내의 수평 배치: 시작 -->
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <!-- 이미지2 -->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/img2"
+            android:adjustViewBounds = "true" />
+        <!-- 제목과 설명에 대한 수직배치: 시작 -->
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="5dp" >
+            <!-- 이미지2의 제목 -->
+            <TextView
+                android:text="@string/title2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"  
+                android:gravity="left" />
+            <!-- 이미지2의 내용 -->
+            <TextView
+                android:text="@string/desc2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:gravity="left" />
+        </LinearLayout>         
+        <!-- 제목과 설명에 대한 수직배치: 끝 -->
+    </LinearLayout>
+    <!-- 이미지 그룹2 내의 수평 배치: 끝 -->
+
+</LinearLayout>
+<!--이미지 그룹들의 수직 배치: 끝 -->

@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#404040"
+	>
+<RadioGroup
+	android:id="@+id/radiotype"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content"
+	android:orientation="horizontal"
+	android:checkedButton="@+id/type1" 
+	>
+<RadioButton
+	android:id="@id/type1"
+	android:layout_width="0px" 
+	android:layout_weight="1" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="한색상"
+	/>
+<RadioButton
+	android:id="@+id/type2"
+	android:layout_width="0px" 
+	android:layout_weight="1" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="두색상"
+	/>
+</RadioGroup>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop = "5dip"
+	>
+<TextView  
+	android:layout_width="0px"
+	android:layout_weight="1" 
+	android:layout_height="wrap_content"
+	android:textSize="16sp"
+	android:text="색상 1"
+	/>
+<Spinner
+	android:id="@+id/colorspinner1"
+	android:layout_width="0px"
+	android:layout_weight="2" 
+	android:layout_height="wrap_content"
+	/>
+</LinearLayout>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop = "5dip"
+	>
+<TextView  
+	android:layout_width="0px"
+	android:layout_weight="1" 
+	android:layout_height="wrap_content"
+	android:textSize="16sp"
+	android:text="색상 2"
+	/>
+<Spinner
+	android:id="@+id/colorspinner2"
+	android:layout_width="0px"
+	android:layout_weight="2" 
+	android:layout_height="wrap_content"
+	/>
+</LinearLayout>
+<LinearLayout
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop = "5dip"
+	>
+<TextView  
+	android:layout_width="0px"
+	android:layout_weight="1" 
+	android:layout_height="wrap_content"
+	android:textSize="16sp"
+	android:text="방향"
+	/>
+<Spinner
+	android:id="@+id/dirspinner"
+	android:layout_width="0px"
+	android:layout_weight="2" 
+	android:layout_height="wrap_content"
+	/>
+</LinearLayout>
+<Button
+	android:id="@+id/btnsolid"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="벽지 설정"
+	/>
+<ImageView  
+	android:id="@+id/preview"  
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent"
+	android:adjustViewBounds="true"
+	android:layout_margin="5dip"
+	/>
+</LinearLayout>

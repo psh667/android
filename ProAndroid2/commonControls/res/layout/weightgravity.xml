@@ -1,0 +1,8 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"  android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+	<EditText android:id="@+id/wtgt_et1" android:layout_width="fill_parent"  android:layout_weight="0.0" android:layout_height="wrap_content" android:text="one" android:gravity="left"/>
+	<EditText android:id="@+id/wtgt_et2" android:layout_width="fill_parent"  android:layout_weight="1.0" android:layout_height="wrap_content" android:text="two" android:gravity="center"/>
+	<EditText android:id="@+id/wtgt_et3" android:layout_width="fill_parent"  android:layout_weight="0.0" android:layout_height="wrap_content" android:text="three" android:gravity="right"/>
+
+</LinearLayout>

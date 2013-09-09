@@ -1,0 +1,18 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<TableLayout android:id="@+id/table2" xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<TableRow>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="이름:"/>
+		<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="버락"/>
+	</TableRow>
+	<TableRow>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="성:"/>
+		<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="후세인"/>
+		<EditText android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="오바마"/>
+	</TableRow>
+	<!-- 테이블 3 레이아웃 예제 액티비티 호출 버튼 -->
+	<Button android:id="@+id/ccbtn_tbLO3"
+			android:text="테이블 3 레이아웃 액티비티"
+			android:typeface="serif" android:textStyle="bold"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+</TableLayout>

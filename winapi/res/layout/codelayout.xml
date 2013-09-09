@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mylinear"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<Button
+	android:id="@+id/mybutton"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="버튼"
+	/>
+<TextView  
+	android:id="@+id/mytext"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="문자열"
+	/>
+<EditText
+	android:id="@+id/myedit"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="에디트"
+	/>
+</LinearLayout>

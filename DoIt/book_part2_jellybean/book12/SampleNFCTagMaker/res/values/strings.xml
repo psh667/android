@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">NFC태그데이터 만들기</string>
+    <string name="hello_world">NFC태그데이터 만들기</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">NFC태그데이터 만들기</string>
+
+</resources>

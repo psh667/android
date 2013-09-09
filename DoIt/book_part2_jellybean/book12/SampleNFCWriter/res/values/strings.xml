@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">NFC태그에 쓰기</string>
+    <string name="hello_world">NFC태그에 쓰기</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">NFC태그에 쓰기</string>
+
+</resources>

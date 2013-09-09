@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guide">
+Обмен Музыка представляет собой приложениедля обмена любой музыкальный файл между двумя отдельными устройствами, которые просты в использовании. Луч Android будет работать при подключении задней панели устройства, что другойв течение нескольких секунд. Тогда, пожалуйста,коснитесь экрана, который становится меньше, когда вы видите слово ОБМЕН. Это делает два устройства подключаются через Bluetooth. После того, как два устройства подключены, вы должнывыбрать любую музыку, которую вы хотите отправить, выберите его и нажмите кнопку для обмена музыкой. Теперь музыка будет передаваться на другие устройства.
+Пожалуйста, не забывайте, что неустойчивоесоединение Bluetooth может сделать музыкупередачу остановить все внезапно перед ОбменМузыка завершения работы.
+	</string>
+    <string name="app_name">Совместное использованиемузыки</string>
+    <string name="NFC_NOT_CONNECTED">NFC не связаны</string>
+    <string name="title_connected_to">связанный</string>
+    <string name="title_connecting">подключение ...</string>
+    <string name="title_not_connected">Устройство не подключено</string>
+    <string name="not_connected">Вы не можете подключитьустройство</string>
+    <string name="send_button">Совместное использованиемузыки</string>
+	<string name="stop_button">Стоп Обмен</string>
+	<string name="menu_settings">На Android Beam</string>
+	<string name="menu_reset">сброс</string>
+	<string name="file_chooser">Выберите File</string>
+	<string name="alread_receive">Уже вы музыку получение ...</string>
+	<string name="connect_to">подключения к</string>
+	<string name="sent_macaddress">Отправлено MacAddress для подключения Bluetooth</string> 
+	<string name="plz_select_file">Вы должны выбрать файл для отправки музыка</string> 
+	<string name="bluetooth_not_available">Bluetooth не доступно</string>
+	<string name="start_actionbar">Пожалуйста, подключитеустройство ..</string>
+	<string name="already_music_playing">Уже играет музыка ...</string>
+	<string name="music_playing">Сейчас играет музыка ...</string>
+	<string name="music_stoped">Музыка перестала ...</string>  
+</resources>

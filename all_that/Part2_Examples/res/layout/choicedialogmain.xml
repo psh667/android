@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choicedialogtitle" />
+	<Button
+        android:id="@+id/listbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="리스트형 다이얼로그 버튼"
+        android:padding="10dp" />
+	<Button
+        android:id="@+id/radiobutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="라디오버튼 다이얼로그 버튼"
+        android:padding="10dp" />
+	<Button
+        android:id="@+id/checkboxbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="체크박스 다이얼로그 버튼"
+        android:padding="10dp" />
+
+
+</LinearLayout>

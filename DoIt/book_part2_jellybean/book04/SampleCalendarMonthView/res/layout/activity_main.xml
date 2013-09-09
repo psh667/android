@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#ffffffff"
+	    >
+	    <Button  
+			android:id="@+id/monthPrevious"
+		    android:layout_width="46dp" 
+		    android:layout_height="wrap_content" 
+		    android:background="@drawable/backward"
+		    android:gravity="center_horizontal"
+		    android:layout_alignParentLeft="true"
+		    />
+		<TextView  
+			android:id="@+id/monthText"
+		    android:layout_width="200dp" 
+		    android:layout_height="wrap_content" 
+		    android:text="MonthView"
+		    android:textSize="24dp"
+		    android:textStyle="bold"
+		    android:gravity="center_horizontal"
+		    android:layout_centerInParent="true"
+		    />
+		<Button  
+			android:id="@+id/monthNext"
+		    android:layout_width="46dp" 
+		    android:layout_height="wrap_content" 
+		    android:background="@drawable/forward"
+		    android:gravity="center_horizontal"
+		    android:layout_alignParentRight="true"
+		    />
+	</RelativeLayout>
+	<org.androidtown.calendar.month.CalendarMonthView  
+		android:id="@+id/monthView"
+	    android:layout_width="match_parent" 
+	    android:layout_height="match_parent" 
+	    />
+
+</LinearLayout>

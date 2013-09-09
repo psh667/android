@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, MainActivity!</string>
+	<string name="app_name">공통 컨트롤</string>
+	<string name="styledText"> <b>EditText</b> 안의 <i>정적</i> 스타일</string>
+	<string name="basicBtnLabel">기본 버튼</string>
+</resources>

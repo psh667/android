@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Base알람" 
+        android:onClick="btnOnclick"/>
+
+    <Button
+        android:id="@+id/btnBigPicture"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BigPicture알람"
+        android:onClick="btnOnclick" />
+
+    <Button
+        android:id="@+id/btnBigText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BigText알람" 
+        android:onClick="btnOnclick"/>
+
+    <Button
+        android:id="@+id/btnInboxStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="btnInboxStyle알람"
+        android:onClick="btnOnclick" />
+   
+</LinearLayout>

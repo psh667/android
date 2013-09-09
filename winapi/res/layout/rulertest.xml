@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<andexam.ver4_1.c15_resource.Ruler
+	android:id="@+id/ruler"
+	android:layout_width="wrap_content" 
+	android:layout_height="0px"
+	android:layout_weight="1"
+	/>
+<RadioGroup
+	android:id="@+id/rulerunit"
+	android:layout_width="match_parent" 
+	android:layout_height="0px"
+	android:layout_weight="1"
+	android:gravity="center"
+	android:orientation="horizontal"
+	android:checkedButton="@+id/mili"
+	android:background="#cccccc" 
+	>
+<RadioButton
+	android:id="@id/mili"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content"
+	android:textColor="#0000ff" 
+	android:text="Mili	"
+	/>
+<RadioButton
+	android:id="@+id/inch"
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textColor="#ff0000" 
+	android:text="Inch	"
+	/>
+</RadioGroup>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="자동 로그인">        
+        <com.androidside.prefdemoc1.LoginDialogPref
+            android:key="my"
+            android:title="자동 로그인 설정"
+            android:summary="계정 정보를 입력하세요"
+            android:dialogTitle="자동 로그인" />        
+    </PreferenceCategory>        
+</PreferenceScreen>

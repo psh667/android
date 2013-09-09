@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linear"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+<Button
+	android:id="@+id/btnnewmessage"  
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:text="새 메시지 받기" />
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+  <Button 
+      android:id="@+id/toast_top" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:text="Toast(Top, 0, 0)"
+      />
+  <Button  
+      android:id="@+id/toast_center1" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:text="Toast(Center, 0, 0)"
+      />
+  <Button  
+    android:id="@+id/toast_center2" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:text="Toast(Center, 50, 50)"
+      />
+  <Button  
+    android:id="@+id/toast_center3" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:text="Toast(Center, -50, -50)"
+      />  
+  <Button  
+    android:id="@+id/toast_bottom" 
+      android:layout_width="fill_parent" 
+      android:layout_height="wrap_content" 
+      android:text="Toast(Bottom, 0, 0)"
+      />    
+</LinearLayout>

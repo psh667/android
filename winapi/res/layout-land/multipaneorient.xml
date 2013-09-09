@@ -1,0 +1,16 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent" 
+	android:layout_height="match_parent">
+	<fragment 
+		class="andexam.ver4_1.c20_fragment.MultiPaneOrient$PlanetListFragment"
+		android:id="@+id/planet"
+		android:layout_width="0dp"
+		android:layout_weight="1" 
+		android:layout_height="match_parent" />
+	<FrameLayout
+		android:id="@+id/descpanel"
+		android:layout_width="0dp"
+		android:layout_weight="3" 
+		android:layout_height="match_parent" />
+</LinearLayout>
+

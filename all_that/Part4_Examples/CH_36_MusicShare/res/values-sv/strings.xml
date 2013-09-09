@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guide">
+Dela Music är en applikation för att dela vilken musikfil som helst mellan två separata enheter, vilket är lätt att använda. Android Beam kommer att vara i drift när du ansluter baksidan av din enhet till en annan för ett parsekunder. Sedan kan du peka på skärmen som blirmindre, när du ser ordet Sharing. Detta gör de tvåenheter som är anslutna via Bluetooth. Efter de tvåenheterna är anslutna, ska du välja vilken musik du vill skicka, klicka på den och tryck sedan på knappen för att dela musik. Nu kommer musiken överföras till den andra enheten.
+Kom ihåg att en instabil Bluetooth-anslutning kan göramusiken överföringen stannade helt plötsligt inför dela musik fyller i arbetet.
+	</string>
+    <string name="app_name">dela musik</string>
+    <string name="NFC_NOT_CONNECTED">NFC är inte ansluten</string>
+    <string name="title_connected_to">ansluten</string>
+    <string name="title_connecting">ansluta ...</string>
+    <string name="title_not_connected">Enheten är inte ansluten</string>
+    <string name="not_connected">Du kan inte ansluta enheten</string>
+    <string name="send_button">dela musik</string>
+	<string name="stop_button">sluta dela</string>
+	<string name="menu_settings">Android Beam På</string>
+	<string name="menu_reset">Återställ</string>
+	<string name="file_chooser">Välj Arkiv</string>
+	<string name="alread_receive">Redan du musik får ...</string>
+	<string name="connect_to">ansluter till</string>
+	<string name="sent_macaddress">Skickas macaddress för anslutningBluetooth</string> 
+	<string name="plz_select_file">Du måste välja fil för att skickamusik</string> 
+	<string name="bluetooth_not_available">Bluetooth är inte tillgänglig</string>
+	<string name="start_actionbar">Du ansluta enheten ..</string>
+	<string name="already_music_playing">Redan Spela musik ...</string>
+	<string name="music_playing">Nu spelas musik ...</string>
+	<string name="music_stoped">Musik Stoppad...</string>  
+</resources>

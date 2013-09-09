@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guide">
+La condivisione della musica è un applicazione per la condivisione di qualsiasi file di musica tra due dispositivi separati, che è facile da usare. Androidtrave sarà in funzione quando si collega il retro del dispositivo a quello di un altro per un paio di secondi.Poi, si prega di toccare lo schermo che diventa più piccolo, quando si vede il condividere la Parola.Questo rende i due dispositivi collegati tramiteBluetooth. Dopo i due dispositivi sono collegati, si deve scegliere qualsiasi tipo di musica che si desidera inviare, clic su di esso, e quindi premere il pulsante per la condivisione di musica. Ora, la musica vienetrasmessa al dispositivo.
+Si ricorda che una connessione Bluetooth può rendereinstabile la trasmissione musica si è fermata di colpocondivisione di musica prima di completare il lavoro.
+	</string>
+    <string name="app_name">la condivisione della musica</string>
+    <string name="NFC_NOT_CONNECTED">NFC non collegato</string>
+    <string name="title_connected_to">collegato</string>
+    <string name="title_connecting">il collegamento ...</string>
+    <string name="title_not_connected">Il dispositivo non è collegato</string>
+    <string name="not_connected">Non è possibile collegare il dispositivo</string>
+    <string name="send_button">la condivisione della musica</string>
+	<string name="stop_button">interrompere la condivisione</string>
+	<string name="menu_settings">Android Beam On</string>
+	<string name="menu_reset">azzerare</string>
+	<string name="file_chooser">selezionare File</string>
+	<string name="alread_receive">Già la musica si riceve ...</string>
+	<string name="connect_to">collegare</string>
+	<string name="sent_macaddress">Inviato MACAddress per il collegamento bluetooth</string> 
+	<string name="plz_select_file">È necessario selezionare il file per l invio di musica</string> 
+	<string name="bluetooth_not_available">Bluetooth non è disponibile</string>
+	<string name="start_actionbar">Si prega di collegare il dispositivo ..</string>
+	<string name="already_music_playing">Già Riproduzione di musica ...</string>
+	<string name="music_playing">Ora la riproduzione di musica ...</string>
+	<string name="music_stoped">Musica Arrestato ...</string>  
+</resources>

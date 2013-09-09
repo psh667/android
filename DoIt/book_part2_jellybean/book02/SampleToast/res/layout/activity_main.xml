@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    >
+		<TextView
+			android:id="@+id/text01"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text=" X offset: "
+			android:textSize="20dp"
+			/>
+		<EditText
+			android:id="@+id/edit01"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="20dp"
+			android:inputType="numberSigned"
+			/>
+	</LinearLayout>
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    >
+		<TextView
+			android:id="@+id/text02"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text=" Y offset: "
+			android:textSize="20dp"
+			/>
+		<EditText
+			android:id="@+id/edit02"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="20dp"
+			android:inputType="numberSigned"
+			/>
+	</LinearLayout>
+	<LinearLayout
+	    android:orientation="horizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    >
+		<Button
+			android:id="@+id/showBtn"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:text="토스트 보여주기"
+			android:textSize="20dp"
+			/>
+	</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="응답할 메시지"/>
+    <EditText
+        android:id="@+id/responseText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <CheckBox
+        android:id="@+id/checkboxLocation"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="위치 전송"/>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="자동 응답 시간"/>
+    <Spinner
+        android:id="@+id/spinnerRespondFor"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사용"/>
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="사용 안함"/>
+    </LinearLayout>
+</LinearLayout>

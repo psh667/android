@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.andro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="15" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".CustomerListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- 고객등록 액티비티 -->
+        <activity 
+            android:name=".CustomerRegActivity" 
+            android:label="@string/act_join_form" >
+        </activity>
+
+        <!-- 고객수정 액티비티 -->
+        <activity 
+            android:name=".CustomerModActivity" 
+            android:label="@string/act_mod_form" >
+        </activity>
+        
+        <!-- 고객정보 액티비티 -->
+        <activity 
+            android:name=".CustomerDetailActivity" 
+            android:label="@string/act_detail" >
+        </activity>
+        
+        <!-- 고객삭제 액티비티 -->
+        <activity 
+            android:name=".CustomerDelActivity" >
+        </activity>
+        
+    </application>
+
+</manifest>

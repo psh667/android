@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/icon"
+    android:text="이미지 왼쪽 버튼" />
+  <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:drawableTop="@drawable/icon"
+    android:text="이미지 위쪽 버튼" />
+  <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:drawableRight="@drawable/icon"
+    android:text="이미지 오른쪽 버튼" />
+  <Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:drawableBottom="@drawable/icon"
+    android:text="이미지 아래쪽 버튼" />
+</LinearLayout>

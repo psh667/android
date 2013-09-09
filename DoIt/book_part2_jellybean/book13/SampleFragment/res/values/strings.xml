@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">프래그먼트 사용하기</string>
+    <string name="hello_world">프래그먼트 사용하기</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">프래그먼트 사용하기</string>
+
+    <string-array name="image_titles">
+    	<item>첫번째 이미지</item>
+    	<item>두번째 이미지</item>
+    	<item>세번째 이미지</item>
+    </string-array>
+    
+</resources>

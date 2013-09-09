@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="두 손가락을 이용해 터치해 보세요."
+        tools:context=".MainActivity" />
+    
+    <LinearLayout
+		android:id="@+id/viewerContainer"
+    	android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    >
+	</LinearLayout>
+
+</LinearLayout>

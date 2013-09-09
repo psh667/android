@@ -1,0 +1,32 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.ai.android.BDayWidget"
+android:versionCode="1"
+android:versionName="1.0.0">
+<application  android:icon="@drawable/icon" android:label="생일 위젯">
+<!--
+**********************************************************************
+*    생일 위젯 프로바이더 리시버
+**********************************************************************
+-->
+<receiver android:name=".BDayWidgetProvider">
+<meta-data android:name="android.appwidget.provider"
+android:resource="@xml/bday_appwidget_provider"  />
+<intent-filter>
+<action android:name="android.appwidget.action.APPWIDGET_UPDATE"   />
+</intent-filter>
+</receiver>
+<!--
+**********************************************************************
+*    생일 프로바이더 컨피규레이터 액티비티
+**********************************************************************
+-->
+<activity  android:name=".ConfigureBDayWidgetActivity" android:label="생일 위젯 구성">
+<intent-filter>
+<action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"  />
+</intent-filter>
+</activity>
+
+</application>
+<uses-sdk  android:minSdkVersion="8" />
+</manifest>

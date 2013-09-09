@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/water_bg"
+    >
+<Button  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="버튼"
+    android:background="#FF0000FF" 
+    />
+
+<View 
+    android:layout_width="fill_parent" 
+    android:layout_height="20dp" 
+    />
+
+<Button  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="버튼"
+    android:background="#440000FF" 
+    />
+
+<View 
+    android:layout_width="fill_parent" 
+    android:layout_height="20dp" 
+    />
+
+<Button  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="버튼"
+    android:background="#00FF00" 
+/>
+
+<View 
+    android:layout_width="fill_parent" 
+    android:layout_height="20dp" 
+    />
+
+<Button  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="버튼"
+    android:background="#F00" 
+    />    
+</LinearLayout>

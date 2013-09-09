@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.appstudio.android.sample"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="14" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.NFC"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    
+    
+        
+    
+     
+    
+    
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.wifi.direct" android:required="true"/>
+    
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo.Light" >
+        <uses-library android:name="com.google.android.maps" />
+        <activity
+            android:name=".Part03ListActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <!-- start add activity -->
+        <activity android:name=".ch_23_1.PhoneStateActivity" android:label="PhoneStateActivity" />
+        <activity android:name=".ch_23_2.PhoneCallActivity" android:label="PhoneCallActivity" />
+        <activity android:name=".ch_23_3.PhoneCallIncommingBugActivity" android:label="PhoneCallIncommingBugActivity" />
+        <activity android:name=".ch_23_3.PhoneCallIncommingActivity" android:label="PhoneCallIncommingActivity" />
+        <activity android:name=".ch_23_4.CallLogActivity" android:label="CallLogActivity" />
+        <activity android:name=".ch_23_4.SMSLogActivity" android:label="SMSLogActivity" />
+        <activity android:name=".ch_23_5.SendSmsActivity" android:label="SendSmsActivity" />
+        <activity android:name=".ch_23_5.SendSmsDirectActivity" android:label="SendSmsDirectActivity" />
+        <receiver android:name=".ch_23_6.SmsReceiver" >
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name=".ch_23_6.SmsReceivedDialog" android:label="SmsReceivedDialog" />
+        <activity android:name=".ch_23_7.ContactManager" android:label="ContactManager" />
+        <activity android:name=".ch_23_7.ContactAdder" android:label="ContactAdder" />
+        
+        <activity android:name=".ch_24_1.SoundPoolActivity" android:label="SoundPoolActivity" />
+        <activity android:name=".ch_24_2.MediaPlayerActivity" android:label="MediaPlayerActivity" />
+        <activity android:name=".ch_24_2.MediaPlayerAudioActivity" android:label="MediaPlayerAudioActivity" />
+        <activity android:name=".ch_24_2.MediaPlayerVideoActivity" android:label="MediaPlayerVideoActivity" />
+        <activity android:name=".ch_24_3.AudioRecordActivity" android:label="AudioRecordActivity" />
+        <activity android:name=".ch_24_4.CameraActivity" android:label="CameraActivity" ></activity>
+        <activity android:name=".ch_24_5.Speech2TextActivity" android:label="Speech2TextActivity" />
+        <activity android:name=".ch_24_5.SpeechActivity" android:label="SpeechActivity" />
+        <activity android:name=".ch_24_5.Text2SpeechActivity" android:label="Text2SpeechActivity" />
+        <activity android:name=".ch_24_6.CameraActivity" android:label="CameraActivity" />
+
+        <activity android:name=".ch_25_1.DatabaseActivity" android:label="DatabaseActivity" />
+        <activity android:name=".ch_25_2.PreferenceScreenSimpleActivy" android:label="PreferenceScreenSimpleActivy" />
+        <activity android:name=".ch_25_2.PreferenceScreenCodeActivy" android:label="PreferenceScreenCodeActivy" />
+        <activity android:name=".ch_25_2.PreferenceScreenButtonActivy" android:label="PreferenceScreenButtonActivy" />
+        <activity android:name=".ch_25_2.PreferenceMenualEditingActivity" android:label="PreferenceMenualEditingActivity" />
+        <activity android:name=".ch_25_2.PreferenceScreenActivity" android:label="PreferenceScreenActivity" />
+        <activity android:name=".ch_25_3.FileActivity" android:label="FileActivity" />
+        
+        <activity android:name=".ch_26_1.ValueAnimationActivity" android:label="ValueAnimationActivity" />
+        <activity android:name=".ch_26_1.ObjectAnimationActivity" android:label="ObjectAnimationActivity" />
+        <activity android:name=".ch_26_1.BouncingBallsActivity" android:label="BouncingBallsActivity" />
+        <activity android:name=".ch_26_1.KeyframeActivity" android:label="KeyframeActivity" />
+        <activity android:name=".ch_26_1.CustomEvaluatorActivity" android:label="CustomEvaluatorActivity" />
+        <activity android:name=".ch_26_1.InterpolateActivity" android:label="InterpolateActivity" />
+        <activity android:name=".ch_26_1.ViewPropertyAnimatorActivity" android:label="ViewPropertyAnimatorActivity" />
+        <activity android:name=".ch_26_1.LayoutAnimationsHideShowActivity" android:label="LayoutAnimationsHideShowActivity" />
+        <activity android:name=".ch_26_1.LayoutAnimationsByDefaultActivity" android:label="LayoutAnimationsByDefaultActivity" />
+        <activity android:name=".ch_26_2.ViewAnimationActivity" android:label="ViewAnimationActivity" ></activity>
+        
+        <activity android:name=".ch_27_1.RotationVectorDemo" android:label="RotationVectorDemo" ></activity>
+        <activity android:name=".ch_27_1.SensorActivity" android:label="SensorActivity" ></activity>
+        <receiver android:name=".ch_27_2.SmsReceiver">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"/>
+            </intent-filter>
+        </receiver>
+        <service android:name=".ch_27_2.SmsReceiverService"></service>
+        
+        <activity android:name=".ch_28_2.MyMapActivity" android:label="MyMapActivity" ></activity>
+        <activity android:name=".ch_28_2.MyLocationActivity" android:label="MyLocationActivity" ></activity>
+        
+        <receiver android:name=".ch_29_1.ExampleAppWidgetProvider" android:label="액티비티 앱위젯">
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/example_appwidget_provider" />
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".ch_29_1.ChatterAppWidgetConfigure" android:label="설정">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE"/>
+            </intent-filter>
+        </activity> 
+                
+        <receiver android:name=".ch_29_1.ChatterAppWidgetProvider" android:label="수다 앱위젯">
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_provider" />
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name=".ch_29_1.StackWidgetProvider" android:label="스택뷰 앱위젯">
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/stack_widget_provider" />
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+        </receiver>
+        
+        <service android:name=".ch_29_1.StackWidgetService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+
+        <service android:label="큐브" android:name=".ch_29_2_1.CubeWallpaper" android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/cube" />
+        </service>
+
+        <service android:label="설정액티비티를 가진 큐브" android:name=".ch_29_2_2.CubeWallpaper" android:permission="android.permission.BIND_WALLPAPER">
+            <intent-filter>
+                <action android:name="android.service.wallpaper.WallpaperService" />
+            </intent-filter>
+            <meta-data android:name="android.service.wallpaper" android:resource="@xml/cube_with_setting" />
+        </service>
+
+        <activity android:label="큐브설정" android:name=".ch_29_2_2.CubeWallpaperSettingActivity" android:exported="true"/>        
+        
+        <activity android:name=".ch_30_1.BluetoothChat" android:label="BluetoothChat" />
+        <activity android:name=".ch_30_1.DeviceListActivity" android:label="DeviceListActivity" />
+        <activity android:label="Beam" android:name=".ch_30_2.Beam">
+            <intent-filter>
+                <action android:name="android.nfc.action.NDEF_DISCOVERED"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="application/com.appstudio.sample.android.beam" />
+            </intent-filter>    
+        </activity>
+        <activity android:name=".ch_30_3.WiFiDirectActivity" android:label="WiFiDirectActivity" />
+        <service android:name=".ch_30_3.FileTransferService" />
+        <activity android:name=".ch_31_2.AppEngineActivity" android:label="AppEngineActivity" />
+        
+        <activity android:name=".ch_32_7.GCMActivity" android:label="GCMActivity" />
+        
+        <activity android:name=".ch_33_2.TwitterTestActivity" android:label="TwitterTestActivity" />
+        <activity android:name=".ch_33_2.TwitterTestLoginActivity" android:label="TwitterTestLoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="ch33" android:host="twitter"/>
+            </intent-filter>
+        </activity>    
+        <activity android:name=".ch_33_3.FacebookTestActivity" android:label="FacebookTestActivity" />
+        <activity android:name="com.facebook.LoginActivity"
+                  android:theme="@android:style/Theme.Translucent.NoTitleBar"
+                  android:label="@string/app_name" />
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/app_id"/>
+    </application>
+</manifest>

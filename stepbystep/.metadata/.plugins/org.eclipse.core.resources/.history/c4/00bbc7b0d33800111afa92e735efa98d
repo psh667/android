@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, HelloAndroidActivity!</string>
+    <!-- string name="hello">안드로이드 세계에 오신 것을 환영합니다!</string -->
+    <string name="app_name">헬로우</string>
+
+</resources>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">RSS 조회하기</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">RSS 조회하기</string>
+
+</resources>

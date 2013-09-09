@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">
+		<Button
+			android:id="@+id/prev"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="이전" />
+		<Button
+			android:id="@+id/next"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:text="다음" />
+	</LinearLayout>
+	<ViewFlipper
+		android:id="@+id/flipper"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#ff0000"
+			android:text="RED" />
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#00ff00"
+			android:text="GREEN" />
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="#0000ff"
+			android:text="BLUE" />
+	</ViewFlipper>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">SampleToastShape</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">토스트를 다른 모양으로 보여주기</string>
+
+</resources>

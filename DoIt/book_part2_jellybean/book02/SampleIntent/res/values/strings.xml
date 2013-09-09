@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">SampleIntent</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">인텐트로 액티비티 띄우기</string>
+	<string name="title_new_activity">새로운 액티비티</string>
+    
+</resources>

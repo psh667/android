@@ -1,0 +1,65 @@
+package com.andro.imageviewextraproj;
+
+import android.app.Activity;
+import android.graphics.Color;
+import android.os.Bundle;
+import android.widget.LinearLayout;
+import android.widget.ImageView;
+import android.widget.TableLayout.LayoutParams;
+import android.widget.TextView;
+
+public class ImageViewExtraActivity extends Activity {
+    /** Called when the activity is first created. */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.main);
+        
+        setTitle("고객정보");
+        
+        LinearLayout layout = (LinearLayout)findViewById(R.id.figure);
+        
+        LinearLayout.LayoutParams Params = new LinearLayout.LayoutParams(300, 200);
+        // LinearLayout.LayoutParams Params = new LinearLayout.LayoutParams(LinearLayout.LayoutParams.FILL_PARENT, LinearLayout.LayoutParams.WRAP_CONTENT);
+        
+        ImageView iv = null;
+        TextView tv_name = null;
+        TextView tv_etc  = null;
+        
+        tv_name = new TextView(this);
+        tv_name.append("홍길동");
+        tv_name.setTextSize(20);
+        tv_name.setTextColor(Color.rgb(255, 255, 0));
+        tv_name.setBackgroundColor(Color.rgb(0, 0, 255));
+        layout.addView(tv_name);
+        
+        tv_etc = new TextView(this);
+        tv_etc.append("서울\n");
+        tv_etc.append("02-555-1234");
+        layout.addView(tv_etc);  
+        
+        iv = new ImageView(this);
+        iv.setBackgroundResource(R.drawable.img1);
+        iv.setLayoutParams(Params);
+        // iv.setAdjustViewBounds(true);
+        layout.addView(iv);
+        
+        tv_name = new TextView(this);
+        tv_name.append("심청");
+        tv_name.setTextSize(20);
+        tv_name.setTextColor(Color.rgb(255, 255, 0));
+        tv_name.setBackgroundColor(Color.rgb(0, 0, 255));
+        layout.addView(tv_name);
+        
+        tv_etc = new TextView(this);
+        tv_etc.append("강원도\n");
+        tv_etc.append("033-777-1234");
+        layout.addView(tv_etc);          
+        
+        iv = new ImageView(this);
+        iv.setBackgroundResource(R.drawable.img2);
+        iv.setLayoutParams(Params);
+        // iv.setAdjustViewBounds(true);
+        layout.addView(iv);
+    }
+}

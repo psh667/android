@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<Button
+	android:id="@+id/simple"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="기본 진동"
+    />
+<Button
+	android:id="@+id/pattern"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="패턴 진동"
+    />
+<Button
+	android:id="@+id/cancel"  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="진동 취소"
+    />    
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">지도로 보여주기</string>
+    <string name="hello_world">지도로 보여주기</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">지도로 보여주기</string>
+
+</resources>

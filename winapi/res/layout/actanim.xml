@@ -1,0 +1,19 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<TextView
+	android:layout_width="wrap_content" 
+	android:layout_height="wrap_content" 
+	android:textSize="16sp"
+	android:text="이 액티비티는 시스템 설정을 따르지 않으며 고유한 애니메이션을 사용합니다."
+	/>
+<Button
+	android:id="@+id/btnquit"  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:onClick="mOnClick"
+	android:text="Quit"
+	/>
+</LinearLayout>

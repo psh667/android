@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">색상라이브</string>
+    <string name="hello_world">색상라이브</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">색상라이브</string>
+
+</resources>

@@ -1,0 +1,2 @@
+INDEX VERSION 1.126+D:\document\book\ANDROID\안드로이드(그림으로 설명하는)(수정판)\sources\chap2\.metadata\.plugins\org.eclipse.jdt.core
+3490847330.index

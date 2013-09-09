@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">센서정보 알아내기</string>
+    <string name="hello_world">센서정보 알아내기</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">센서정보 알아내기</string>
+
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">리니어레이아웃</string>
+
+	<!-- 3명의 고객정보 -->
+	<string name="customer1">홍길동 서울 02-555-1234</string>
+	<string name="customer2">손오공 강원도 033-777-1234</string>
+	<string name="customer3">박민 경기도 031-379-1234</string>
+	
+	<!-- 3가지 색이름 -->
+	<string name="color1">red</string>
+	<string name="color2">green</string>
+	<string name="color3">blue</string>
+    
+</resources>

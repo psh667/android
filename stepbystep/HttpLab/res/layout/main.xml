@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<!-- URL 입력 영역  -->	
+	<EditText
+		android:id="@+id/url"
+		android:text="http://"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="wrap_content" />
+	
+    <!-- 버튼 영역  -->
+	<Button android:text="웹문서 소스보기" 
+		android:id="@+id/button_call" 
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content" />
+		
+	<!-- 웹문서 소스 출력 영역  -->	
+	<EditText
+		android:id="@+id/webpage_src"
+		android:hint="웹문서 출력 영역"
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent" />
+	
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">복합위젯 만들기</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">복합위젯 만들기</string>
+
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<customers>
+	<customer>
+		<name>홍길동</name>
+		<address>서울 강남구 역삼동</address>
+	</customer>
+	<customer>
+		<name>손오공</name>
+		<address>부산 동래구 금정동</address>
+	</customer>
+	<customer>
+		<name>성춘향</name>
+		<address>전남 남원읍 남원동</address>
+	</customer>
+</customers>

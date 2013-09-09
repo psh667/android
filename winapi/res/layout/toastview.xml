@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/toastlayout"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<ImageView  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:src="@drawable/korandoc"
+	/>
+<TextView  
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="Korando C is a pretty car"
+	/>
+</LinearLayout>

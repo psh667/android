@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="400dp" >
+
+    <Button
+        android:id="@+id/backBtn"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="메인 액티비티 띄우기"
+        android:textSize="22dp"
+        tools:context=".MainActivity" />
+    
+	<TextView
+		android:id="@+id/txtMsg"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@+id/backBtn"
+		android:layout_marginTop="20dp"
+		android:gravity="center_horizontal"
+		android:text="위의 버튼을 누르면 메인 액티비티가 다시 띄워집니다."
+		android:textSize="14dp"
+		android:textColor="#ffad6535" />
+
+</RelativeLayout>

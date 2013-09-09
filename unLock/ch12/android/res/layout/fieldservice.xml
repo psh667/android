@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<TextView	android:id="@+id/emailaddresslabel"
+	android:text="Unknown User, select settings"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	
+	/>
+	
+	
+	<Button android:id="@+id/getjobs"		
+	android:text="Refresh Job List"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:enabled="true"
+	
+	/>
+	<requestFocus />
+	<Button android:id="@+id/showjobs"		
+	android:text="Manage Jobs"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:enabled="true"
+	/>
+	
+	<Button android:id="@+id/settings"		
+	android:text="Settings"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent"
+	android:enabled="true"
+	/>	
+
+</LinearLayout>

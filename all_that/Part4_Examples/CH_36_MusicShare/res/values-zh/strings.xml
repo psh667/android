@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="guide">
+共享音乐之间的任何两个独立的设备，这是易于使用的音乐文件共享的应用程序。 Android的梁将在操作时您可以将您的设备背面为几秒钟。然后，请触摸屏，变小，当你看到这个词共享。这使得通过蓝牙连接的设备。两个设备连接后，你应该选择你要发送的任何音乐，单击它，然后按下按钮，共享音乐。现在，将音乐传输到其他设备。
+请记住，一个不稳定的蓝牙连接，可以使音乐传输共享音乐完成工作之前，所有的突然停止.
+	</string>
+    <string name="app_name">共享音乐</string>
+    <string name="NFC_NOT_CONNECTED">NFC的不连接</string>
+    <string name="title_connected_to">连接的</string>
+    <string name="title_connecting">连接...</string>
+    <string name="title_not_connected">设备没有连接</string>
+    <string name="not_connected">你不能连接设备</string>
+    <string name="send_button">共享音乐</string>
+	<string name="stop_button">停止共享</string>
+	<string name="menu_settings">AndroidBeam论</string>
+	<string name="menu_reset">重置</string>
+	<string name="file_chooser">选择文件</string>
+	<string name="alread_receive">Already you music receiving...</string>
+	<string name="connect_to">连接到</string>
+	<string name="sent_macaddress">发送MAC地址连接蓝牙</string> 
+	<string name="plz_select_file">你需要选择发送音乐文件</string> 
+	<string name="bluetooth_not_available">蓝牙是不是可用</string>
+	<string name="start_actionbar">请连接装置......</string>
+	<string name="already_music_playing">已经播放的音乐...</string>
+	<string name="music_playing">现在播放的音乐...</string>
+	<string name="music_stoped">音乐停止...</string>  
+</resources>

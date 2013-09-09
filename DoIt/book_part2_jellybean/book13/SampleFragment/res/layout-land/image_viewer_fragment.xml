@@ -1,0 +1,29 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        >
+    </TextView>
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_launcher"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@+id/title"
+        android:layout_alignRight="@+id/title"
+        android:scaleType="fitCenter">
+    </ImageView>
+    
+</RelativeLayout>
+
+

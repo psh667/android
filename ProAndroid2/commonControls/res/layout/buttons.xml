@@ -1,0 +1,53 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"  android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<!-- 각종 버튼 -->
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"  android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal"  android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+			<Button android:id="@+id/ccbtn1"
+				android:text="@+string/basicBtnLabel"
+				android:typeface="serif" android:textStyle="bold"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:onClick="myClickHandler" />
+			<ImageButton android:id="@+id/imageBtn1"
+				android:src="@+drawable/icon"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+			<ToggleButton android:id="@+id/cctglBtn1"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:textOn="실행"
+				android:textOff="종료" 
+				android:text="토글 버튼"/>
+		</LinearLayout>
+	
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal"  android:layout_width="wrap_content"
+		android:layout_height="wrap_content">	
+			<CheckBox android:id="@+id/ccchbBtn1" android:text="치킨"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"  />
+			<CheckBox android:id="@+id/ccchbBtn2" android:text="생선"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"  />
+			<CheckBox android:id="@+id/ccchbBtn3" android:text="스테이크"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"  />
+		</LinearLayout>
+		<RadioGroup android:id="@+id/rBtnGrp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="horizontal" >
+			<RadioButton android:id="@+id/chRBtn" android:text="치킨" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+			<RadioButton android:id="@+id/fishRBtn" android:text="생선" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+			<RadioButton android:id="@+id/stkRBtn" android:text="스테이크" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		</RadioGroup>
+	
+		<RadioButton   android:id="@+id/anotherRadBtn" android:text="그룹 외부의 라디오버튼" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		<RadioGroup android:id="@+id/rdGrp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+			<RadioButton   android:id="@+id/chRBtn2" android:text="치킨" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+			<RadioButton   android:id="@+id/fishRBtn2" android:text="생선" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+			<RadioButton   android:id="@+id/stkRBtn2" android:text="스테이크" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+			<TextView android:text="좋아하는 음식" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+		</RadioGroup>
+
+			
+	</LinearLayout>
+</LinearLayout>

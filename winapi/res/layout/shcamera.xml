@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<ImageView
+	android:id="@+id/imgreview"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:visibility="invisible"
+	/>	
+<LinearLayout 
+	android:id="@+id/takepicture"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	>
+<andexam.ver4_1.c33_multimedia.SHCameraSurface
+	android:id="@+id/preview"
+	android:layout_width="350dip" 
+	android:layout_height="match_parent"
+	android:layout_weight="3" 
+	/>
+<RelativeLayout
+	android:layout_width="130dip"
+	android:layout_height="match_parent"
+	android:background="#404040"
+	android:layout_weight="1" 
+	>
+<Button 
+	android:id="@+id/btntake"
+	android:layout_alignParentTop="true"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="촬영"
+	android:textSize="13pt"
+	android:paddingTop="50dip"
+	android:paddingBottom="50dip"
+	/>
+<Button 
+	android:id="@+id/btnsize"
+	android:layout_alignParentBottom="true"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="크기"
+	android:textSize="10pt"
+	/>
+<CheckBox 
+	android:id="@+id/btnmacro"
+	android:layout_above="@id/btnsize"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="접사"
+	android:textSize="10pt"
+	/>
+<Button 
+	android:id="@+id/btnreview"
+	android:layout_above="@id/btnmacro"
+	android:layout_width="match_parent" 
+	android:layout_height="wrap_content" 
+	android:text="잘찍었나?"
+	android:textSize="10pt"
+	/>
+</RelativeLayout>
+</LinearLayout>
+</FrameLayout>

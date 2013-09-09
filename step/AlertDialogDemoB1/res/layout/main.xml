@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<Button  
+    android:id="@+id/alert1"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="items"
+    />
+<Button  
+    android:id="@+id/alert2"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="SingleChoiceItems"
+    />    
+<Button  
+    android:id="@+id/alert3"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="MultiChoiceItems"
+    /> 
+</LinearLayout>

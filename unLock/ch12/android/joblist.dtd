@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT joblist ((job+))>
+<!ELEMENT job ((id, status, customer, address, city, state, zip, product, producturl, comments))>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT producturl (#PCDATA)>
+<!ELEMENT product (#PCDATA)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT customer (#PCDATA)>
+<!ELEMENT comments (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT address (#PCDATA)>

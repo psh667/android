@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">SampleSMSReceiver</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">SMS 수신 내용 보여주기</string>
+
+</resources>

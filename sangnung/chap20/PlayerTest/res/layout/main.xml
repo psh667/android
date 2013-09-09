@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:text="1. 리소스 미디어 재생" android:id="@+id/TextView02"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+	<LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayout01"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<Button android:text="리소스 오디오 시작" android:layout_height="wrap_content"
+			android:onClick="startResAudio" android:layout_width="wrap_content"
+			android:id="@+id/res_start"></Button>
+		<Button android:text="리소스 오디오 정지" android:layout_height="wrap_content"
+			android:onClick="stopResAudio" android:layout_width="wrap_content"
+			android:id="@+id/res_stop"></Button>
+	</LinearLayout>
+	<TextView android:text="" android:id="@+id/TextView02"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"></TextView>
+	<TextView android:text="2. 파일 미디어 재생" android:id="@+id/TextView02"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+	<EditText android:layout_height="wrap_content" android:text=""
+		android:id="@+id/path" android:layout_width="fill_parent"></EditText>
+	<LinearLayout android:orientation="horizontal" android:id="@+id/LinearLayout02"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<Button android:text="파일 오디오 시작" android:layout_height="wrap_content"
+			android:onClick="startFileAudio" android:layout_width="wrap_content"
+			android:id="@+id/file_start"></Button>
+		<Button android:text="파일 오디오 정지" android:layout_height="wrap_content"
+			android:onClick="stopFileAudio" android:layout_width="wrap_content"
+			android:id="@+id/file_stop"></Button>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+	android:id="@+id/label"
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="레이블 컨트롤"
+    />
+<EditText
+	android:id="@+id/edittext"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    />    
+<CheckBox
+	android:id="@+id/checkbox"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:text="체크박스 컨트롤"
+	/>
+<RadioGroup android:layout_width="wrap_content"
+	android:layout_height="wrap_content" 
+	android:id="@+id/radio">
+	<RadioButton
+	android:id="@+id/radio1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="라디오버튼1"
+	/>
+	<RadioButton
+	android:id="@+id/radio2"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="라디오버튼2"
+	/>
+</RadioGroup>	
+
+<Spinner 
+	android:id="@+id/spinner"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content" 
+	android:drawSelectorOnTop="true"	
+	/>
+	
+<DatePicker 
+	android:id="@+id/date"
+	android:layout_height="wrap_content" 
+	android:layout_width="wrap_content" 
+	/>
+	
+<Button
+	android:id="@+id/button"
+	android:layout_width="fill_parent" 
+    android:layout_height="wrap_content"
+    android:text="버튼 컨트롤"
+    />	
+	
+
+</LinearLayout>

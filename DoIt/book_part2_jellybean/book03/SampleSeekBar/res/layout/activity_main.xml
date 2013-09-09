@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button 
+    	android:id="@+id/showBtn"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:text="화면 밝기 조절" 
+        />
+    
+    <LinearLayout 
+    	android:id="@+id/panel01" 
+    	android:orientation="vertical"
+        android:layout_width="match_parent" 
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:visibility="gone"
+        >
+        <SeekBar 
+        	android:id="@+id/seekbar01" 
+        	android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:progress="100"
+            android:max="100" 
+            />
+        <TextView 
+        	android:id="@+id/text01" 
+            android:layout_width="match_parent" 
+            android:layout_height="wrap_content"
+            android:gravity="center" 
+            android:textSize="20dp"
+            android:text="밝기 수준 : " 
+            />
+    </LinearLayout>
+
+</LinearLayout>
